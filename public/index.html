@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaggieBets - Daily Sports Picks</title>
+    <meta name="description" content="Get daily AI-powered sports betting picks delivered to your inbox. NBA, NFL, and more.">
+    <meta property="og:title" content="MaggieBets - Daily Sports Picks">
+    <meta property="og:description" content="Get daily AI-powered sports betting picks delivered to your inbox.">
+    <meta property="og:type" content="website">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 700px;
+            background: rgba(255,255,255,0.05);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 50px 40px;
+            text-align: center;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        h1 {
+            color: #fff;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .tagline {
+            color: #00d4ff;
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        .bet-of-day {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ffa500 100%);
+            border-radius: 15px;
+            padding: 25px;
+            margin: 30px 0;
+            text-align: left;
+        }
+        .bet-of-day h2 {
+            color: #fff;
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+        .bet-of-day .pick {
+            background: rgba(0,0,0,0.3);
+            padding: 15px;
+            border-radius: 10px;
+            margin: 10px 0;
+        }
+        .bet-of-day .pick-name {
+            color: #fff;
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+        .bet-of-day .odds {
+            color: #ffd700;
+            font-weight: bold;
+        }
+        .bet-of-day .confidence {
+            color: #00ff88;
+            font-weight: bold;
+        }
+        .bet-of-day .reasoning {
+            color: #eee;
+            margin-top: 15px;
+            line-height: 1.6;
+        }
+        .bet-of-day .reasoning li {
+            margin: 8px 0;
+            margin-left: 20px;
+        }
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin: 20px 0;
+        }
+        .stat { text-align: center; }
+        .stat-number { color: #00ff88; font-size: 2rem; font-weight: bold; }
+        .stat-label { color: #aaa; font-size: 0.9rem; }
+        .subscribe-form { margin: 30px 0; }
+        input[type="email"] {
+            padding: 15px 20px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 50px;
+            width: 250px;
+            outline: none;
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 1rem;
+            background: linear-gradient(90deg, #00d4ff, #00ff88);
+            border: none;
+            border-radius: 50px;
+            color: #1a1a2e;
+            font-weight: bold;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+        .contact { margin-top: 30px; color: #666; }
+        .contact a { color: #00d4ff; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏆 MaggieBets</h1>
+        <p class="tagline">Daily AI-Powered Sports Picks with Analysis</p>
+        
+        <div class="bet-of-day">
+            <h2>🎯 Today's Bet of the Day</h2>
+            <div class="pick">
+                <div class="pick-name">🏀 Lakers -3.5 vs Celtics</div>
+                <div class="odds">Line: -3.5 (-110) | Confidence: 8/10</div>
+            </div>
+            <div class="reasoning">
+                <strong>Why This Pick:</strong>
+                <ul>
+                    <li>🏠 Lakers 15-5 at home this season</li>
+                    <li>💪 AD dominates Celtics' big men (28 ppg vs Boston)</li>
+                    <li>⚡ 2 days rest vs Celtics on back-to-back</li>
+                    <li>📈 Lakers 8-2 ATS last 10 home games</li>
+                    <li>✅ Celtics missing key rotation player</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="stats">
+            <div class="stat"><div class="stat-number">70%</div><div class="stat-label">Win Rate</div></div>
+            <div class="stat"><div class="stat-number">500+</div><div class="stat-label">Subscribers</div></div>
+            <div class="stat"><div class="stat-number">Free</div><div class="stat-label">To Join</div></div>
+        </div>
+        
+        <form class="subscribe-form" action="mailto:maggiebets777@gmail.com?subject=Subscribe to MaggieBets" method="post" enctype="text/plain">
+            <input type="email" name="email" placeholder="Enter your email" required>
+            <button type="submit">Get Daily Picks</button>
+        </form>
+        
+        <p class="contact">Questions? <a href="mailto:maggiebets777@gmail.com">maggiebets777@gmail.com</a></p>
+        <p style="color: #444; margin-top: 20px; font-size: 0.8rem;">18+ only. Gamble responsibly.</p>
+    </div>
+</body>
+</html>
