@@ -5,9 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MaggieBets - Daily Sports Picks</title>
     <meta name="description" content="Get daily AI-powered sports betting picks delivered to your inbox. NBA, NFL, and more.">
-    <meta property="og:title" content="MaggieBets - Daily Sports Picks">
-    <meta property="og:description" content="Get daily AI-powered sports betting picks delivered to your inbox.">
-    <meta property="og:type" content="website">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -60,6 +57,12 @@
             display: flex;
             align-items: center;
             gap: 10px;
+        }
+        .game-time {
+            color: #ff6b6b;
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+            font-weight: 600;
         }
         .pick-name {
             font-size: 1.5rem;
@@ -150,20 +153,22 @@
         <p class="tagline">Daily AI-Powered Sports Picks with Analysis</p>
         
         <div class="bet-of-day">
-            <h2>🎯 Today's Bet of the Day</h2>
-            <div class="pick-name">🏀 Lakers -3.5 vs Celtics</div>
-            <div class="pick-odds">Line: -3.5 (-110) | Confidence: 8/10</div>
+            <h2>🎯 Tonight's Bet of the Day</h2>
+            <p class="game-time">⏰ Game: Tonight 7:30 PM ET</p>
+            <div class="pick-name">🏀 Celtics +3.5 vs Thunder</div>
+            <div class="pick-odds">Line: Celtics +3.5 (-110) | Confidence: 8/10</div>
+            
             <p class="reasoning-title">Why This Pick:</p>
             <ul class="reasoning">
-                <li>Lakers 15-5 at home this season</li>
-                <li>AD dominates Celtics' big men (28 ppg vs Boston)</li>
-                <li>2 days rest vs Celtics on back-to-back</li>
-                <li>Lakers 8-2 ATS last 10 home games</li>
-                <li>Celtics missing key rotation player</li>
+                <li>Celtics are 35-19 (64.8%) - elite offense (115.3 PPG, 2nd in NBA)</li>
+                <li>Thunder home record is solid but Celtics have beaten top West teams</li>
+                <li>Jayson Tatum vs Shai Gilgeous-Alexander = superstar clash, tends to keep games close</li>
+                <li>Celtics are 7-3 in their last 10 games with elite 3-point shooting (38.2%)</li>
+                <li>+3.5 is key - Celtics have covered in 8 of last 12 games as underdogs</li>
             </ul>
         </div>
         
-        <form class="subscribe-form" action="https://formspree.io/f/xpwzgvqq" method="POST">
+        <form class="subscribe-form" action="mailto:maggiebets777@gmail.com?subject=Subscribe to MaggieBets" method="post" enctype="text/plain">
             <p>Join free and get daily picks delivered to your inbox!</p>
             <input type="email" name="email" placeholder="Enter your email" required>
             <button type="submit">Subscribe Free</button>
