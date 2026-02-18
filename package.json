@@ -1,7 +1,6 @@
 {
-  "name": "maggiebets",
+  "name": "maggiebets-api",
   "version": "1.0.0",
-  "description": "MaggieBets Email Auto-Responder",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
