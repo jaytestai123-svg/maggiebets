@@ -1,8 +1,8 @@
 # MaggieBets Record Tracker
 
-## Season Record: 2-1 (+1.5 Units)
+## Season Record: 0-0 (0 Units)
 
-### Today's Picks (Feb 19-20)
+*Starting fresh - all picks pending*
 
 | Date | Sport | Pick | Odds | Result | Units |
 |------|-------|------|------|--------|-------|
