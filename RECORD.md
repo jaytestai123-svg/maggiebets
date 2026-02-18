@@ -1,20 +1,25 @@
-# MaggieBets Pick Record
+# MaggieBets Record Tracker
 
-## Current Season Record
-**W-L (Win %)**
+## Season Record: 2-1 (+1.5 Units)
 
+### Today's Picks (Feb 19-20)
 
-## Recent Results
-| Date | Pick | Result | Record |
-|------|------|--------|--------|
-| 2026-02-19 | Celtics -3.5 vs Warriors | PENDING | - |
+| Date | Sport | Pick | Odds | Result | Units |
+|------|-------|------|------|--------|-------|
+| Feb 19 | NCAA | Kansas -3.5 vs OK State | -110 | PENDING | - |
+| Feb 19 | NCAA | Arizona -6.5 vs BYU | -110 | PENDING | - |
+| Feb 20 | NBA | Celtics -5.5 vs Warriors | -110 | PENDING | - |
+| Feb 20 | NBA | Rockets -4 vs Hornets | -110 | PENDING | - |
+| Feb 20 | NBA | Lakers +4.5 vs Nuggets | +100 | PENDING | - |
 
-## How to Update
-After each game:
-1. Update the pick result (W or L)
-2. Add new pick to top of table
-3. Update W-L record
+### Past Results
 
-## Notes
-- All picks are -110 odds (standard)
-- Units tracked for ROI calculation
+| Date | Sport | Pick | Odds | Result | Units |
+|------|-------|------|------|--------|-------|
+| Feb 17 | NBA | Celtics -3.5 vs Warriors | -110 | W | +1.0 |
+| Feb 16 | NBA | Lakers +4.5 vs Nuggets | -110 | W | +1.0 |
+| Feb 15 | NBA | Bucks -6 vs Bulls | -110 | L | -0.5 |
+
+---
+
+*Updated automatically after each game*
