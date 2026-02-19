@@ -32,7 +32,7 @@ async function getLiveOdds(sportKey = 'basketball_nba') {
   }
   
   try {
-    const url = `https://api.the-odds-api.com/v4/sports/${sportKey}/odds?apiKey=${ODDS_API_KEY}&regions=us`;
+    const url = `https://api.the-odds-api.com/v4/sports/${sportKey}/odds?apiKey=${apiKey}&regions=us`;
     const response = await fetch(url);
     const data = await response.json();
     return data;
