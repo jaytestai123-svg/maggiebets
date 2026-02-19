@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-// Configuration - set your API key here
+// Configuration - read from environment
 const ODDS_API_KEY = process.env.ODDS_API_KEY || '';
 
 // Sports config
