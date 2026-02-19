@@ -26,7 +26,8 @@ const AFFILIATE_LINKS = `
 `.trim();
 
 async function getLiveOdds(sportKey = 'basketball_nba') {
-  if (!ODDS_API_KEY) {
+  const apiKey = process.env.ODDS_API_KEY || '';
+  if (!apiKey) {
     return null;
   }
   
@@ -188,7 +189,8 @@ app.get('/api/games', async (req, res) => {
 
 // Health check
 app.get('/health', (req, res) => {
-  res.json({ status: 'ok', oddsConfigured: !!ODDS_API_KEY });
+  const apiKey = process.env.ODDS_API_KEY || '';
+  res.json({ status: 'ok', oddsConfigured: !!apiKey, hasKey: apiKey.length > 0 });
 });
 
 const PORT = process.env.PORT || 3000;
