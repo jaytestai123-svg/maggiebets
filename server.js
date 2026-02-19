@@ -148,5 +148,12 @@ app.get('/health', (req, res) => {
   res.json({ status: 'ok', oddsConfigured: !!ODDS_API_KEY });
 });
 
+// Chat endpoint for premium chatbot
+app.post('/chat', async (req, res) => {
+  const { message } = req.body;
+  const response = generateAIResponse('', message);
+  res.json({ response });
+});
+
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`MaggieBets AI running on port ${PORT}`));
