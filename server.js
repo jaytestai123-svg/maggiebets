@@ -33,12 +33,14 @@ async function getLiveOdds(sportKey = 'basketball_nba') {
   
   try {
     const url = `https://api.the-odds-api.com/v4/sports/${sportKey}/odds?apiKey=${apiKey}&regions=us`;
+    console.log('Fetching odds from:', url);
     const response = await fetch(url);
     const data = await response.json();
+    console.log('Odds API response:', JSON.stringify(data).substring(0, 200));
     return data;
   } catch (error) {
     console.error('Error fetching odds:', error.message);
-    return null;
+    return { error: error.message };
   }
 }
 
@@ -171,10 +173,10 @@ app.get('/api/odds', async (req, res) => {
   
   const odds = await getLiveOdds(sportKey);
   
-  if (!odds) {
+  if (!odds || odds.error) {
     return res.json({ 
-      error: 'No API key configured',
-      message: 'Set ODDS_API_KEY environment variable to enable live odds'
+      error: odds?.error || 'No API key configured',
+      message: odds?.message || 'Set ODDS_API_KEY environment variable'
     });
   }
   
