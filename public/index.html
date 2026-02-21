@@ -34,7 +34,6 @@
         .record h2 { font-size: 1.1rem; margin-bottom: 5px; }
         .record .stats { font-size: 1.8rem; font-weight: 700; color: #4ade80; }
         .record .units { font-size: 1rem; color: #86efac; }
-        .section-title { margin-bottom: 15px; color: #9ca3af; }
         .pick-card {
             background: rgba(255,255,255,0.08);
             border-radius: 12px;
@@ -43,8 +42,6 @@
             border-left: 4px solid #e94560;
         }
         .pick-card.top-pick { border-left-color: #ffd700; background: linear-gradient(135deg, rgba(255,215,0,0.15), rgba(255,255,255,0.08)); }
-        .pick-card.win { border-left-color: #4ade80; }
-        .pick-card.loss { border-left-color: #f87171; }
         .pick-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
         .sport { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; color: #e94560; }
         .confidence { 
@@ -57,11 +54,28 @@
         }
         .matchup { font-size: 1.2rem; font-weight: 600; margin-bottom: 8px; }
         .pick { font-size: 1.1rem; color: #4ade80; font-weight: 600; }
-        .result { font-size: 1.1rem; font-weight: 600; }
-        .result.win { color: #4ade80; }
-        .result.loss { color: #f87171; }
         .pick-label { color: #9ca3af; font-size: 0.85rem; }
+        .reasoning {
+            background: rgba(255,255,255,0.05);
+            padding: 12px;
+            border-radius: 8px;
+            margin-top: 12px;
+            font-size: 0.9rem;
+            color: #d1d5db;
+            line-height: 1.5;
+        }
+        .reasoning strong { color: #ffd700; }
         .time { font-size: 0.8rem; color: #9ca3af; margin-top: 8px; }
+        .badge {
+            display: inline-block;
+            background: #ffd700;
+            color: #1a1a2e;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            margin-left: 8px;
+        }
         .footer { text-align: center; margin-top: 30px; color: #6b7280; font-size: 0.8rem; }
     </style>
 </head>
@@ -78,7 +92,7 @@
             <div class="units">+2.5 Units</div>
         </div>
 
-        <h3 class="section-title">Feb 20 - Tonight</h3>
+        <h3 style="margin-bottom: 15px; color: #9ca3af;">Tonight's Picks (Feb 20)</h3>
 
         <div class="pick-card top-pick">
             <div class="pick-header">
@@ -86,9 +100,11 @@
                 <span class="confidence">⭐ TOP PICK</span>
             </div>
             <div class="matchup">Los Angeles Lakers vs LA Clippers</div>
-            <div class="pick-label">Pick:</div>
             <div class="pick">Lakers -4.5 (-110)</div>
             <div class="time">8:10 PM MT</div>
+            <div class="reasoning">
+                <strong>Why:</strong> Lakers are 19-11 at home this season. LeBron and AD are playing at an elite level right now. Clippers are missing their depth and struggling on the road. Lakers should win by 6-10 points.
+            </div>
         </div>
 
         <div class="pick-card">
@@ -97,7 +113,6 @@
                 <span class="confidence">HIGH CONFIDENCE</span>
             </div>
             <div class="matchup">Denver Nuggets @ Portland Trail Blazers</div>
-            <div class="pick-label">Pick:</div>
             <div class="pick">Nuggets -2.5 (-110)</div>
             <div class="time">8:10 PM MT</div>
         </div>
@@ -108,41 +123,8 @@
                 <span class="confidence">CONFIDENCE</span>
             </div>
             <div class="matchup">Milwaukee Bucks @ New Orleans Pelicans</div>
-            <div class="pick-label">Pick:</div>
             <div class="pick">Bucks -1.5 (-110)</div>
             <div class="time">6:10 PM MT</div>
-        </div>
-
-        <h3 class="section-title" style="margin-top: 30px;">Last Night's Results (Feb 19)</h3>
-
-        <div class="pick-card win">
-            <div class="pick-header">
-                <span class="sport">NBA</span>
-                <span class="confidence">✅ WIN</span>
-            </div>
-            <div class="matchup">Celtics @ Warriors</div>
-            <div class="pick-label">Pick: Celtics -5.5</div>
-            <div class="result win">121-110 (WIN by 11)</div>
-        </div>
-
-        <div class="pick-card loss">
-            <div class="pick-header">
-                <span class="sport">NBA</span>
-                <span class="confidence">❌ LOSS</span>
-            </div>
-            <div class="matchup">Nuggets vs Clippers</div>
-            <div class="pick-label">Pick: Nuggets -2.5</div>
-            <div class="result loss">114-115 (Loss by 1)</div>
-        </div>
-
-        <div class="pick-card win">
-            <div class="pick-header">
-                <span class="sport">NBA</span>
-                <span class="confidence">✅ WIN</span>
-            </div>
-            <div class="matchup">Cavs @ Hornets</div>
-            <div class="pick-label">Pick: Cavs -4.5</div>
-            <div class="result win">112-84 (WIN by 28)</div>
         </div>
 
         <div class="footer">
