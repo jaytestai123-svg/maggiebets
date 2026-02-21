@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaggieBets - Trading Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+            min-height: 100vh;
+            color: #fff;
+            padding: 20px;
+        }
+        .container { max-width: 900px; margin: 0 auto; }
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: linear-gradient(90deg, #e94560, #ff6b6b);
+            border-radius: 15px;
+        }
+        header h1 { font-size: 1.8rem; }
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+            opacity: 0.8;
+        }
+        .nav-links a:hover { opacity: 1; }
+        
+        .status-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(255,255,255,0.15);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+        }
+        .status-dot {
+            width: 10px;
+            height: 10px;
+            background: #4ade80;
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 16px;
+            padding: 24px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .card h3 {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #9ca3af;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .price-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+        .price-row:last-child { border-bottom: none; }
+        
+        .crypto-name {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .crypto-icon {
+            width: 32px;
+            height: 32px;
+            background: linear-gradient(135deg, #f7931a, #627eea);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+        }
+        .crypto-label { font-weight: 600; }
+        .crypto-full { font-size: 0.75rem; color: #6b7280; }
+        
+        .price-value {
+            text-align: right;
+        }
+        .price-main {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+        .price-change {
+            font-size: 0.8rem;
+        }
+        .price-change.up { color: #4ade80; }
+        .price-change.down { color: #f87171; }
+        
+        .sp500-card {
+            background: linear-gradient(135deg, rgba(74, 222, 128, 0.1), rgba(255,255,255,0.05));
+            border-color: rgba(74, 222, 128, 0.3);
+        }
+        .sp500-price {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #4ade80;
+        }
+        
+        .opportunity-card {
+            background: linear-gradient(135deg, rgba(255, 215, 0, 0.1), rgba(255,255,255,0.05));
+            border-color: rgba(255, 215, 0, 0.3);
+        }
+        .opportunity {
+            background: rgba(255,215,0,0.1);
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .opportunity:last-child { margin-bottom: 0; }
+        .opp-title { font-weight: 600; font-size: 0.9rem; margin-bottom: 5px; }
+        .opp-details { font-size: 0.8rem; color: #9ca3af; }
+        .opp-edge {
+            display: inline-block;
+            background: #ffd700;
+            color: #000;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-top: 5px;
+        }
+        
+        .markets-list {
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        .market-item {
+            padding: 12px;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .market-item:hover { background: rgba(255,255,255,0.05); }
+        .market-item:last-child { border-bottom: none; }
+        .market-q {
+            font-size: 0.9rem;
+            margin-bottom: 5px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .market-vol {
+            font-size: 0.75rem;
+            color: #6b7280;
+        }
+        
+        .record-card {
+            text-align: center;
+            background: linear-gradient(135deg, #e94560, #ff6b6b);
+        }
+        .record-stats {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 15px;
+        }
+        .stat { text-align: center; }
+        .stat-num { font-size: 1.8rem; font-weight: 700; }
+        .stat-label { font-size: 0.75rem; opacity: 0.8; }
+        
+        .last-update {
+            text-align: center;
+            color: #6b7280;
+            font-size: 0.8rem;
+            margin-top: 20px;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #6b7280;
+        }
+        
+        .refresh-btn {
+            background: rgba(255,255,255,0.1);
+            border: none;
+            color: #fff;
+            padding: 8px 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            transition: background 0.2s;
+        }
+        .refresh-btn:hover { background: rgba(255,255,255,0.2); }
+        
+        @media (max-width: 600px) {
+            header { flex-direction: column; gap: 15px; text-align: center; }
+            .grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <h1>🎯 MaggieBets Trading</h1>
+                <p>Crypto & Stock Prediction Markets</p>
+            </div>
+            <div class="nav-links">
+                <a href="/">Picks</a>
+                <a href="/dashboard">Dashboard</a>
+            </div>
+            <div class="status-badge">
+                <span class="status-dot"></span>
+                <span>Live</span>
+            </div>
+        </header>
+        
+        <div class="grid">
+            <!-- Crypto Prices -->
+            <div class="card">
+                <h3>₿ Crypto Prices</h3>
+                <div id="crypto-data">
+                    <div class="loading">Loading...</div>
+                </div>
+            </div>
+            
+            <!-- S&P 500 -->
+            <div class="card sp500-card">
+                <h3>📈 S&P 500</h3>
+                <div id="sp500-data">
+                    <div class="loading">Loading...</div>
+                </div>
+            </div>
+            
+            <!-- Record -->
+            <div class="card record-card">
+                <h3>🏆 Bot Record</h3>
+                <div class="record-stats">
+                    <div class="stat">
+                        <div class="stat-num" id="total-picks">0</div>
+                        <div class="stat-label">Picks</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-num" id="wins">0</div>
+                        <div class="stat-label">Wins</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-num" id="units">+0.0</div>
+                        <div class="stat-label">Units</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Opportunities -->
+        <div class="card opportunity-card" style="margin-bottom: 30px;">
+            <h3>⚡ Active Opportunities</h3>
+            <div id="opportunities">
+                <p style="color: #6b7280; text-align: center; padding: 20px;">Scanning markets...</p>
+            </div>
+        </div>
+        
+        <!-- Markets -->
+        <div class="card">
+            <h3>🔮 Trending Markets</h3>
+            <div class="markets-list" id="markets-list">
+                <div class="loading">Loading...</div>
+            </div>
+        </div>
+        
+        <div class="last-update">
+            Last updated: <span id="last-update">--</span>
+            <button class="refresh-btn" onclick="refreshAll()" style="margin-left: 10px;">↻ Refresh</button>
+        </div>
+    </div>
+    
+    <script>
+        const API_BASE = 'https://polymarket-bot.onrender.com';
+        
+        async function loadCrypto() {
+            try {
+                const resp = await fetch(`${API_BASE}/data`);
+                const data = await resp.json();
+                
+                if (data.crypto) {
+                    const c = data.crypto;
+                    document.getElementById('crypto-data').innerHTML = `
+                        <div class="price-row">
+                            <div class="crypto-name">
+                                <div class="crypto-icon">₿</div>
+                                <div>
+                                    <div class="crypto-label">Bitcoin</div>
+                                    <div class="crypto-full">BTC</div>
+                                </div>
+                            </div>
+                            <div class="price-value">
+                                <div class="price-main">$${c.btc.price.toLocaleString()}</div>
+                                <div class="price-change ${c.btc.change >= 0 ? 'up' : 'down'}">
+                                    ${c.btc.change >= 0 ? '▲' : '▼'} ${Math.abs(c.btc.change).toFixed(2)}%
+                                </div>
+                            </div>
+                        </div>
+                        <div class="price-row">
+                            <div class="crypto-name">
+                                <div class="crypto-icon" style="background: linear-gradient(135deg, #627eea, #8c9eff);">Ξ</div>
+                                <div>
+                                    <div class="crypto-label">Ethereum</div>
+                                    <div class="crypto-full">ETH</div>
+                                </div>
+                            </div>
+                            <div class="price-value">
+                                <div class="price-main">$${c.eth.price.toLocaleString()}</div>
+                                <div class="price-change ${c.eth.change >= 0 ? 'up' : 'down'}">
+                                    ${c.eth.change >= 0 ? '▲' : '▼'} ${Math.abs(c.eth.change).toFixed(2)}%
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                }
+            } catch(e) {
+                document.getElementById('crypto-data').innerHTML = '<p style="color: #f87171;">Failed to load</p>';
+            }
+        }
+        
+        async function loadSP500() {
+            try {
+                const resp = await fetch(`${API_BASE}/data`);
+                const data = await resp.json();
+                
+                if (data.stocks?.price) {
+                    const s = data.stocks;
+                    document.getElementById('sp500-data').innerHTML = `
+                        <div class="sp500-price">${s.price.toLocaleString()}</div>
+                        <div class="price-change ${s.change >= 0 ? 'up' : 'down'}" style="font-size: 1rem;">
+                            ${s.change >= 0 ? '▲' : '▼'} ${Math.abs(s.change).toFixed(2)}% today
+                        </div>
+                    `;
+                } else {
+                    document.getElementById('sp500-data').innerHTML = '<p>Market closed</p>';
+                }
+            } catch(e) {
+                document.getElementById('sp500-data').innerHTML = '<p style="color: #f87171;">Failed to load</p>';
+            }
+        }
+        
+        async function loadMarkets() {
+            try {
+                const resp = await fetch(`${API_BASE}/markets`);
+                const markets = await resp.json();
+                
+                if (markets.length > 0) {
+                    document.getElementById('markets-list').innerHTML = markets.map(m => `
+                        <div class="market-item" onclick="window.open('${m.url}', '_blank')">
+                            <div class="market-q">${m.question}</div>
+                            <div class="market-vol">Volume: $${(m.volume/1000).toFixed(0)}K</div>
+                        </div>
+                    `).join('');
+                } else {
+                    document.getElementById('markets-list').innerHTML = '<p style="color: #6b7280;">No active markets</p>';
+                }
+            } catch(e) {
+                document.getElementById('markets-list').innerHTML = '<p style="color: #f87171;">Failed to load markets</p>';
+            }
+        }
+        
+        async function loadOpportunities() {
+            try {
+                const resp = await fetch(`${API_BASE}/scan`);
+                const opp = await resp.json();
+                
+                if (opp.length > 0) {
+                    document.getElementById('opportunities').innerHTML = opp.map(o => `
+                        <div class="opportunity">
+                            <div class="opp-title">${o.market}</div>
+                            <div class="opp-details">
+                                Implied: ${(o.impliedProb * 100).toFixed(0)}% | Expected: ${(o.expectedProb * 100).toFixed(0)}%
+                            </div>
+                            <div class="opp-edge">EDGE: ${(o.edge * 100).toFixed(0)}%</div>
+                        </div>
+                    `).join('');
+                } else {
+                    document.getElementById('opportunities').innerHTML = '<p style="color: #4ade80; text-align: center;">No high-confidence opportunities right now</p>';
+                }
+            } catch(e) {
+                document.getElementById('opportunities').innerHTML = '<p style="color: #6b7280;">Scanning...</p>';
+            }
+        }
+        
+        async function refreshAll() {
+            await Promise.all([loadCrypto(), loadSP500(), loadMarkets(), loadOpportunities()]);
+            document.getElementById('last-update').textContent = new Date().toLocaleTimeString();
+        }
+        
+        // Auto-refresh every 30 seconds
+        refreshAll();
+        setInterval(refreshAll, 30000);
+    </script>
+</body>
+</html>

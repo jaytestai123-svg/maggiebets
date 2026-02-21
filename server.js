@@ -198,5 +198,10 @@ app.get('/health', (req, res) => {
   res.json({ status: 'ok' });
 });
 
+// Dashboard route
+app.get('/dashboard', (req, res) => {
+  res.sendFile(__dirname + '/public/dashboard.html');
+});
+
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`MaggieBets AI running on port ${PORT}`));

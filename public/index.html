@@ -3,185 +3,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MaggieBets - Daily Sports Picks</title>
-    <meta name="description" content="Get daily AI-powered sports betting picks delivered to your inbox. NBA, NFL, and more.">
+    <title>MaggieBets - Daily Picks</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #0f0f23 0%, #1a1a3e 50%, #0d0d1a 100%);
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
             min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            color: #fff;
             padding: 20px;
-            color: #fff;
         }
-        .container {
-            max-width: 650px;
-            background: linear-gradient(145deg, rgba(30,30,60,0.8), rgba(20,20,40,0.9));
-            backdrop-filter: blur(20px);
-            border-radius: 24px;
-            padding: 50px 40px;
+        .container { max-width: 600px; margin: 0 auto; }
+        header {
             text-align: center;
-            border: 1px solid rgba(255,255,255,0.1);
-            box-shadow: 0 25px 50px rgba(0,0,0,0.5);
+            margin-bottom: 30px;
+            padding: 20px;
+            background: linear-gradient(90deg, #e94560, #ff6b6b);
+            border-radius: 15px;
         }
-        h1 {
-            font-size: 3rem;
-            margin-bottom: 8px;
-            background: linear-gradient(135deg, #ffd700, #ff8c00);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
+        h1 { font-size: 2rem; font-weight: 700; }
+        .subtitle { opacity: 0.9; font-size: 0.9rem; }
+        .record {
+            text-align: center;
+            background: rgba(255,255,255,0.1);
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 25px;
         }
-        .tagline {
-            color: #00d4ff;
-            font-size: 1.1rem;
-            margin-bottom: 35px;
-            font-weight: 300;
-        }
-        .bet-of-day {
-            background: linear-gradient(135deg, #1e3a5f 0%, #0d1b2a 100%);
-            border-radius: 20px;
-            padding: 30px;
-            margin: 25px 0;
-            text-align: left;
-            border: 1px solid rgba(0,212,255,0.2);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-        }
-        .bet-of-day h2 {
-            color: #ffd700;
-            font-size: 1.4rem;
-            margin-bottom: 20px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        .game-time {
-            color: #ff6b6b;
-            font-size: 0.9rem;
+        .record h2 { font-size: 1.1rem; margin-bottom: 5px; }
+        .record .stats { font-size: 1.8rem; font-weight: 700; color: #4ade80; }
+        .record .units { font-size: 1rem; color: #86efac; }
+        .section-title { margin-bottom: 15px; color: #9ca3af; }
+        .pick-card {
+            background: rgba(255,255,255,0.08);
+            border-radius: 12px;
+            padding: 20px;
             margin-bottom: 15px;
+            border-left: 4px solid #e94560;
+        }
+        .pick-card.top-pick { border-left-color: #ffd700; background: linear-gradient(135deg, rgba(255,215,0,0.15), rgba(255,255,255,0.08)); }
+        .pick-card.win { border-left-color: #4ade80; }
+        .pick-card.loss { border-left-color: #f87171; }
+        .pick-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+        .sport { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; color: #e94560; }
+        .confidence { 
+            font-size: 0.75rem; 
+            padding: 4px 10px; 
+            border-radius: 20px; 
+            background: #ffd700; 
+            color: #1a1a2e;
             font-weight: 600;
         }
-        .pick-name {
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: #fff;
-            margin-bottom: 8px;
-        }
-        .pick-odds {
-            color: #00ff88;
-            font-weight: bold;
-            font-size: 1.1rem;
-            margin-bottom: 20px;
-        }
-        .reasoning-title {
-            color: #00d4ff;
-            font-weight: 600;
-            margin-bottom: 12px;
-        }
-        .reasoning li {
-            color: #ccc;
-            margin: 10px 0;
-            margin-left: 20px;
-            line-height: 1.5;
-        }
-        .reasoning li::before {
-            content: "✓";
-            color: #00ff88;
-            margin-right: 10px;
-            font-weight: bold;
-        }
-        .subscribe-form { margin: 35px 0; }
-        .subscribe-form p {
-            color: #aaa;
-            margin-bottom: 15px;
-            font-size: 0.95rem;
-        }
-        input[type="email"] {
-            padding: 16px 24px;
-            font-size: 1rem;
-            border: 2px solid rgba(0,212,255,0.3);
-            border-radius: 50px;
-            width: 260px;
-            outline: none;
-            background: rgba(255,255,255,0.05);
-            color: #fff;
-            transition: border-color 0.3s;
-        }
-        input[type="email"]:focus {
-            border-color: #00d4ff;
-        }
-        input[type="email"]::placeholder {
-            color: #666;
-        }
-        button {
-            padding: 16px 32px;
-            font-size: 1rem;
-            background: linear-gradient(135deg, #ffd700, #ff8c00);
-            border: none;
-            border-radius: 50px;
-            color: #000;
-            font-weight: bold;
-            cursor: pointer;
-            margin-left: 10px;
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-        button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 20px rgba(255,215,0,0.3);
-        }
-        .contact {
-            margin-top: 30px;
-            color: #666;
-        }
-        .contact a {
-            color: #00d4ff;
-            text-decoration: none;
-        }
-        .disclaimer {
-            color: #444;
-            margin-top: 25px;
-            font-size: 0.8rem;
-        }
+        .matchup { font-size: 1.2rem; font-weight: 600; margin-bottom: 8px; }
+        .pick { font-size: 1.1rem; color: #4ade80; font-weight: 600; }
+        .result { font-size: 1.1rem; font-weight: 600; }
+        .result.win { color: #4ade80; }
+        .result.loss { color: #f87171; }
+        .pick-label { color: #9ca3af; font-size: 0.85rem; }
+        .time { font-size: 0.8rem; color: #9ca3af; margin-top: 8px; }
+        .footer { text-align: center; margin-top: 30px; color: #6b7280; font-size: 0.8rem; }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>🏆 MaggieBets</h1>
-        <p class="tagline">Daily AI-Powered Sports Picks with Analysis</p>
-        
-        <div class="bet-of-day">
-            <h2>🎯 Tomorrow's Bet of the Day</h2>
-            <p class="game-time">⏰ Fri Feb 20 - 8:30 PM EST</p>
-            <div class="pick-name">🏀 Celtics -5.5 vs Warriors</div>
-            <div class="pick-odds">Celtics -5.5 (-110) | Confidence: 8/10</div>
-            
-            <p class="reasoning-title">Why This Pick:</p>
-            <ul class="reasoning">
-                <li>Celtics on 7-3 run, averaging 122 PPG</li>
-                <li>Warriors allow most points in league (118 ppg)</li>
-                <li>Celtics 6-2-1 ATS last 9 games</li>
-            </ul>
-            
-            <p style="margin-top:20px; color:#00ff88; font-size:0.9rem;">📺 NBA is back tomorrow! All-Star break over.</p>
+        <header>
+            <h1>🏆 MaggieBets</h1>
+            <p class="subtitle">Daily Sports Picks</p>
+        </header>
+
+        <div class="record">
+            <h2>Season Record</h2>
+            <div class="stats">4-1</div>
+            <div class="units">+2.5 Units</div>
         </div>
-        
-        <div class="bet-of-day" style="border-color: rgba(255,215,0,0.3);">
-            <h2>📬 Subscribe for More Picks!</h2>
-            <p style="color:#ccc; margin-bottom:15px;">Get <strong>3+ daily picks</strong> delivered to your inbox with full analysis. Free!</p>
-            <p style="color:#00ff88; font-size:0.9rem;">✓ NBA Picks ✓ NCAA Picks ✓ Full Analysis</p>
+
+        <h3 class="section-title">Feb 20 - Tonight</h3>
+
+        <div class="pick-card top-pick">
+            <div class="pick-header">
+                <span class="sport">NBA</span>
+                <span class="confidence">⭐ TOP PICK</span>
+            </div>
+            <div class="matchup">Los Angeles Lakers vs LA Clippers</div>
+            <div class="pick-label">Pick:</div>
+            <div class="pick">Lakers -4.5 (-110)</div>
+            <div class="time">8:10 PM MT</div>
         </div>
-        
-        <form class="subscribe-form" action="mailto:maggiebets777@gmail.com?subject=Subscribe to MaggieBets" method="post" enctype="text/plain">
-            <p>Join free and get daily picks delivered to your inbox!</p>
-            <input type="email" name="email" placeholder="Enter your email" required>
-            <button type="submit">Subscribe Free</button>
-        </form>
-        
-        <p class="contact">Questions? <a href="mailto:maggiebets777@gmail.com">maggiebets777@gmail.com</a></p>
-        <p class="disclaimer">18+ only. Gamble responsibly.</p>
+
+        <div class="pick-card">
+            <div class="pick-header">
+                <span class="sport">NBA</span>
+                <span class="confidence">HIGH CONFIDENCE</span>
+            </div>
+            <div class="matchup">Denver Nuggets @ Portland Trail Blazers</div>
+            <div class="pick-label">Pick:</div>
+            <div class="pick">Nuggets -2.5 (-110)</div>
+            <div class="time">8:10 PM MT</div>
+        </div>
+
+        <div class="pick-card">
+            <div class="pick-header">
+                <span class="sport">NBA</span>
+                <span class="confidence">CONFIDENCE</span>
+            </div>
+            <div class="matchup">Milwaukee Bucks @ New Orleans Pelicans</div>
+            <div class="pick-label">Pick:</div>
+            <div class="pick">Bucks -1.5 (-110)</div>
+            <div class="time">6:10 PM MT</div>
+        </div>
+
+        <h3 class="section-title" style="margin-top: 30px;">Last Night's Results (Feb 19)</h3>
+
+        <div class="pick-card win">
+            <div class="pick-header">
+                <span class="sport">NBA</span>
+                <span class="confidence">✅ WIN</span>
+            </div>
+            <div class="matchup">Celtics @ Warriors</div>
+            <div class="pick-label">Pick: Celtics -5.5</div>
+            <div class="result win">121-110 (WIN by 11)</div>
+        </div>
+
+        <div class="pick-card loss">
+            <div class="pick-header">
+                <span class="sport">NBA</span>
+                <span class="confidence">❌ LOSS</span>
+            </div>
+            <div class="matchup">Nuggets vs Clippers</div>
+            <div class="pick-label">Pick: Nuggets -2.5</div>
+            <div class="result loss">114-115 (Loss by 1)</div>
+        </div>
+
+        <div class="pick-card win">
+            <div class="pick-header">
+                <span class="sport">NBA</span>
+                <span class="confidence">✅ WIN</span>
+            </div>
+            <div class="matchup">Cavs @ Hornets</div>
+            <div class="pick-label">Pick: Cavs -4.5</div>
+            <div class="result win">112-84 (WIN by 28)</div>
+        </div>
+
+        <div class="footer">
+            <p>⚠️ Gamble responsibly. 18+ only.</p>
+            <p>Powered by AI analysis</p>
+        </div>
     </div>
 </body>
 </html>
