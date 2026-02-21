@@ -78,56 +78,16 @@
       "units": "+0.5"
     }
   ],
-  "lastUpdate": "2026-02-21T01:01:14.082Z",
+  "lastUpdate": "2026-02-21T14:43:04.661Z",
   "upcoming": [
-    {
-      "sport": "NBA",
-      "home": "Oklahoma City Thunder",
-      "away": "Brooklyn Nets",
-      "time": "2026-02-21T01:10:00Z",
-      "fanduel": {
-        "home": 1.07,
-        "away": 9.1
-      }
-    },
-    {
-      "sport": "NBA",
-      "home": "New Orleans Pelicans",
-      "away": "Milwaukee Bucks",
-      "time": "2026-02-21T01:10:00Z",
-      "fanduel": {
-        "home": 1.56,
-        "away": 2.5
-      }
-    },
-    {
-      "sport": "NBA",
-      "home": "Portland Trail Blazers",
-      "away": "Denver Nuggets",
-      "time": "2026-02-21T03:10:00Z",
-      "fanduel": {
-        "home": 1.89,
-        "away": 1.96
-      }
-    },
-    {
-      "sport": "NBA",
-      "home": "Los Angeles Lakers",
-      "away": "Los Angeles Clippers",
-      "time": "2026-02-21T03:10:00Z",
-      "fanduel": {
-        "home": 1.39,
-        "away": 3.1
-      }
-    },
     {
       "sport": "NBA",
       "home": "Phoenix Suns",
       "away": "Orlando Magic",
       "time": "2026-02-21T22:10:00Z",
       "fanduel": {
-        "home": 1.83,
-        "away": 2.02
+        "home": 1.81,
+        "away": 2.06
       }
     },
     {
@@ -146,8 +106,18 @@
       "away": "Detroit Pistons",
       "time": "2026-02-22T01:10:00Z",
       "fanduel": {
-        "home": 4.5,
-        "away": 1.22
+        "home": 5.1,
+        "away": 1.18
+      }
+    },
+    {
+      "sport": "NBA",
+      "home": "Miami Heat",
+      "away": "Memphis Grizzlies",
+      "time": "2026-02-22T01:10:00Z",
+      "fanduel": {
+        "home": 1.2,
+        "away": 4.85
       }
     },
     {
@@ -156,8 +126,8 @@
       "away": "Sacramento Kings",
       "time": "2026-02-22T01:10:00Z",
       "fanduel": {
-        "home": 1.06,
-        "away": 10.8
+        "home": 1.05,
+        "away": 12
       }
     },
     {
@@ -166,28 +136,18 @@
       "away": "Houston Rockets",
       "time": "2026-02-22T01:40:00Z",
       "fanduel": {
-        "home": 1.66,
-        "away": 2.28
+        "home": 1.61,
+        "away": 2.38
       }
     },
     {
       "sport": "NCAA",
-      "home": "Purdue Boilermakers",
-      "away": "Indiana Hoosiers",
-      "time": "2026-02-21T01:05:00Z",
+      "home": "St. John's Red Storm",
+      "away": "Creighton Bluejays",
+      "time": "2026-02-21T16:58:32Z",
       "fanduel": {
-        "home": 1.12,
-        "away": 6.3
-      }
-    },
-    {
-      "sport": "NCAA",
-      "home": "Miami (OH) RedHawks",
-      "away": "Bowling Green Falcons",
-      "time": "2026-02-21T01:30:00Z",
-      "fanduel": {
-        "home": 1.24,
-        "away": 4.15
+        "home": 1.1,
+        "away": 7.4
       }
     },
     {
@@ -196,8 +156,8 @@
       "away": "East Carolina Pirates",
       "time": "2026-02-21T17:00:00Z",
       "fanduel": {
-        "home": 1.36,
-        "away": 3.2
+        "home": 1.42,
+        "away": 2.95
       }
     },
     {
@@ -212,12 +172,22 @@
     },
     {
       "sport": "NCAA",
+      "home": "Howard Bison",
+      "away": "North Carolina Central Eagles",
+      "time": "2026-02-21T17:00:00Z",
+      "fanduel": {
+        "home": 1.09,
+        "away": 7.8
+      }
+    },
+    {
+      "sport": "NCAA",
       "home": "Saint Joseph's Hawks",
       "away": "Loyola (Chi) Ramblers",
       "time": "2026-02-21T17:00:00Z",
       "fanduel": {
-        "home": 1.16,
-        "away": 5.5
+        "home": 1.18,
+        "away": 5
       }
     },
     {
@@ -227,7 +197,7 @@
       "time": "2026-02-21T17:00:06Z",
       "fanduel": {
         "home": 1.44,
-        "away": 2.84
+        "away": 2.88
       }
     },
     {
@@ -236,18 +206,8 @@
       "away": "Rutgers Scarlet Knights",
       "time": "2026-02-21T17:00:31Z",
       "fanduel": {
-        "home": 1.24,
-        "away": 4.2
-      }
-    },
-    {
-      "sport": "NCAA",
-      "home": "St. John's Red Storm",
-      "away": "Creighton Bluejays",
-      "time": "2026-02-21T17:00:32Z",
-      "fanduel": {
-        "home": 1.08,
-        "away": 8.2
+        "home": 1.26,
+        "away": 4
       }
     },
     {
@@ -256,8 +216,18 @@
       "away": "Florida St Seminoles",
       "time": "2026-02-21T17:00:49Z",
       "fanduel": {
-        "home": 1.2,
-        "away": 4.65
+        "home": 1.22,
+        "away": 4.4
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "UMBC Retrievers",
+      "away": "Albany Great Danes",
+      "time": "2026-02-21T18:00:00Z",
+      "fanduel": {
+        "home": 1.38,
+        "away": 3.1
       }
     },
     {
@@ -266,8 +236,18 @@
       "away": "Georgia Southern Eagles",
       "time": "2026-02-21T18:00:00Z",
       "fanduel": {
-        "home": 1.29,
-        "away": 3.75
+        "home": 1.27,
+        "away": 3.85
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "UMass Lowell River Hawks",
+      "away": "Binghamton Bearcats",
+      "time": "2026-02-21T18:00:00Z",
+      "fanduel": {
+        "home": 1.2,
+        "away": 4.6
       }
     },
     {
@@ -276,8 +256,8 @@
       "away": "Chattanooga Mocs",
       "time": "2026-02-21T18:00:00Z",
       "fanduel": {
-        "home": 2.55,
-        "away": 1.53
+        "home": 2.64,
+        "away": 1.5
       }
     },
     {
@@ -286,8 +266,8 @@
       "away": "Cincinnati Bearcats",
       "time": "2026-02-21T18:00:00Z",
       "fanduel": {
-        "home": 1.13,
-        "away": 6.3
+        "home": 1.15,
+        "away": 5.6
       }
     },
     {
@@ -296,8 +276,8 @@
       "away": "Marshall Thundering Herd",
       "time": "2026-02-21T18:00:00Z",
       "fanduel": {
-        "home": 2.05,
-        "away": 1.79
+        "home": 2.06,
+        "away": 1.78
       }
     },
     {
@@ -306,8 +286,8 @@
       "away": "Texas State Bobcats",
       "time": "2026-02-21T18:00:00Z",
       "fanduel": {
-        "home": 2.25,
-        "away": 1.67
+        "home": 2.6,
+        "away": 1.52
       }
     },
     {
@@ -316,8 +296,8 @@
       "away": "Western Carolina Catamounts",
       "time": "2026-02-21T18:00:00Z",
       "fanduel": {
-        "home": 4.4,
-        "away": 1.22
+        "home": 4.6,
+        "away": 1.21
       }
     },
     {
@@ -326,8 +306,8 @@
       "away": "Mississippi St Bulldogs",
       "time": "2026-02-21T18:00:33Z",
       "fanduel": {
-        "home": 1.79,
-        "away": 2.05
+        "home": 1.78,
+        "away": 2.06
       }
     },
     {
@@ -336,8 +316,8 @@
       "away": "North Carolina Tar Heels",
       "time": "2026-02-21T18:00:38Z",
       "fanduel": {
-        "home": 2.06,
-        "away": 1.78
+        "home": 2,
+        "away": 1.83
       }
     },
     {
@@ -346,8 +326,8 @@
       "away": "Navy Midshipmen",
       "time": "2026-02-21T18:30:00Z",
       "fanduel": {
-        "home": 5.3,
-        "away": 1.17
+        "home": 5.4,
+        "away": 1.16
       }
     },
     {
@@ -356,8 +336,58 @@
       "away": "Xavier Musketeers",
       "time": "2026-02-21T18:30:06Z",
       "fanduel": {
-        "home": 1.6,
-        "away": 2.38
+        "home": 1.57,
+        "away": 2.46
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Florida Gulf Coast Eagles",
+      "away": "Central Arkansas Bears",
+      "time": "2026-02-21T19:00:00Z",
+      "fanduel": {
+        "home": 2.1,
+        "away": 1.75
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Chicago St Cougars",
+      "away": "Central Connecticut St Blue Devils",
+      "time": "2026-02-21T19:00:00Z",
+      "fanduel": {
+        "home": 2.6,
+        "away": 1.5
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Colgate Raiders",
+      "away": "Loyola (MD) Greyhounds",
+      "time": "2026-02-21T19:00:00Z",
+      "fanduel": {
+        "home": 1.24,
+        "away": 4.1
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Columbia Lions",
+      "away": "Dartmouth Big Green",
+      "time": "2026-02-21T19:00:00Z",
+      "fanduel": {
+        "home": 1.34,
+        "away": 3.25
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Cornell Big Red",
+      "away": "Harvard Crimson",
+      "time": "2026-02-21T19:00:00Z",
+      "fanduel": {
+        "home": 1.5,
+        "away": 2.6
       }
     },
     {
@@ -366,8 +396,8 @@
       "away": "Davidson Wildcats",
       "time": "2026-02-21T19:00:00Z",
       "fanduel": {
-        "home": 1.87,
-        "away": 1.96
+        "home": 1.83,
+        "away": 2
       }
     },
     {
@@ -376,8 +406,68 @@
       "away": "Duquesne Dukes",
       "time": "2026-02-21T19:00:00Z",
       "fanduel": {
-        "home": 1.34,
-        "away": 3.35
+        "home": 1.36,
+        "away": 3.25
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Middle Tennessee Blue Raiders",
+      "away": "Delaware Blue Hens",
+      "time": "2026-02-21T19:00:00Z",
+      "fanduel": {
+        "home": 1.24,
+        "away": 4.1
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Northeastern Huskies",
+      "away": "Hofstra Pride",
+      "time": "2026-02-21T19:00:00Z",
+      "fanduel": {
+        "home": 4.6,
+        "away": 1.2
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Mercyhurst Lakers",
+      "away": "LIU Sharks",
+      "time": "2026-02-21T19:00:00Z",
+      "fanduel": {
+        "home": 2.26,
+        "away": 1.65
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Stonehill Skyhawks",
+      "away": "Le Moyne Dolphins",
+      "time": "2026-02-21T19:00:00Z",
+      "fanduel": {
+        "home": 2.2,
+        "away": 1.68
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Mercer Bears",
+      "away": "Samford Bulldogs",
+      "time": "2026-02-21T19:00:00Z",
+      "fanduel": {
+        "home": 1.52,
+        "away": 2.54
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "North Dakota St Bison",
+      "away": "UMKC Kangaroos",
+      "time": "2026-02-21T19:00:00Z",
+      "fanduel": {
+        "home": 1.02,
+        "away": 17
       }
     },
     {
@@ -386,8 +476,28 @@
       "away": "Pennsylvania Quakers",
       "time": "2026-02-21T19:00:00Z",
       "fanduel": {
-        "home": 1.14,
-        "away": 5.8
+        "home": 1.2,
+        "away": 4.65
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Tennessee St Tigers",
+      "away": "SIU-Edwardsville Cougars",
+      "time": "2026-02-21T19:00:00Z",
+      "fanduel": {
+        "home": 1.49,
+        "away": 2.64
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "St. Francis (PA) Red Flash",
+      "away": "Wagner Seahawks",
+      "time": "2026-02-21T19:00:00Z",
+      "fanduel": {
+        "home": 2.08,
+        "away": 1.76
       }
     },
     {
@@ -396,8 +506,8 @@
       "away": "Tennessee Volunteers",
       "time": "2026-02-21T19:00:00Z",
       "fanduel": {
-        "home": 1.57,
-        "away": 2.46
+        "home": 1.52,
+        "away": 2.58
       }
     },
     {
@@ -416,8 +526,8 @@
       "away": "Miami Hurricanes",
       "time": "2026-02-21T19:00:14Z",
       "fanduel": {
-        "home": 1.23,
-        "away": 4.3
+        "home": 1.26,
+        "away": 3.9
       }
     },
     {
@@ -426,8 +536,8 @@
       "away": "Notre Dame Fighting Irish",
       "time": "2026-02-21T19:00:32Z",
       "fanduel": {
-        "home": 1.67,
-        "away": 2.25
+        "home": 1.78,
+        "away": 2.06
       }
     },
     {
@@ -437,7 +547,7 @@
       "time": "2026-02-21T19:15:42Z",
       "fanduel": {
         "home": 1.01,
-        "away": 23
+        "away": 25
       }
     },
     {
@@ -446,8 +556,8 @@
       "away": "Rhode Island Rams",
       "time": "2026-02-21T19:30:00Z",
       "fanduel": {
-        "home": 2.55,
-        "away": 1.53
+        "home": 2.68,
+        "away": 1.49
       }
     },
     {
@@ -456,8 +566,8 @@
       "away": "Kansas St Wildcats",
       "time": "2026-02-21T19:30:14Z",
       "fanduel": {
-        "home": 1.06,
-        "away": 9.9
+        "home": 1.1,
+        "away": 7.4
       }
     },
     {
@@ -466,8 +576,68 @@
       "away": "UNLV Rebels",
       "time": "2026-02-21T20:00:00Z",
       "fanduel": {
-        "home": 11.6,
+        "home": 12,
         "away": 1.04
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "UL Monroe Warhawks",
+      "away": "Arkansas St Red Wolves",
+      "time": "2026-02-21T20:00:00Z",
+      "fanduel": {
+        "home": 10.8,
+        "away": 1.05
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Florida Int'l Golden Panthers",
+      "away": "Missouri St Bears",
+      "time": "2026-02-21T20:00:00Z",
+      "fanduel": {
+        "home": 1.54,
+        "away": 2.48
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "South Dakota St Jackrabbits",
+      "away": "North Dakota Fighting Hawks",
+      "time": "2026-02-21T20:00:00Z",
+      "fanduel": {
+        "home": 1.34,
+        "away": 3.25
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Northern Illinois Huskies",
+      "away": "Ohio Bobcats",
+      "time": "2026-02-21T20:00:00Z",
+      "fanduel": {
+        "home": 3.05,
+        "away": 1.38
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Southern Miss Golden Eagles",
+      "away": "Old Dominion Monarchs",
+      "time": "2026-02-21T20:00:00Z",
+      "fanduel": {
+        "home": 1.53,
+        "away": 2.52
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Queens University Royals",
+      "away": "West Georgia Wolves",
+      "time": "2026-02-21T20:00:00Z",
+      "fanduel": {
+        "home": 1.11,
+        "away": 6.7
       }
     },
     {
@@ -476,8 +646,8 @@
       "away": "Valparaiso Beacons",
       "time": "2026-02-21T20:00:00Z",
       "fanduel": {
-        "home": 1.31,
-        "away": 3.55
+        "home": 1.27,
+        "away": 3.85
       }
     },
     {
@@ -486,8 +656,8 @@
       "away": "Utah Valley Wolverines",
       "time": "2026-02-21T20:00:00Z",
       "fanduel": {
-        "home": 3.55,
-        "away": 1.31
+        "home": 3.4,
+        "away": 1.33
       }
     },
     {
@@ -496,8 +666,8 @@
       "away": "Arizona Wildcats",
       "time": "2026-02-21T20:00:36Z",
       "fanduel": {
-        "home": 1.41,
-        "away": 2.98
+        "home": 1.35,
+        "away": 3.3
       }
     },
     {
@@ -506,8 +676,38 @@
       "away": "Washington Huskies",
       "time": "2026-02-21T20:00:52Z",
       "fanduel": {
-        "home": 2.64,
-        "away": 1.5
+        "home": 2.46,
+        "away": 1.57
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Georgia St Panthers",
+      "away": "James Madison Dukes",
+      "time": "2026-02-21T20:30:00Z",
+      "fanduel": {
+        "home": 2.06,
+        "away": 1.77
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Sam Houston St Bearkats",
+      "away": "Jacksonville St Gamecocks",
+      "time": "2026-02-21T20:30:00Z",
+      "fanduel": {
+        "home": 1.27,
+        "away": 3.85
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Stetson Hatters",
+      "away": "North Florida Ospreys",
+      "time": "2026-02-21T20:30:00Z",
+      "fanduel": {
+        "home": 1.6,
+        "away": 2.36
       }
     },
     {
@@ -516,8 +716,8 @@
       "away": "Texas Longhorns",
       "time": "2026-02-21T20:30:16Z",
       "fanduel": {
-        "home": 1.73,
-        "away": 2.14
+        "home": 1.66,
+        "away": 2.26
       }
     },
     {
@@ -526,8 +726,28 @@
       "away": "Oklahoma St Cowboys",
       "time": "2026-02-21T20:30:38Z",
       "fanduel": {
-        "home": 1.5,
-        "away": 2.64
+        "home": 1.48,
+        "away": 2.72
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Abilene Christian Wildcats",
+      "away": "Southern Utah Thunderbirds",
+      "time": "2026-02-21T21:00:00Z",
+      "fanduel": {
+        "home": 1.31,
+        "away": 3.45
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Alcorn St Braves",
+      "away": "Jackson St Tigers",
+      "time": "2026-02-21T21:00:00Z",
+      "fanduel": {
+        "home": 2.02,
+        "away": 1.81
       }
     },
     {
@@ -536,8 +756,18 @@
       "away": "Missouri Tigers",
       "time": "2026-02-21T21:00:00Z",
       "fanduel": {
-        "home": 1.17,
-        "away": 5.3
+        "home": 1.19,
+        "away": 4.85
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Arkansas-Little Rock Trojans",
+      "away": "SE Missouri St Redhawks",
+      "time": "2026-02-21T21:00:00Z",
+      "fanduel": {
+        "home": 2.14,
+        "away": 1.71
       }
     },
     {
@@ -547,7 +777,57 @@
       "time": "2026-02-21T21:00:00Z",
       "fanduel": {
         "home": 1.04,
-        "away": 12
+        "away": 11.6
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Campbell Fighting Camels",
+      "away": "UNC Wilmington Seahawks",
+      "time": "2026-02-21T21:00:00Z",
+      "fanduel": {
+        "home": 2.24,
+        "away": 1.66
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Charleston Cougars",
+      "away": "Monmouth Hawks",
+      "time": "2026-02-21T21:00:00Z",
+      "fanduel": {
+        "home": 1.47,
+        "away": 2.72
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Charleston Southern Buccaneers",
+      "away": "Longwood Lancers",
+      "time": "2026-02-21T21:00:00Z",
+      "fanduel": {
+        "home": 1.53,
+        "away": 2.52
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Morgan St Bears",
+      "away": "Delaware St Hornets",
+      "time": "2026-02-21T21:00:00Z",
+      "fanduel": {
+        "home": 1.41,
+        "away": 2.94
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "UNC Greensboro Spartans",
+      "away": "East Tennessee St Buccaneers",
+      "time": "2026-02-21T21:00:00Z",
+      "fanduel": {
+        "home": 3.4,
+        "away": 1.32
       }
     },
     {
@@ -557,7 +837,27 @@
       "time": "2026-02-21T21:00:00Z",
       "fanduel": {
         "home": 1.06,
-        "away": 9.6
+        "away": 9.9
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Stony Brook Seawolves",
+      "away": "Hampton Pirates",
+      "time": "2026-02-21T21:00:00Z",
+      "fanduel": {
+        "home": 1.38,
+        "away": 3.05
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "High Point Panthers",
+      "away": "Winthrop Eagles",
+      "time": "2026-02-21T21:00:00Z",
+      "fanduel": {
+        "home": 1.24,
+        "away": 4.1
       }
     },
     {
@@ -566,8 +866,48 @@
       "away": "Western Kentucky Hilltoppers",
       "time": "2026-02-21T21:00:00Z",
       "fanduel": {
-        "home": 1.23,
-        "away": 4.3
+        "home": 1.24,
+        "away": 4.15
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Tennessee Tech Golden Eagles",
+      "away": "Lindenwood Lions",
+      "time": "2026-02-21T21:00:00Z",
+      "fanduel": {
+        "home": 2.12,
+        "away": 1.72
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "New Hampshire Wildcats",
+      "away": "Maine Black Bears",
+      "time": "2026-02-21T21:00:00Z",
+      "fanduel": {
+        "home": 1.57,
+        "away": 2.42
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Norfolk St Spartans",
+      "away": "South Carolina St Bulldogs",
+      "time": "2026-02-21T21:00:00Z",
+      "fanduel": {
+        "home": 1.15,
+        "away": 5.4
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "South Alabama Jaguars",
+      "away": "Troy Trojans",
+      "time": "2026-02-21T21:00:00Z",
+      "fanduel": {
+        "home": 2,
+        "away": 1.82
       }
     },
     {
@@ -576,8 +916,8 @@
       "away": "Boston College Eagles",
       "time": "2026-02-21T21:00:23Z",
       "fanduel": {
-        "home": 1.04,
-        "away": 12
+        "home": 1.05,
+        "away": 11
       }
     },
     {
@@ -587,7 +927,7 @@
       "time": "2026-02-21T21:00:35Z",
       "fanduel": {
         "home": 1.38,
-        "away": 3.1
+        "away": 3.05
       }
     },
     {
@@ -602,12 +942,162 @@
     },
     {
       "sport": "NCAA",
+      "home": "Coppin St Eagles",
+      "away": "Maryland-Eastern Shore Hawks",
+      "time": "2026-02-21T21:30:00Z",
+      "fanduel": {
+        "home": 2.38,
+        "away": 1.59
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Eastern Illinois Panthers",
+      "away": "Southern Indiana Screaming Eagles",
+      "time": "2026-02-21T21:30:00Z",
+      "fanduel": {
+        "home": 1.5,
+        "away": 2.6
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Northwestern St Demons",
+      "away": "Houston Christian Huskies",
+      "time": "2026-02-21T21:30:00Z",
+      "fanduel": {
+        "home": 1.65,
+        "away": 2.26
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Western Illinois Leathernecks",
+      "away": "Morehead St Eagles",
+      "time": "2026-02-21T21:30:00Z",
+      "fanduel": {
+        "home": 4.1,
+        "away": 1.24
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "South Carolina Upstate Spartans",
+      "away": "Presbyterian Blue Hose",
+      "time": "2026-02-21T21:30:00Z",
+      "fanduel": {
+        "home": 1.98,
+        "away": 1.83
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "UNC Asheville Bulldogs",
+      "away": "Radford Highlanders",
+      "time": "2026-02-21T21:30:00Z",
+      "fanduel": {
+        "home": 1.81,
+        "away": 2.02
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "SE Louisiana Lions",
+      "away": "UT Rio Grande Valley Vaqueros",
+      "time": "2026-02-21T21:30:00Z",
+      "fanduel": {
+        "home": 2.54,
+        "away": 1.52
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Central Michigan Chippewas",
+      "away": "Western Michigan Broncos",
+      "time": "2026-02-21T22:00:00Z",
+      "fanduel": {
+        "home": 1.54,
+        "away": 2.48
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Toledo Rockets",
+      "away": "Eastern Michigan Eagles",
+      "time": "2026-02-21T22:00:00Z",
+      "fanduel": {
+        "home": 1.21,
+        "away": 4.5
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Portland St Vikings",
+      "away": "Eastern Washington Eagles",
+      "time": "2026-02-21T22:00:00Z",
+      "fanduel": {
+        "home": 1.38,
+        "away": 3.1
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Kennesaw St Owls",
+      "away": "Louisiana Tech Bulldogs",
+      "time": "2026-02-21T22:00:00Z",
+      "fanduel": {
+        "home": 1.34,
+        "away": 3.25
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Lipscomb Bisons",
+      "away": "North Alabama Lions",
+      "time": "2026-02-21T22:00:00Z",
+      "fanduel": {
+        "home": 1.08,
+        "away": 8.3
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Tarleton State Texans",
+      "away": "Utah Tech Trailblazers",
+      "time": "2026-02-21T22:00:00Z",
+      "fanduel": {
+        "home": 1.68,
+        "away": 2.22
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "UC Riverside Highlanders",
+      "away": "UC Davis Aggies",
+      "time": "2026-02-21T22:00:00Z",
+      "fanduel": {
+        "home": 2.38,
+        "away": 1.59
+      }
+    },
+    {
+      "sport": "NCAA",
       "home": "TCU Horned Frogs",
       "away": "West Virginia Mountaineers",
       "time": "2026-02-21T22:00:48Z",
       "fanduel": {
-        "home": 1.36,
-        "away": 3.2
+        "home": 1.38,
+        "away": 3.1
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Bethune-Cookman Wildcats",
+      "away": "Alabama A&M Bulldogs",
+      "time": "2026-02-21T22:30:00Z",
+      "fanduel": {
+        "home": 1.31,
+        "away": 3.45
       }
     },
     {
@@ -616,8 +1106,28 @@
       "away": "UConn Huskies",
       "time": "2026-02-21T22:30:20Z",
       "fanduel": {
-        "home": 2.16,
-        "away": 1.71
+        "home": 2.32,
+        "away": 1.62
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Florida A&M Rattlers",
+      "away": "Alabama St Hornets",
+      "time": "2026-02-21T23:00:00Z",
+      "fanduel": {
+        "home": 2.02,
+        "away": 1.81
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Massachusetts Minutemen",
+      "away": "Buffalo Bulls",
+      "time": "2026-02-21T23:00:00Z",
+      "fanduel": {
+        "home": 1.28,
+        "away": 3.7
       }
     },
     {
@@ -632,12 +1142,82 @@
     },
     {
       "sport": "NCAA",
+      "home": "Denver Pioneers",
+      "away": "St. Thomas (MN) Tommies",
+      "time": "2026-02-21T23:00:00Z",
+      "fanduel": {
+        "home": 2.72,
+        "away": 1.47
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "East Texas A&M Lions",
+      "away": "Incarnate Word Cardinals",
+      "time": "2026-02-21T23:00:00Z",
+      "fanduel": {
+        "home": 1.72,
+        "away": 2.12
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Southern Jaguars",
+      "away": "Grambling St Tigers",
+      "time": "2026-02-21T23:00:00Z",
+      "fanduel": {
+        "home": 1.4,
+        "away": 2.98
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Idaho State Bengals",
+      "away": "Montana St Bobcats",
+      "time": "2026-02-21T23:00:00Z",
+      "fanduel": {
+        "home": 2.38,
+        "away": 1.59
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "San Diego Toreros",
+      "away": "Loyola Marymount Lions",
+      "time": "2026-02-21T23:00:00Z",
+      "fanduel": {
+        "home": 2.12,
+        "away": 1.72
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Miss Valley St Delta Devils",
+      "away": "Texas Southern Tigers",
+      "time": "2026-02-21T23:00:00Z",
+      "fanduel": {
+        "home": 6.9,
+        "away": 1.11
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Stephen F. Austin Lumberjacks",
+      "away": "Nicholls St Colonels",
+      "time": "2026-02-21T23:00:00Z",
+      "fanduel": {
+        "home": 1.06,
+        "away": 9.2
+      }
+    },
+    {
+      "sport": "NCAA",
       "home": "Northern Iowa Panthers",
       "away": "Southern Illinois Salukis",
       "time": "2026-02-21T23:00:00Z",
       "fanduel": {
-        "home": 1.31,
-        "away": 3.55
+        "home": 1.3,
+        "away": 3.6
       }
     },
     {
@@ -646,8 +1226,8 @@
       "away": "St. Bonaventure Bonnies",
       "time": "2026-02-21T23:00:00Z",
       "fanduel": {
-        "home": 1.62,
-        "away": 2.34
+        "home": 1.65,
+        "away": 2.28
       }
     },
     {
@@ -656,8 +1236,8 @@
       "away": "Temple Owls",
       "time": "2026-02-21T23:00:00Z",
       "fanduel": {
-        "home": 1.19,
-        "away": 4.85
+        "home": 1.22,
+        "away": 4.4
       }
     },
     {
@@ -666,8 +1246,8 @@
       "away": "Stanford Cardinal",
       "time": "2026-02-21T23:00:05Z",
       "fanduel": {
-        "home": 1.65,
-        "away": 2.28
+        "home": 1.88,
+        "away": 1.95
       }
     },
     {
@@ -676,8 +1256,8 @@
       "away": "Alabama Crimson Tide",
       "time": "2026-02-21T23:00:35Z",
       "fanduel": {
-        "home": 3.1,
-        "away": 1.38
+        "home": 3.65,
+        "away": 1.3
       }
     },
     {
@@ -686,8 +1266,18 @@
       "away": "Georgetown Hoyas",
       "time": "2026-02-21T23:00:52Z",
       "fanduel": {
-        "home": 1.4,
-        "away": 3.02
+        "home": 1.43,
+        "away": 2.9
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Arkansas-Pine Bluff Golden Lions",
+      "away": "Prairie View Panthers",
+      "time": "2026-02-21T23:30:00Z",
+      "fanduel": {
+        "home": 1.59,
+        "away": 2.38
       }
     },
     {
@@ -696,8 +1286,88 @@
       "away": "Michigan Wolverines",
       "time": "2026-02-21T23:30:17Z",
       "fanduel": {
-        "home": 2.26,
-        "away": 1.66
+        "home": 2.3,
+        "away": 1.64
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Jacksonville Dolphins",
+      "away": "Austin Peay Governors",
+      "time": "2026-02-22T00:00:00Z",
+      "fanduel": {
+        "home": 3.6,
+        "away": 1.29
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Bellarmine Knights",
+      "away": "Eastern Kentucky Colonels",
+      "time": "2026-02-22T00:00:00Z",
+      "fanduel": {
+        "home": 1.69,
+        "away": 2.18
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Elon Phoenix",
+      "away": "North Carolina A&T Aggies",
+      "time": "2026-02-22T00:00:00Z",
+      "fanduel": {
+        "home": 1.26,
+        "away": 3.9
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Fairleigh Dickinson Knights",
+      "away": "New Haven Chargers",
+      "time": "2026-02-22T00:00:00Z",
+      "fanduel": {
+        "home": 1.69,
+        "away": 2.18
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Wofford Terriers",
+      "away": "Furman Paladins",
+      "time": "2026-02-22T00:00:00Z",
+      "fanduel": {
+        "home": 1.91,
+        "away": 1.91
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Lamar Cardinals",
+      "away": "New Orleans Privateers",
+      "time": "2026-02-22T00:00:00Z",
+      "fanduel": {
+        "home": 1.49,
+        "away": 2.6
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "NJIT Highlanders",
+      "away": "Vermont Catamounts",
+      "time": "2026-02-22T00:00:00Z",
+      "fanduel": {
+        "home": 2.6,
+        "away": 1.5
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Belmont Bruins",
+      "away": "Indiana St Sycamores",
+      "time": "2026-02-22T01:00:00Z",
+      "fanduel": {
+        "home": 1.1,
+        "away": 7.3
       }
     },
     {
@@ -706,8 +1376,8 @@
       "away": "Illinois St Redbirds",
       "time": "2026-02-22T01:00:00Z",
       "fanduel": {
-        "home": 1.53,
-        "away": 2.55
+        "home": 1.51,
+        "away": 2.62
       }
     },
     {
@@ -716,8 +1386,8 @@
       "away": "New Mexico Lobos",
       "time": "2026-02-22T01:00:00Z",
       "fanduel": {
-        "home": 4,
-        "away": 1.26
+        "home": 4.3,
+        "away": 1.23
       }
     },
     {
@@ -726,8 +1396,8 @@
       "away": "Wyoming Cowboys",
       "time": "2026-02-22T01:00:00Z",
       "fanduel": {
-        "home": 1.22,
-        "away": 4.5
+        "home": 1.2,
+        "away": 4.65
       }
     },
     {
@@ -736,8 +1406,48 @@
       "away": "Illinois Fighting Illini",
       "time": "2026-02-22T01:00:00Z",
       "fanduel": {
-        "home": 3.45,
-        "away": 1.32
+        "home": 3.6,
+        "away": 1.3
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "McNeese Cowboys",
+      "away": "Texas A&M-CC Islanders",
+      "time": "2026-02-22T01:00:00Z",
+      "fanduel": {
+        "home": 1.05,
+        "away": 10.8
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "N Colorado Bears",
+      "away": "Northern Arizona Lumberjacks",
+      "time": "2026-02-22T01:00:00Z",
+      "fanduel": {
+        "home": 1.12,
+        "away": 6.4
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Oral Roberts Golden Eagles",
+      "away": "South Dakota Coyotes",
+      "time": "2026-02-22T01:00:00Z",
+      "fanduel": {
+        "home": 1.85,
+        "away": 1.96
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Oregon St Beavers",
+      "away": "Pepperdine Waves",
+      "time": "2026-02-22T01:00:00Z",
+      "fanduel": {
+        "home": 1.2,
+        "away": 4.6
       }
     },
     {
@@ -746,8 +1456,8 @@
       "away": "Providence Friars",
       "time": "2026-02-22T01:00:17Z",
       "fanduel": {
-        "home": 1.75,
-        "away": 2.12
+        "home": 1.79,
+        "away": 2.05
       }
     },
     {
@@ -756,8 +1466,8 @@
       "away": "Kentucky Wildcats",
       "time": "2026-02-22T01:30:05Z",
       "fanduel": {
-        "home": 1.55,
-        "away": 2.5
+        "home": 1.52,
+        "away": 2.58
       }
     },
     {
@@ -766,8 +1476,18 @@
       "away": "Texas A&M Aggies",
       "time": "2026-02-22T01:30:43Z",
       "fanduel": {
-        "home": 1.95,
-        "away": 1.88
+        "home": 1.85,
+        "away": 1.98
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Long Beach St 49ers",
+      "away": "CSU Northridge Matadors",
+      "time": "2026-02-22T02:00:00Z",
+      "fanduel": {
+        "home": 2.86,
+        "away": 1.43
       }
     },
     {
@@ -776,8 +1496,18 @@
       "away": "Pacific Tigers",
       "time": "2026-02-22T02:00:00Z",
       "fanduel": {
-        "home": 1.02,
-        "away": 17
+        "home": 1.01,
+        "away": 21
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "New Mexico St Aggies",
+      "away": "UTEP Miners",
+      "time": "2026-02-22T02:00:00Z",
+      "fanduel": {
+        "home": 1.29,
+        "away": 3.7
       }
     },
     {
@@ -786,8 +1516,98 @@
       "away": "UCF Knights",
       "time": "2026-02-22T02:00:24Z",
       "fanduel": {
-        "home": 2.16,
-        "away": 1.71
+        "home": 2.06,
+        "away": 1.78
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "CSU Bakersfield Roadrunners",
+      "away": "CSU Fullerton Titans",
+      "time": "2026-02-22T02:30:00Z",
+      "fanduel": {
+        "home": 3.05,
+        "away": 1.38
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Weber State Wildcats",
+      "away": "Montana Grizzlies",
+      "time": "2026-02-22T02:30:00Z",
+      "fanduel": {
+        "home": 1.75,
+        "away": 2.1
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Hawai'i Rainbow Warriors",
+      "away": "UC Santa Barbara Gauchos",
+      "time": "2026-02-22T03:00:00Z",
+      "fanduel": {
+        "home": 1.52,
+        "away": 2.58
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Sacramento St Hornets",
+      "away": "Idaho Vandals",
+      "time": "2026-02-22T03:00:00Z",
+      "fanduel": {
+        "home": 2.4,
+        "away": 1.58
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Nevada Wolf Pack",
+      "away": "Utah State Aggies",
+      "time": "2026-02-22T03:00:00Z",
+      "fanduel": {
+        "home": 2.95,
+        "away": 1.42
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Seattle Redhawks",
+      "away": "Portland Pilots",
+      "time": "2026-02-22T03:00:00Z",
+      "fanduel": {
+        "home": 1.27,
+        "away": 3.9
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "Washington St Cougars",
+      "away": "Saint Mary's Gaels",
+      "time": "2026-02-22T03:00:00Z",
+      "fanduel": {
+        "home": 4.4,
+        "away": 1.22
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "San Francisco Dons",
+      "away": "Santa Clara Broncos",
+      "time": "2026-02-22T03:00:00Z",
+      "fanduel": {
+        "home": 3.9,
+        "away": 1.27
+      }
+    },
+    {
+      "sport": "NCAA",
+      "home": "UC Irvine Anteaters",
+      "away": "UC San Diego Tritons",
+      "time": "2026-02-22T03:00:00Z",
+      "fanduel": {
+        "home": 1.44,
+        "away": 2.84
       }
     },
     {
@@ -796,8 +1616,8 @@
       "away": "Iowa State Cyclones",
       "time": "2026-02-22T03:30:21Z",
       "fanduel": {
-        "home": 2.62,
-        "away": 1.51
+        "home": 2.38,
+        "away": 1.6
       }
     }
   ]
