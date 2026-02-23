@@ -1,6 +1,68 @@
 {
   "pending": [
     {
+      "sport": "NBA",
+      "date": "20260223",
+      "home": "Celtics",
+      "away": "Suns",
+      "team": "Celtics",
+      "line": -6.5,
+      "odds": -110,
+      "reason": "Celtics rolling, Suns short-handed"
+    },
+    {
+      "sport": "NBA",
+      "date": "20260223",
+      "home": "Rockets",
+      "away": "Jazz",
+      "team": "Rockets",
+      "line": -13.5,
+      "odds": -110,
+      "reason": "Jazz terrible on road, Rockets avg home by 8"
+    },
+    {
+      "sport": "NBA",
+      "date": "20260223",
+      "home": "Grizzlies",
+      "away": "Kings",
+      "team": "Grizzlies",
+      "line": -4.5,
+      "odds": -110,
+      "reason": "Grizzlies 19-11 at home"
+    }
+  ],
+  "history": [
+    {
+      "date": "20260221",
+      "home": "Suns",
+      "away": "Magic",
+      "team": "Suns",
+      "line": -2.5,
+      "result": "WIN",
+      "homeScore": 113,
+      "awayScore": 110
+    },
+    {
+      "date": "20260221",
+      "home": "Pelicans",
+      "away": "76ers",
+      "team": "76ers",
+      "line": 3.5,
+      "result": "LOSS",
+      "homeScore": 126,
+      "awayScore": 111
+    },
+    {
+      "date": "20260221",
+      "home": "Knicks",
+      "away": "Rockets",
+      "team": "Knicks",
+      "line": -1.5,
+      "result": "WIN",
+      "homeScore": 108,
+      "awayScore": 106
+    },
+    {
       "id": 1,
       "sport": "NBA",
       "date": "20260222",
@@ -31,16 +93,35 @@
       "team": "Bulls",
       "line": 10.5,
       "odds": -110,
-      "reason": "Knicks letdown spot, Bulls compete at home"
+      "reason": "Knicks letdown spot, Bulls compete at home",
+      "result": "WIN",
+      "homeScore": 108,
+      "awayScore": 110,
+      "checkedAt": "2026-02-23T01:01:10.919Z"
+    },
+    {
+      "date": "20260222",
+      "home": "Nuggets",
+      "away": "Warriors",
+      "team": "Warriors",
+      "line": 6,
+      "result": "WIN",
+      "homeScore": 117,
+      "awayScore": 128
+    },
+    {
+      "date": "20260223",
+      "home": "Timberwolves",
+      "away": "76ers",
+      "team": "76ers",
+      "line": 9,
+      "result": "WIN",
+      "homeScore": 108,
+      "awayScore": 135
     }
   ],
-  "history": [
-    {"date": "20260221", "home": "Suns", "away": "Magic", "team": "Suns", "line": -2.5, "result": "WIN", "homeScore": 113, "awayScore": 110},
-    {"date": "20260221", "home": "Pelicans", "away": "76ers", "team": "76ers", "line": 3.5, "result": "LOSS", "homeScore": 126, "awayScore": 111},
-    {"date": "20260221", "home": "Knicks", "away": "Rockets", "team": "Knicks", "line": -1.5, "result": "WIN", "homeScore": 108, "awayScore": 106}
-  ],
   "stats": {
-    "wins": 2,
-    "losses": 1
+    "wins": 5,
+    "losses": 2
   }
 }
