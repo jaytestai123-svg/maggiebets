@@ -1,36 +1,5 @@
 {
-  "pending": [
-    {
-      "sport": "NBA",
-      "date": "20260223",
-      "home": "Celtics",
-      "away": "Suns",
-      "team": "Celtics",
-      "line": -6.5,
-      "odds": -110,
-      "reason": "Celtics rolling, Suns short-handed"
-    },
-    {
-      "sport": "NBA",
-      "date": "20260223",
-      "home": "Rockets",
-      "away": "Jazz",
-      "team": "Rockets",
-      "line": -13.5,
-      "odds": -110,
-      "reason": "Jazz terrible on road, Rockets avg home by 8"
-    },
-    {
-      "sport": "NBA",
-      "date": "20260223",
-      "home": "Grizzlies",
-      "away": "Kings",
-      "team": "Grizzlies",
-      "line": -4.5,
-      "odds": -110,
-      "reason": "Grizzlies 19-11 at home"
-    }
-  ],
+  "pending": [],
   "history": [
     {
       "date": "20260221",
@@ -118,10 +87,44 @@
       "result": "WIN",
       "homeScore": 108,
       "awayScore": 135
+    },
+    {
+      "sport": "NBA",
+      "date": "20260223",
+      "home": "Celtics",
+      "away": "Suns",
+      "team": "Celtics",
+      "line": -6.5,
+      "odds": -110,
+      "reason": "Celtics rolling, Suns short-handed",
+      "result": "WIN",
+      "homeScore": 111,
+      "awayScore": 77,
+      "checkedAt": "2026-02-23T14:30:27.225Z"
+    },
+    {
+      "sport": "NBA",
+      "date": "20260223",
+      "home": "Rockets",
+      "away": "Jazz",
+      "team": "Rockets",
+      "line": -13.5,
+      "odds": -110,
+      "reason": "Jazz terrible on road, Rockets avg home by 8"
+    },
+    {
+      "sport": "NBA",
+      "date": "20260223",
+      "home": "Grizzlies",
+      "away": "Kings",
+      "team": "Grizzlies",
+      "line": -4.5,
+      "odds": -110,
+      "reason": "Grizzlies 19-11 at home"
     }
   ],
   "stats": {
-    "wins": 5,
+    "wins": 6,
     "losses": 2
   }
 }
