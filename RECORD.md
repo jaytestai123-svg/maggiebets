@@ -1,6 +1,6 @@
 # MaggieBets Record Tracker
 
-## Season Record: 7-1 (+4.5 Units)
+## Season Record: 10-1 (+6.5 Units)
 
 *Honest tracking - no fake results*
 
@@ -31,14 +31,21 @@
 | NBA | 76ers -3.5 @ Pelicans | -110 | ✅ WIN (+0.5) | 126-111 |
 | NBA | Knicks -1.5 vs Rockets | -110 | ✅ WIN (+0.5) | 108-106 |
 
-### Feb 22 Games (Today)
+### Feb 22 Games (Completed)
 
 | Sport | Pick | Odds | Result | Units |
 |-------|------|------|--------|-------|
-| NBA | ⭐ 76ers +9 @ Timberwolves | -110 | TBD | - |
-| NBA | Warriors +6 vs Nuggets | -110 | TBD | - |
-| NBA | Bulls +10.5 @ Knicks | -110 | TBD | - |
+| NBA | ⭐ 76ers +9 @ Timberwolves | -110 | ✅ WIN (+0.5) | 135-108 |
+| NBA | Warriors +6 vs Nuggets | -110 | ✅ WIN (+0.5) | 128-117 |
+| NBA | Bulls +10.5 @ Knicks | -110 | ✅ WIN (+0.5) | 99-105 |
+
+### Feb 23 Games (Completed)
+
+| Sport | Pick | Odds | Result | Units | Score |
+|-------|------|------|--------|-------|-------|
+| NBA | Rockets -13.5 vs Jazz | -110 | ✅ WIN (+0.5) | 125-105 |
+| NBA | Grizzlies -4.5 vs Kings | -110 | ❌ LOSS (-0.5) | 114-123 |
 
 ---
 
-*Last updated: Feb 22, 2026 8:45 AM MT*
+*Last updated: Feb 24, 2026 9:00 AM MT*

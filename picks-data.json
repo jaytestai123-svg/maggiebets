@@ -110,7 +110,10 @@
       "team": "Rockets",
       "line": -13.5,
       "odds": -110,
-      "reason": "Jazz terrible on road, Rockets avg home by 8"
+      "reason": "Jazz terrible on road, Rockets avg home by 8",
+      "result": "WIN",
+      "homeScore": 125,
+      "awayScore": 105
     },
     {
       "sport": "NBA",
@@ -120,11 +123,14 @@
       "team": "Grizzlies",
       "line": -4.5,
       "odds": -110,
-      "reason": "Grizzlies 19-11 at home"
+      "reason": "Grizzlies 19-11 at home",
+      "result": "LOSS",
+      "homeScore": 114,
+      "awayScore": 123
     }
   ],
   "stats": {
-    "wins": 6,
-    "losses": 2
+    "wins": 7,
+    "losses": 3
   }
 }
