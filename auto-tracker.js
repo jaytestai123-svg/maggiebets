@@ -39,18 +39,28 @@ async function getTodayGames() {
     const response = await fetch(url);
     const games = await response.json();
     
-    const today = new Date();
-    const todayStr = getTodayString();
+    // Games are listed for tonight - check both today and tomorrow
+    const now = new Date();
+    const denverOffset = -7 * 60 * 60 * 1000; // MST
+    const denverTime = new Date(now.getTime() + denverOffset);
+    const todayStr = denverTime.toISOString().slice(0, 10).replace(/-/g, '');
+    
+    // Also check tomorrow (tonight's games are often listed as tomorrow in API)
+    const tomorrow = new Date(denverTime);
+    tomorrow.setDate(tomorrow.getDate() + 1);
+    const tomorrowStr = tomorrow.toISOString().slice(0, 10).replace(/-/g, '');
+    
+    console.log(`Denver time: ${denverTime.toISOString().slice(0,10)} - Looking for: ${todayStr} or ${tomorrowStr}`);
     
     const todaysGames = [];
     for (const game of games) {
-      const gameDate = game.commence_time.split('T')[0].replace(/-/g, '');
-      if (gameDate === todayStr) {
+      const gameDate = game.commence_time.slice(0, 10).replace(/-/g, '');
+      if (gameDate === todayStr || gameDate === tomorrowStr) {
         todaysGames.push(game);
       }
     }
     
-    console.log(`Found ${todaysGames.length} games today (${todayStr})\n`);
+    console.log(`Found ${todaysGames.length} games\n`);
     return todaysGames;
   } catch (e) {
     console.error('Error:', e.message);
