@@ -1,36 +1,5 @@
 {
-  "pending": [
-    {
-      "sport": "NBA",
-      "date": "20260224",
-      "home": "Rockets",
-      "away": "Kings",
-      "team": "Rockets",
-      "line": -14.5,
-      "odds": -110,
-      "reason": "Rockets blow out bad teams at home, Kings terrible on road"
-    },
-    {
-      "sport": "NBA",
-      "date": "20260224",
-      "home": "Raptors",
-      "away": "Spurs",
-      "team": "Spurs",
-      "line": -7.5,
-      "odds": -110,
-      "reason": "Spurs elite with Wemby, Raptors rebuilding at home"
-    },
-    {
-      "sport": "NBA",
-      "date": "20260224",
-      "home": "Nuggets",
-      "away": "Celtics",
-      "team": "Celtics",
-      "line": 3.5,
-      "odds": -110,
-      "reason": "Best road team in NBA, get +3.5 vs banged up Nuggets"
-    }
-  ],
+  "pending": [],
   "history": [
     {
       "date": "20260221",
@@ -71,7 +40,8 @@
       "team": "76ers",
       "line": 9,
       "odds": -110,
-      "reason": "Timberwolves rebuilding, fade the seller"
+      "reason": "Timberwolves rebuilding, fade the seller",
+      "result": "WIN"
     },
     {
       "id": 2,
@@ -82,7 +52,8 @@
       "team": "Warriors",
       "line": 6,
       "odds": -110,
-      "reason": "Chase Center tough, Curry can go off"
+      "reason": "Chase Center tough, Curry can go off",
+      "result": "WIN"
     },
     {
       "id": 3,
@@ -158,10 +129,40 @@
       "result": "LOSS",
       "homeScore": 114,
       "awayScore": 123
+    },
+    {
+      "sport": "NBA",
+      "date": "20260224",
+      "home": "Rockets",
+      "away": "Kings",
+      "team": "Rockets",
+      "line": -14.5,
+      "odds": -110,
+      "reason": "Rockets blow out bad teams at home, Kings terrible on road"
+    },
+    {
+      "sport": "NBA",
+      "date": "20260224",
+      "home": "Raptors",
+      "away": "Spurs",
+      "team": "Spurs",
+      "line": -7.5,
+      "odds": -110,
+      "reason": "Spurs elite with Wemby, Raptors rebuilding at home"
+    },
+    {
+      "sport": "NBA",
+      "date": "20260224",
+      "home": "Nuggets",
+      "away": "Celtics",
+      "team": "Celtics",
+      "line": 3.5,
+      "odds": -110,
+      "reason": "Best road team in NBA, get +3.5 vs banged up Nuggets"
     }
   ],
   "stats": {
-    "wins": 10,
+    "wins": 9,
     "losses": 2
   }
 }
