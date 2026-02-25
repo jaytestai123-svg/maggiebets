@@ -1,5 +1,36 @@
 {
-  "pending": [],
+  "pending": [
+    {
+      "sport": "NBA",
+      "date": "20260224",
+      "home": "Rockets",
+      "away": "Kings",
+      "team": "Rockets",
+      "line": -14.5,
+      "odds": -110,
+      "reason": "Rockets blow out bad teams at home, Kings terrible on road"
+    },
+    {
+      "sport": "NBA",
+      "date": "20260224",
+      "home": "Raptors",
+      "away": "Spurs",
+      "team": "Spurs",
+      "line": -7.5,
+      "odds": -110,
+      "reason": "Spurs elite with Wemby, Raptors rebuilding at home"
+    },
+    {
+      "sport": "NBA",
+      "date": "20260224",
+      "home": "Nuggets",
+      "away": "Celtics",
+      "team": "Celtics",
+      "line": 3.5,
+      "odds": -110,
+      "reason": "Best road team in NBA, get +3.5 vs banged up Nuggets"
+    }
+  ],
   "history": [
     {
       "date": "20260221",
