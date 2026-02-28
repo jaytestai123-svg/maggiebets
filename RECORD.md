@@ -1,6 +1,6 @@
 # MaggieBets Record Tracker
 
-## Season Record: 10-1 (+6.5 Units)
+## Season Record: 14-3 (+7.5 Units)
 
 *Honest tracking - no fake results*
 
@@ -46,6 +46,24 @@
 | NBA | Rockets -13.5 vs Jazz | -110 | ✅ WIN (+0.5) | 125-105 |
 | NBA | Grizzlies -4.5 vs Kings | -110 | ❌ LOSS (-0.5) | 114-123 |
 
+### Feb 24 Games (Completed)
+
+| Sport | Pick | Odds | Result | Units | Score |
+|-------|------|------|--------|-------|-------|
+| NBA | Rockets -14.5 vs Kings | -110 | ✅ WIN (+0.5) | 128-97 |
+| NBA | Spurs -7.5 @ Raptors | -110 | ❌ LOSS (-0.5) | 110-107 |
+| NBA | Celtics +3.5 @ Nuggets | -110 | ❌ LOSS (-0.5) | 84-103 |
+
 ---
 
-*Last updated: Feb 24, 2026 9:00 AM MT*
+### Feb 26 Games (Completed)
+
+| Sport | Pick | Odds | Result | Units | Score |
+|-------|------|------|--------|-------|-------|
+| NBA | Hawks -18.5 vs Wizards | -110 | ✅ WIN (+0.5) | 126-96 |
+| NBA | Spurs +22.5 @ Nets | -110 | ✅ WIN (+0.5) | 126-110 |
+| NBA | Rockets +2.5 @ Magic | -110 | ✅ WIN (+0.5) | 113-108 |
+
+---
+
+*Last updated: Feb 27, 2026 9:00 AM MT*

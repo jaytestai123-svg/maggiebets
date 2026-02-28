@@ -1,5 +1,26 @@
 {
-  "pending": [],
+  "pending": [
+    {
+      "sport": "NBA",
+      "date": "20260228",
+      "home": "Heat",
+      "away": "Rockets",
+      "team": "Rockets",
+      "line": 2.5,
+      "odds": -110,
+      "reason": "Rockets 11-4 in last 15, getting points"
+    },
+    {
+      "sport": "NBA",
+      "date": "20260228",
+      "home": "Warriors",
+      "away": "Lakers",
+      "team": "Lakers",
+      "line": 4.5,
+      "odds": -110,
+      "reason": "Close game, getting +4.5"
+    }
+  ],
   "history": [
     {
       "date": "20260221",
@@ -138,7 +159,10 @@
       "team": "Rockets",
       "line": -14.5,
       "odds": -110,
-      "reason": "Rockets blow out bad teams at home, Kings terrible on road"
+      "reason": "Rockets blow out bad teams at home, Kings terrible on road",
+      "result": "WIN",
+      "homeScore": 128,
+      "awayScore": 97
     },
     {
       "sport": "NBA",
@@ -148,7 +172,10 @@
       "team": "Spurs",
       "line": -7.5,
       "odds": -110,
-      "reason": "Spurs elite with Wemby, Raptors rebuilding at home"
+      "reason": "Spurs elite with Wemby, Raptors rebuilding at home",
+      "result": "LOSS",
+      "homeScore": 107,
+      "awayScore": 110
     },
     {
       "sport": "NBA",
@@ -158,11 +185,44 @@
       "team": "Celtics",
       "line": 3.5,
       "odds": -110,
-      "reason": "Best road team in NBA, get +3.5 vs banged up Nuggets"
+      "reason": "Best road team in NBA, get +3.5 vs banged up Nuggets",
+      "result": "LOSS",
+      "homeScore": 103,
+      "awayScore": 84
+    },
+    {
+      "sport": "NBA",
+      "date": "20260226",
+      "home": "Hawks",
+      "away": "Wizards",
+      "team": "Hawks",
+      "line": -18.5,
+      "odds": -110,
+      "reason": "Worst team in NBA, fade them on road"
+    },
+    {
+      "sport": "NBA",
+      "date": "20260226",
+      "home": "Nets",
+      "away": "Spurs",
+      "team": "Spurs",
+      "line": 22.5,
+      "odds": -110,
+      "reason": "Wemby dominant, Nets rebuilding"
+    },
+    {
+      "sport": "NBA",
+      "date": "20260226",
+      "home": "Magic",
+      "away": "Rockets",
+      "team": "Rockets",
+      "line": 2.5,
+      "odds": -110,
+      "reason": "Rockets 11-4 in last 15, getting points"
     }
   ],
   "stats": {
-    "wins": 9,
-    "losses": 2
+    "wins": 10,
+    "losses": 3
   }
 }
