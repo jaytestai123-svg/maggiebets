@@ -1,26 +1,5 @@
 {
-  "pending": [
-    {
-      "sport": "NBA",
-      "date": "20260228",
-      "home": "Heat",
-      "away": "Rockets",
-      "team": "Rockets",
-      "line": 2.5,
-      "odds": -110,
-      "reason": "Rockets 11-4 in last 15, getting points"
-    },
-    {
-      "sport": "NBA",
-      "date": "20260228",
-      "home": "Warriors",
-      "away": "Lakers",
-      "team": "Lakers",
-      "line": 4.5,
-      "odds": -110,
-      "reason": "Close game, getting +4.5"
-    }
-  ],
+  "pending": [],
   "history": [
     {
       "date": "20260221",
@@ -198,7 +177,10 @@
       "team": "Hawks",
       "line": -18.5,
       "odds": -110,
-      "reason": "Worst team in NBA, fade them on road"
+      "reason": "Worst team in NBA, fade them on road",
+      "result": "WIN",
+      "homeScore": 126,
+      "awayScore": 96
     },
     {
       "sport": "NBA",
@@ -208,7 +190,10 @@
       "team": "Spurs",
       "line": 22.5,
       "odds": -110,
-      "reason": "Wemby dominant, Nets rebuilding"
+      "reason": "Wemby dominant, Nets rebuilding",
+      "result": "WIN",
+      "homeScore": 110,
+      "awayScore": 126
     },
     {
       "sport": "NBA",
@@ -218,11 +203,40 @@
       "team": "Rockets",
       "line": 2.5,
       "odds": -110,
-      "reason": "Rockets 11-4 in last 15, getting points"
+      "reason": "Rockets 11-4 in last 15, getting points",
+      "result": "WIN",
+      "homeScore": 108,
+      "awayScore": 113
+    },
+    {
+      "sport": "NBA",
+      "date": "20260228",
+      "home": "Heat",
+      "away": "Rockets",
+      "team": "Rockets",
+      "line": 2.5,
+      "odds": -110,
+      "reason": "Rockets 11-4 in last 15, getting points",
+      "result": "LOSS",
+      "homeScore": 115,
+      "awayScore": 105
+    },
+    {
+      "sport": "NBA",
+      "date": "20260228",
+      "home": "Warriors",
+      "away": "Lakers",
+      "team": "Lakers",
+      "line": 4.5,
+      "odds": -110,
+      "reason": "Close game, getting +4.5",
+      "result": "WIN",
+      "homeScore": 101,
+      "awayScore": 129
     }
   ],
   "stats": {
-    "wins": 10,
-    "losses": 3
+    "wins": 14,
+    "losses": 4
   }
 }
