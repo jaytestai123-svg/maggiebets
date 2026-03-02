@@ -79,6 +79,16 @@
 | NBA | Rockets +2.5 @ Heat | -110 | ❌ LOSS (-0.5) | 105-115 |
 | NBA | Lakers +4.5 @ Warriors | -110 | ✅ WIN (+0.5) | 129-101 |
 
+### Mar 1 Games (Completed)
+
+| Sport | Pick | Odds | Result | Units | Score |
+|-------|------|------|--------|-------|-------|
+| NBA | OKC -16.5 @ Dallas | -110 | ❌ LOSS (-0.5) | 100-87 |
+| NBA | 76ers +8.5 @ Celtics | -110 | ❌ LOSS (-0.5) | 98-114 |
+| NBA | Clippers -8 vs Pelicans | -110 | ✅ WIN (+0.5) | 137-117 |
+
 ---
 
-*Last updated: Mar 1, 2026 9:00 AM MT*
+## Season Record: 19-6 (+8.0 Units)
+
+*Last updated: Mar 2, 2026 9:00 AM MT*
