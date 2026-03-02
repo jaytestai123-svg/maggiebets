@@ -1,40 +1,53 @@
-# Bet of the Day - Analysis & Reasoning
+# Bet of the Day - March 1, 2026 🏆
 
-## Today's Top Pick 🏆
+## ⭐ TOP PICK: Clippers -8 vs New Orleans Pelicans
 
-### 🏀 NBA: Lakers -3.5 vs Celtics
-
-**Line:** Lakers -3.5 (-110)
-**Confidence:** 8/10
-**Units:** 2 units
+**Line:** Clippers -8 (-106) | FanDuel  
+**Confidence:** 8/10  
+**Units:** 2 units  
 
 **Why This Pick:**
 
-1. **Home Court Advantage** - Lakers are 15-5 at home this season. Crypto Arena has been rocking with LeBron and AD playing dominant basketball.
+1. **Pelicans are the worst team in the West** — 15-47 record, playing out the string with nothing to play for.
 
-2. **Matchup Edge** - Celtics struggle against teams with elite big men. AD is averaging 28 points vs Boston this season.
+2. **Clippers at home** — LA is 18-12 at home this season, much stronger in the Intuit Dome.
 
-3. **Rest Advantage** - Lakers had 2 days rest vs Celtics playing last night. Fresh legs matter in the 4th quarter.
+3. **Pelicans injury-riddled** — Zion, Ingram, and rotation players have missed extended time. Barely a functional roster.
 
-4. **Trend** - Lakers are 8-2 ATS in their last 10 home games. Celtics are 3-7 ATS on the road against Western Conference teams.
+4. **8-point cushion** — Even if Clippers go through the motions in the 4th, they should cover comfortably against this depleted squad.
 
-5. **Injury Report** - Celtics missing key rotation player. Lakers at full strength.
+5. **ATS Trend** — Pelicans are 8-22 ATS on the road this season. Fade them every chance you get.
 
-**Analysis:** 
-The spread at -3.5 is value. Lakers win by 6-10 points expected. Don't fade LeBron in must-watch games.
+**Analysis:** This is a spot where the NBA's worst road team plays a decent home team in a game that means everything to LA's playoff seeding. Clippers should win by 12-15.
 
 ---
 
 ## Secondary Picks 📊
 
-### 🎰 Prop Bet: LeBron 25+ Points (-125)
-LeBron has hit 25+ in 8 of last 10 games. Safe floor play.
+### 🏀 76ers +8.5 @ Boston Celtics
+- **Key info:** Jayson Tatum is OUT (Achilles). Has been out since Feb 12.
+- Celtics still have Jaylen Brown and Jrue Holiday — still a good team.
+- But +8.5 without the best player? 76ers can keep it within single digits.
+- **Take:** 76ers +8.5 (-110) | 1 unit
 
-### 🎰 Total: Lakers/Celtics OVER 225 (-110)
-Both teams play at top-10 pace. Expect a track meet.
+### 🏀 OKC Thunder -16.5 @ Dallas Mavericks
+- OKC is running away with the #1 seed. SGA and Holmgren are elite.
+- Dallas has been awful, bottom-5 offense this season.
+- Huge spread but OKC covers these regularly — they're 18-7 ATS as favorites.
+- **Take:** OKC -16.5 (-107) | 1 unit (risky, go light)
 
 ---
 
-*Follow us for daily picks: @maggiebets*
+## Tonight's Slate Summary
 
-*Disclaimer: Gamble responsibly. 18+ only.*
+| Game | Spread | Pick |
+|------|--------|------|
+| OKC @ Dallas | OKC -16.5 | ✅ OKC (1u) |
+| 76ers @ Boston | BOS -8.5 | ✅ PHI +8.5 (1u) |
+| Pelicans @ Clippers | LAC -8 | ⭐ LAC -8 (2u) |
+| Kings @ Lakers | LAL -12 | — Pass |
+
+---
+
+*Follow us: maggiebets.onrender.com*  
+*Gamble responsibly. 18+ only. Updated: March 1, 2026 6:00 PM MT*
