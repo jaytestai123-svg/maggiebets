@@ -233,13 +233,40 @@
       "result": "WIN",
       "homeScore": 101,
       "awayScore": 129
+    },
+    {
+      "sport": "NBA",
+      "date": "20260301",
+      "home": "Nets",
+      "away": "Cavaliers",
+      "team": "Cavaliers",
+      "line": "ML",
+      "odds": -350,
+      "reason": "Nets worst team in league, Cavs bounce back",
+      "result": "WIN",
+      "homeScore": 102,
+      "awayScore": 106
+    },
+    {
+      "sport": "NBA",
+      "date": "20260302",
+      "home": "Wizards",
+      "away": "Rockets",
+      "team": "Rockets",
+      "line": -14.5,
+      "odds": -115,
+      "reason": "Rockets blow out bad teams at home, Wizards terrible",
+      "result": "LOSS",
+      "homeScore": 118,
+      "awayScore": 123,
+      "note": "Won game but didn't cover -14.5 (won by 5)"
     }
   ],
   "stats": {
-    "wins": 14,
-    "losses": 4
+    "wins": 15,
+    "losses": 5
   },
-  "lastUpdate": "2026-03-02T01:00:16.093Z",
+  "lastUpdate": "2026-03-05T05:04:00.000Z",
   "upcoming": [
     {
       "sport": "NBA",
