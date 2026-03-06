@@ -87,8 +87,14 @@
 | NBA | 76ers +8.5 @ Celtics | -110 | ❌ LOSS (-0.5) | 98-114 |
 | NBA | Clippers -8 vs Pelicans | -110 | ✅ WIN (+0.5) | 137-117 |
 
+### Mar 5 Games (Completed)
+
+| Sport | Pick | Odds | Result | Units | Score |
+|-------|------|------|--------|-------|-------|
+| NBA | ⭐ Nuggets -4.5 vs Lakers | -110 | ✅ WIN (+1.0) | 120-113 |
+
 ---
 
-## Season Record: 19-6 (+8.0 Units)
+## Season Record: 20-6 (+8.5 Units)
 
-*Last updated: Mar 2, 2026 9:00 AM MT*
+*Last updated: Mar 6, 2026 9:00 AM MT*

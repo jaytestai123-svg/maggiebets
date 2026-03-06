@@ -1,82 +1,72 @@
 {
-  "date": "March 5, 2026",
-  "lastUpdated": "2026-03-05T18:00:00-07:00",
+  "date": "March 6, 2026",
+  "lastUpdated": "2026-03-06T07:30:00-07:00",
   "record": "19-6 (+8.0 units)",
   "betOfDay": {
-    "team": "Denver Nuggets -4.5",
+    "team": "Denver Nuggets +1.5",
     "sport": "NBA",
-    "time": "9:10 PM ET",
-    "opponent": "vs Los Angeles Lakers",
-    "spread": "-4.5",
+    "time": "8:40 PM ET",
+    "opponent": "vs New York Knicks",
+    "spread": "+1.5",
     "odds": "-110",
     "units": 2,
-    "analysis": "Jokic and the Nuggets are at home against a Lakers team on a back-to-back road stretch. Ball Arena is a fortress — Denver is 14-5 ATS at home this season. The line opened at -4 and has been bet up to -4.5, showing sharp action on Denver. Lakers without full rest, Nuggets playing their best basketball of the year. This is a layup.",
+    "analysis": "Jokic at home getting points? We'll take that all day. Knicks are trendy but Nuggets have dominated this matchup historically at Ball Arena. The line moving to +1.5 shows respect for Denver. Home court advantage in Denver is worth at least 3-4 points. This is the play.",
     "confidence": "HIGH"
   },
   "picks": [
     {
       "sport": "NBA",
-      "game": "Denver Nuggets vs LA Lakers",
-      "time": "9:10 PM ET",
-      "pick": "Denver Nuggets -4.5",
+      "game": "New York Knicks @ Denver Nuggets",
+      "time": "8:40 PM ET",
+      "pick": "Denver Nuggets +1.5",
       "odds": "-110",
       "units": 2,
       "tag": "⭐ TOP PICK",
-      "reasoning": "Nuggets at home vs Lakers on road. Jokic dominant, consensus -4.5 line. Sharp money on Denver all week."
+      "reasoning": "Jokic at home getting points is rare. Knicks trending but Nuggets own this matchup at Ball Arena. Line of +1.5 is too generous."
     },
     {
       "sport": "NBA",
-      "game": "Golden State Warriors @ Houston Rockets",
-      "time": "8:40 PM ET",
-      "pick": "Houston Rockets -4.5",
+      "game": "Portland Trail Blazers @ Houston Rockets",
+      "time": "7:40 PM ET",
+      "pick": "Houston Rockets -6",
       "odds": "-110",
       "units": 1,
       "tag": "",
-      "reasoning": "Rockets rolling at home, Warriors struggling on the road. Toyota Center crowd will be huge. Line consensus at -4.5 to -5.5 across books."
+      "reasoning": "Rockets on a heater at Toyota Center. Blazers one of the worst road teams in the league. Lay the points."
     },
     {
       "sport": "NBA",
-      "game": "Toronto Raptors @ Minnesota Timberwolves",
-      "time": "8:10 PM ET",
-      "pick": "Minnesota Timberwolves -5",
-      "odds": "-110",
-      "units": 1,
-      "tag": "",
-      "reasoning": "Wolves at home against one of the worst teams in the East. Anthony Edwards should have a big night. Consensus -4.5 to -5.5."
-    },
-    {
-      "sport": "NBA",
-      "game": "Chicago Bulls @ Phoenix Suns",
-      "time": "10:10 PM ET",
-      "pick": "Phoenix Suns -12",
-      "odds": "-110",
-      "units": 1,
-      "tag": "",
-      "reasoning": "Suns playing motivated basketball at home, Bulls on a road trip and shorthanded. Consistent -11.5 to -12 line across all books."
-    },
-    {
-      "sport": "NHL",
-      "game": "Ottawa Senators @ Calgary Flames",
+      "game": "New Orleans Pelicans @ Phoenix Suns",
       "time": "9:00 PM ET",
-      "pick": "Calgary Flames ML",
-      "odds": "-180",
+      "pick": "Phoenix Suns -6",
+      "odds": "-110",
       "units": 1,
       "tag": "",
-      "reasoning": "Flames heavy favorites at home against a weak Senators team. Scotiabank Saddledome crowd, Flames playing well. Strong consensus at -175 to -186."
+      "reasoning": "Sons bouncing back at home. Pelicans inconsistent on road. Consensus -6 across books."
     },
     {
-      "sport": "NHL",
-      "game": "New York Islanders @ LA Kings",
-      "time": "10:30 PM ET",
-      "pick": "NY Islanders -1.5",
-      "odds": "+195",
+      "sport": "NBA",
+      "game": "Los Angeles Clippers @ San Antonio Spurs",
+      "time": "8:00 PM ET",
+      "pick": "San Antonio Spurs -7.5",
+      "odds": "-110",
       "units": 1,
       "tag": "",
-      "reasoning": "Islanders big road favs (-230 to -250 ML). Getting +195 on the puck line is excellent value — means Isles win by 2+ at nearly even odds."
+      "reasoning": "Spurs young and hungry at home. Clippers haven't found rhythm on road. Wembanyama protects the paint."
+    },
+    {
+      "sport": "NBA",
+      "game": "Indiana Pacers @ Los Angeles Lakers",
+      "time": "10:30 PM ET",
+      "pick": "Los Angeles Lakers -9.5",
+      "odds": "-110",
+      "units": 1,
+      "tag": "",
+      "reasoning": "Lakers need this one at home. LeBron and AD should play. Pacers struggle on West Coast road trips."
     }
   ],
   "research": {
-    "mlb": "Spring Training games underway — no picks on spring training action.",
-    "mls": "MLS Week 2 Saturday slate looks good. Checking Atlanta United vs Real Salt Lake for the weekend."
+    "nba": "Friday slate has 7 games. Small slate means sharper lines - we like dogs getting points.",
+    "nhl": "Checking hockey games later - focusing on NBA for now."
   }
 }
