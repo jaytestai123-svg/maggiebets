@@ -1,617 +1,82 @@
 {
-  "pending": [],
-  "history": [
-    {
-      "date": "20260221",
-      "home": "Suns",
-      "away": "Magic",
-      "team": "Suns",
-      "line": -2.5,
-      "result": "WIN",
-      "homeScore": 113,
-      "awayScore": 110
-    },
-    {
-      "date": "20260221",
-      "home": "Pelicans",
-      "away": "76ers",
-      "team": "76ers",
-      "line": 3.5,
-      "result": "LOSS",
-      "homeScore": 126,
-      "awayScore": 111
-    },
-    {
-      "date": "20260221",
-      "home": "Knicks",
-      "away": "Rockets",
-      "team": "Knicks",
-      "line": -1.5,
-      "result": "WIN",
-      "homeScore": 108,
-      "awayScore": 106
-    },
-    {
-      "id": 1,
-      "sport": "NBA",
-      "date": "20260222",
-      "home": "Timberwolves",
-      "away": "76ers",
-      "team": "76ers",
-      "line": 9,
-      "odds": -110,
-      "reason": "Timberwolves rebuilding, fade the seller",
-      "result": "WIN"
-    },
-    {
-      "id": 2,
-      "sport": "NBA",
-      "date": "20260222",
-      "home": "Warriors",
-      "away": "Nuggets",
-      "team": "Warriors",
-      "line": 6,
-      "odds": -110,
-      "reason": "Chase Center tough, Curry can go off",
-      "result": "WIN"
-    },
-    {
-      "id": 3,
-      "sport": "NBA",
-      "date": "20260222",
-      "home": "Knicks",
-      "away": "Bulls",
-      "team": "Bulls",
-      "line": 10.5,
-      "odds": -110,
-      "reason": "Knicks letdown spot, Bulls compete at home",
-      "result": "WIN",
-      "homeScore": 108,
-      "awayScore": 110,
-      "checkedAt": "2026-02-23T01:01:10.919Z"
-    },
-    {
-      "date": "20260222",
-      "home": "Nuggets",
-      "away": "Warriors",
-      "team": "Warriors",
-      "line": 6,
-      "result": "WIN",
-      "homeScore": 117,
-      "awayScore": 128
-    },
-    {
-      "date": "20260223",
-      "home": "Timberwolves",
-      "away": "76ers",
-      "team": "76ers",
-      "line": 9,
-      "result": "WIN",
-      "homeScore": 108,
-      "awayScore": 135
-    },
-    {
-      "sport": "NBA",
-      "date": "20260223",
-      "home": "Celtics",
-      "away": "Suns",
-      "team": "Celtics",
-      "line": -6.5,
-      "odds": -110,
-      "reason": "Celtics rolling, Suns short-handed",
-      "result": "WIN",
-      "homeScore": 111,
-      "awayScore": 77,
-      "checkedAt": "2026-02-23T14:30:27.225Z"
-    },
-    {
-      "sport": "NBA",
-      "date": "20260223",
-      "home": "Rockets",
-      "away": "Jazz",
-      "team": "Rockets",
-      "line": -13.5,
-      "odds": -110,
-      "reason": "Jazz terrible on road, Rockets avg home by 8",
-      "result": "WIN",
-      "homeScore": 125,
-      "awayScore": 105
-    },
-    {
-      "sport": "NBA",
-      "date": "20260223",
-      "home": "Grizzlies",
-      "away": "Kings",
-      "team": "Grizzlies",
-      "line": -4.5,
-      "odds": -110,
-      "reason": "Grizzlies 19-11 at home",
-      "result": "LOSS",
-      "homeScore": 114,
-      "awayScore": 123
-    },
-    {
-      "sport": "NBA",
-      "date": "20260224",
-      "home": "Rockets",
-      "away": "Kings",
-      "team": "Rockets",
-      "line": -14.5,
-      "odds": -110,
-      "reason": "Rockets blow out bad teams at home, Kings terrible on road",
-      "result": "WIN",
-      "homeScore": 128,
-      "awayScore": 97
-    },
-    {
-      "sport": "NBA",
-      "date": "20260224",
-      "home": "Raptors",
-      "away": "Spurs",
-      "team": "Spurs",
-      "line": -7.5,
-      "odds": -110,
-      "reason": "Spurs elite with Wemby, Raptors rebuilding at home",
-      "result": "LOSS",
-      "homeScore": 107,
-      "awayScore": 110
-    },
-    {
-      "sport": "NBA",
-      "date": "20260224",
-      "home": "Nuggets",
-      "away": "Celtics",
-      "team": "Celtics",
-      "line": 3.5,
-      "odds": -110,
-      "reason": "Best road team in NBA, get +3.5 vs banged up Nuggets",
-      "result": "LOSS",
-      "homeScore": 103,
-      "awayScore": 84
-    },
-    {
-      "sport": "NBA",
-      "date": "20260226",
-      "home": "Hawks",
-      "away": "Wizards",
-      "team": "Hawks",
-      "line": -18.5,
-      "odds": -110,
-      "reason": "Worst team in NBA, fade them on road",
-      "result": "WIN",
-      "homeScore": 126,
-      "awayScore": 96
-    },
-    {
-      "sport": "NBA",
-      "date": "20260226",
-      "home": "Nets",
-      "away": "Spurs",
-      "team": "Spurs",
-      "line": 22.5,
-      "odds": -110,
-      "reason": "Wemby dominant, Nets rebuilding",
-      "result": "WIN",
-      "homeScore": 110,
-      "awayScore": 126
-    },
-    {
-      "sport": "NBA",
-      "date": "20260226",
-      "home": "Magic",
-      "away": "Rockets",
-      "team": "Rockets",
-      "line": 2.5,
-      "odds": -110,
-      "reason": "Rockets 11-4 in last 15, getting points",
-      "result": "WIN",
-      "homeScore": 108,
-      "awayScore": 113
-    },
-    {
-      "sport": "NBA",
-      "date": "20260228",
-      "home": "Heat",
-      "away": "Rockets",
-      "team": "Rockets",
-      "line": 2.5,
-      "odds": -110,
-      "reason": "Rockets 11-4 in last 15, getting points",
-      "result": "LOSS",
-      "homeScore": 115,
-      "awayScore": 105
-    },
-    {
-      "sport": "NBA",
-      "date": "20260228",
-      "home": "Warriors",
-      "away": "Lakers",
-      "team": "Lakers",
-      "line": 4.5,
-      "odds": -110,
-      "reason": "Close game, getting +4.5",
-      "result": "WIN",
-      "homeScore": 101,
-      "awayScore": 129
-    },
-    {
-      "sport": "NBA",
-      "date": "20260301",
-      "home": "Nets",
-      "away": "Cavaliers",
-      "team": "Cavaliers",
-      "line": "ML",
-      "odds": -350,
-      "reason": "Nets worst team in league, Cavs bounce back",
-      "result": "WIN",
-      "homeScore": 102,
-      "awayScore": 106
-    },
-    {
-      "sport": "NBA",
-      "date": "20260302",
-      "home": "Wizards",
-      "away": "Rockets",
-      "team": "Rockets",
-      "line": -14.5,
-      "odds": -115,
-      "reason": "Rockets blow out bad teams at home, Wizards terrible",
-      "result": "LOSS",
-      "homeScore": 118,
-      "awayScore": 123,
-      "note": "Won game but didn't cover -14.5 (won by 5)"
-    }
-  ],
-  "stats": {
-    "wins": 15,
-    "losses": 5
+  "date": "March 5, 2026",
+  "lastUpdated": "2026-03-05T18:00:00-07:00",
+  "record": "19-6 (+8.0 units)",
+  "betOfDay": {
+    "team": "Denver Nuggets -4.5",
+    "sport": "NBA",
+    "time": "9:10 PM ET",
+    "opponent": "vs Los Angeles Lakers",
+    "spread": "-4.5",
+    "odds": "-110",
+    "units": 2,
+    "analysis": "Jokic and the Nuggets are at home against a Lakers team on a back-to-back road stretch. Ball Arena is a fortress — Denver is 14-5 ATS at home this season. The line opened at -4 and has been bet up to -4.5, showing sharp action on Denver. Lakers without full rest, Nuggets playing their best basketball of the year. This is a layup.",
+    "confidence": "HIGH"
   },
-  "lastUpdate": "2026-03-05T05:04:00.000Z",
-  "upcoming": [
+  "picks": [
     {
       "sport": "NBA",
-      "home": "Dallas Mavericks",
-      "away": "Oklahoma City Thunder",
-      "time": "2026-03-02T01:10:00Z",
-      "fanduel": {
-        "home": 8.5,
-        "away": 1.08
-      }
-    },
-    {
-      "sport": "NBA",
-      "home": "Boston Celtics",
-      "away": "Philadelphia 76ers",
-      "time": "2026-03-02T01:12:00Z",
-      "fanduel": {
-        "home": 1.31,
-        "away": 3.6
-      }
+      "game": "Denver Nuggets vs LA Lakers",
+      "time": "9:10 PM ET",
+      "pick": "Denver Nuggets -4.5",
+      "odds": "-110",
+      "units": 2,
+      "tag": "⭐ TOP PICK",
+      "reasoning": "Nuggets at home vs Lakers on road. Jokic dominant, consensus -4.5 line. Sharp money on Denver all week."
     },
     {
       "sport": "NBA",
-      "home": "Los Angeles Clippers",
-      "away": "New Orleans Pelicans",
-      "time": "2026-03-02T02:10:00Z",
-      "fanduel": {
-        "home": 1.34,
-        "away": 3.4
-      }
+      "game": "Golden State Warriors @ Houston Rockets",
+      "time": "8:40 PM ET",
+      "pick": "Houston Rockets -4.5",
+      "odds": "-110",
+      "units": 1,
+      "tag": "",
+      "reasoning": "Rockets rolling at home, Warriors struggling on the road. Toyota Center crowd will be huge. Line consensus at -4.5 to -5.5 across books."
     },
     {
       "sport": "NBA",
-      "home": "Los Angeles Lakers",
-      "away": "Sacramento Kings",
-      "time": "2026-03-02T02:40:00Z",
-      "fanduel": {
-        "home": 1.16,
-        "away": 5.6
-      }
+      "game": "Toronto Raptors @ Minnesota Timberwolves",
+      "time": "8:10 PM ET",
+      "pick": "Minnesota Timberwolves -5",
+      "odds": "-110",
+      "units": 1,
+      "tag": "",
+      "reasoning": "Wolves at home against one of the worst teams in the East. Anthony Edwards should have a big night. Consensus -4.5 to -5.5."
     },
     {
       "sport": "NBA",
-      "home": "Washington Wizards",
-      "away": "Houston Rockets",
-      "time": "2026-03-03T00:10:00Z",
-      "fanduel": {
-        "home": 8.5,
-        "away": 1.08
-      }
-    },
-    {
-      "sport": "NBA",
-      "home": "Milwaukee Bucks",
-      "away": "Boston Celtics",
-      "time": "2026-03-03T00:40:00Z",
-      "fanduel": {
-        "home": 3.2,
-        "away": 1.37
-      }
-    },
-    {
-      "sport": "NBA",
-      "home": "Utah Jazz",
-      "away": "Denver Nuggets",
-      "time": "2026-03-03T02:10:00Z",
-      "fanduel": {
-        "home": 4.8,
-        "away": 1.2
-      }
-    },
-    {
-      "sport": "NCAA",
-      "home": "Morgan St Bears",
-      "away": "Norfolk St Spartans",
-      "time": "2026-03-02T23:00:00Z",
-      "fanduel": {
-        "home": 2.28,
-        "away": 1.65
-      }
-    },
-    {
-      "sport": "NCAA",
-      "home": "Howard Bison",
-      "away": "Coppin St Eagles",
-      "time": "2026-03-03T00:00:00Z",
-      "fanduel": {
-        "home": 1.02,
-        "away": 15
-      }
-    },
-    {
-      "sport": "NCAA",
-      "home": "Delaware St Hornets",
-      "away": "South Carolina St Bulldogs",
-      "time": "2026-03-03T00:00:00Z",
-      "fanduel": {
-        "home": 1.72,
-        "away": 2.15
-      }
-    },
-    {
-      "sport": "NCAA",
-      "home": "NC State Wolfpack",
-      "away": "Duke Blue Devils",
-      "time": "2026-03-03T00:00:00Z",
-      "fanduel": {
-        "home": 5.3,
-        "away": 1.17
-      }
-    },
-    {
-      "sport": "NCAA",
-      "home": "Maryland-Eastern Shore Hawks",
-      "away": "North Carolina Central Eagles",
-      "time": "2026-03-03T00:00:00Z",
-      "fanduel": {
-        "home": 1.77,
-        "away": 2.08
-      }
-    },
-    {
-      "sport": "NCAA",
-      "home": "Incarnate Word Cardinals",
-      "away": "Stephen F. Austin Lumberjacks",
-      "time": "2026-03-03T00:30:00Z",
-      "fanduel": {
-        "home": 4.3,
-        "away": 1.23
-      }
-    },
-    {
-      "sport": "NCAA",
-      "home": "Nicholls St Colonels",
-      "away": "McNeese Cowboys",
-      "time": "2026-03-03T00:30:00Z",
-      "fanduel": {
-        "home": 6.7,
-        "away": 1.12
-      }
-    },
-    {
-      "sport": "NCAA",
-      "home": "UT Rio Grande Valley Vaqueros",
-      "away": "Northwestern St Demons",
-      "time": "2026-03-03T00:30:00Z",
-      "fanduel": {
-        "home": 1.17,
-        "away": 5.2
-      }
-    },
-    {
-      "sport": "NCAA",
-      "home": "Texas A&M-CC Islanders",
-      "away": "East Texas A&M Lions",
-      "time": "2026-03-03T01:00:00Z",
-      "fanduel": {
-        "home": 1.26,
-        "away": 4
-      }
-    },
-    {
-      "sport": "NCAA",
-      "home": "N Colorado Bears",
-      "away": "Montana Grizzlies",
-      "time": "2026-03-03T01:00:00Z",
-      "fanduel": {
-        "home": 1.36,
-        "away": 3.25
-      }
-    },
-    {
-      "sport": "NCAA",
-      "home": "Northern Arizona Lumberjacks",
-      "away": "Montana St Bobcats",
-      "time": "2026-03-03T01:00:00Z",
-      "fanduel": {
-        "home": 3.2,
-        "away": 1.36
-      }
-    },
-    {
-      "sport": "NCAA",
-      "home": "New Orleans Privateers",
-      "away": "SE Louisiana Lions",
-      "time": "2026-03-03T01:00:00Z",
-      "fanduel": {
-        "home": 1.29,
-        "away": 3.75
-      }
-    },
-    {
-      "sport": "NCAA",
-      "home": "Houston Christian Huskies",
-      "away": "Lamar Cardinals",
-      "time": "2026-03-03T01:30:00Z",
-      "fanduel": {
-        "home": 1.95,
-        "away": 1.88
-      }
-    },
-    {
-      "sport": "NCAA",
-      "home": "Arizona Wildcats",
-      "away": "Iowa State Cyclones",
-      "time": "2026-03-03T02:00:00Z",
-      "fanduel": {
-        "home": 1.27,
-        "away": 3.9
-      }
-    },
-    {
-      "sport": "NCAA",
-      "home": "Eastern Washington Eagles",
-      "away": "Idaho Vandals",
-      "time": "2026-03-03T02:00:00Z",
-      "fanduel": {
-        "home": 1.59,
-        "away": 2.38
-      }
-    },
-    {
-      "sport": "NCAA",
-      "home": "Sacramento St Hornets",
-      "away": "Idaho State Bengals",
-      "time": "2026-03-03T03:00:00Z",
-      "fanduel": {
-        "home": 1.79,
-        "away": 2.05
-      }
-    },
-    {
-      "sport": "NCAA",
-      "home": "Portland St Vikings",
-      "away": "Weber State Wildcats",
-      "time": "2026-03-03T03:00:00Z",
-      "fanduel": {
-        "home": 1.45,
-        "away": 2.8
-      }
+      "game": "Chicago Bulls @ Phoenix Suns",
+      "time": "10:10 PM ET",
+      "pick": "Phoenix Suns -12",
+      "odds": "-110",
+      "units": 1,
+      "tag": "",
+      "reasoning": "Suns playing motivated basketball at home, Bulls on a road trip and shorthanded. Consistent -11.5 to -12 line across all books."
     },
     {
       "sport": "NHL",
-      "home": "Anaheim Ducks",
-      "away": "Calgary Flames",
-      "time": "2026-03-02T01:10:00Z",
-      "fanduel": {
-        "home": 1.55,
-        "away": 2.5
-      }
+      "game": "Ottawa Senators @ Calgary Flames",
+      "time": "9:00 PM ET",
+      "pick": "Calgary Flames ML",
+      "odds": "-180",
+      "units": 1,
+      "tag": "",
+      "reasoning": "Flames heavy favorites at home against a weak Senators team. Scotiabank Saddledome crowd, Flames playing well. Strong consensus at -175 to -186."
     },
     {
       "sport": "NHL",
-      "home": "Nashville Predators",
-      "away": "Detroit Red Wings",
-      "time": "2026-03-02T19:00:00Z",
-      "fanduel": {
-        "home": 1.88,
-        "away": 1.95
-      }
-    },
-    {
-      "sport": "NHL",
-      "home": "New York Rangers",
-      "away": "Columbus Blue Jackets",
-      "time": "2026-03-03T00:00:00Z",
-      "fanduel": {
-        "home": 2.06,
-        "away": 1.78
-      }
-    },
-    {
-      "sport": "NHL",
-      "home": "Toronto Maple Leafs",
-      "away": "Philadelphia Flyers",
-      "time": "2026-03-03T00:30:00Z",
-      "fanduel": {
-        "home": 1.75,
-        "away": 2.12
-      }
-    },
-    {
-      "sport": "NHL",
-      "home": "Seattle Kraken",
-      "away": "Carolina Hurricanes",
-      "time": "2026-03-03T03:00:00Z",
-      "fanduel": {
-        "home": 2.52,
-        "away": 1.54
-      }
-    },
-    {
-      "sport": "NHL",
-      "home": "Vancouver Canucks",
-      "away": "Dallas Stars",
-      "time": "2026-03-03T03:00:00Z",
-      "fanduel": {
-        "home": 2.58,
-        "away": 1.52
-      }
-    },
-    {
-      "sport": "NHL",
-      "home": "Los Angeles Kings",
-      "away": "Colorado Avalanche",
-      "time": "2026-03-03T03:30:00Z",
-      "fanduel": {
-        "home": 2.52,
-        "away": 1.54
-      }
+      "game": "New York Islanders @ LA Kings",
+      "time": "10:30 PM ET",
+      "pick": "NY Islanders -1.5",
+      "odds": "+195",
+      "units": 1,
+      "tag": "",
+      "reasoning": "Islanders big road favs (-230 to -250 ML). Getting +195 on the puck line is excellent value — means Isles win by 2+ at nearly even odds."
     }
   ],
-  "todaysPicks": {
-    "date": "2026-03-01",
-    "updatedAt": "2026-03-02T01:01:21.162Z",
-    "topPick": {
-      "game": "New Orleans Pelicans @ Los Angeles Clippers",
-      "pick": "Clippers -8",
-      "line": -106,
-      "units": 2,
-      "confidence": "8/10",
-      "sport": "NBA"
-    },
-    "allPicks": [
-      {
-        "game": "OKC @ Dallas",
-        "pick": "OKC -16.5",
-        "units": 1,
-        "sport": "NBA"
-      },
-      {
-        "game": "76ers @ Boston",
-        "pick": "76ers +8.5",
-        "units": 1,
-        "sport": "NBA",
-        "note": "Tatum OUT"
-      },
-      {
-        "game": "Pelicans @ Clippers",
-        "pick": "Clippers -8",
-        "units": 2,
-        "sport": "NBA",
-        "starred": true
-      }
-    ],
-    "record": "18-4 (+8.5 units)"
+  "research": {
+    "mlb": "Spring Training games underway — no picks on spring training action.",
+    "mls": "MLS Week 2 Saturday slate looks good. Checking Atlanta United vs Real Salt Lake for the weekend."
   }
 }
