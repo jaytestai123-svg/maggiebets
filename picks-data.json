@@ -1,72 +1,42 @@
 {
   "date": "March 6, 2026",
-  "lastUpdated": "2026-03-06T07:30:00-07:00",
-  "record": "19-6 (+8.0 units)",
+  "lastUpdated": "2026-03-06T18:00:00-07:00",
+  "record": "20-6 (+8.5 units)",
   "betOfDay": {
-    "team": "Denver Nuggets +1.5",
+    "team": "Houston Rockets -6.5",
     "sport": "NBA",
-    "time": "8:40 PM ET",
-    "opponent": "vs New York Knicks",
-    "spread": "+1.5",
+    "time": "8:10 PM ET",
+    "opponent": "vs Portland Trail Blazers",
+    "spread": "-6.5",
     "odds": "-110",
     "units": 2,
-    "analysis": "Jokic at home getting points? We'll take that all day. Knicks are trendy but Nuggets have dominated this matchup historically at Ball Arena. The line moving to +1.5 shows respect for Denver. Home court advantage in Denver is worth at least 3-4 points. This is the play.",
+    "analysis": "Rockets are one of the best teams in the Western Conference and absolutely dominate at Toyota Center. The Trail Blazers are in full rebuild mode — one of the worst road teams in the league. The -6.5 is consistent across every major book, which means the sharp money agrees. No controversy here. Lay the points.",
     "confidence": "HIGH"
   },
   "picks": [
     {
       "sport": "NBA",
-      "game": "New York Knicks @ Denver Nuggets",
-      "time": "8:40 PM ET",
-      "pick": "Denver Nuggets +1.5",
+      "game": "Portland Trail Blazers @ Houston Rockets",
+      "time": "8:10 PM ET",
+      "pick": "Houston Rockets -6.5",
       "odds": "-110",
       "units": 2,
       "tag": "⭐ TOP PICK",
-      "reasoning": "Jokic at home getting points is rare. Knicks trending but Nuggets own this matchup at Ball Arena. Line of +1.5 is too generous."
+      "reasoning": "Rockets are a top-5 team in the West and dominant at home. Blazers are one of the worst road teams in the league. -6.5 locked in across all books — sharps agree. Easy lay."
     },
     {
       "sport": "NBA",
-      "game": "Portland Trail Blazers @ Houston Rockets",
-      "time": "7:40 PM ET",
-      "pick": "Houston Rockets -6",
+      "game": "New York Knicks @ Denver Nuggets",
+      "time": "9:10 PM ET",
+      "pick": "Denver Nuggets -1.5",
       "odds": "-110",
       "units": 1,
       "tag": "",
-      "reasoning": "Rockets on a heater at Toyota Center. Blazers one of the worst road teams in the league. Lay the points."
-    },
-    {
-      "sport": "NBA",
-      "game": "New Orleans Pelicans @ Phoenix Suns",
-      "time": "9:00 PM ET",
-      "pick": "Phoenix Suns -6",
-      "odds": "-110",
-      "units": 1,
-      "tag": "",
-      "reasoning": "Sons bouncing back at home. Pelicans inconsistent on road. Consensus -6 across books."
-    },
-    {
-      "sport": "NBA",
-      "game": "Los Angeles Clippers @ San Antonio Spurs",
-      "time": "8:00 PM ET",
-      "pick": "San Antonio Spurs -7.5",
-      "odds": "-110",
-      "units": 1,
-      "tag": "",
-      "reasoning": "Spurs young and hungry at home. Clippers haven't found rhythm on road. Wembanyama protects the paint."
-    },
-    {
-      "sport": "NBA",
-      "game": "Indiana Pacers @ Los Angeles Lakers",
-      "time": "10:30 PM ET",
-      "pick": "Los Angeles Lakers -9.5",
-      "odds": "-110",
-      "units": 1,
-      "tag": "",
-      "reasoning": "Lakers need this one at home. LeBron and AD should play. Pacers struggle on West Coast road trips."
+      "reasoning": "Nuggets are slight home favorites with Jokic. The altitude edge at Ball Arena is real. Knicks are a good team but Denver is hard to beat at home. Tight spread, 1-unit lean."
     }
   ],
   "research": {
-    "nba": "Friday slate has 7 games. Small slate means sharper lines - we like dogs getting points.",
-    "nhl": "Checking hockey games later - focusing on NBA for now."
+    "nba": "Friday slate — 4 NBA games. Early games (Heat @ Charlotte, Dallas @ Boston) already tipping. Focus on late games: Rockets and Nuggets haven't tipped yet.",
+    "ncaab": "March Madness conference tournaments starting this week. Big-name NCAAB matchups coming. Stay tuned."
   }
 }

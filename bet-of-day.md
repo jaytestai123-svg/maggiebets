@@ -1,20 +1,28 @@
-# 🎯 Bet of the Day — March 5, 2026
+# 🔥 Bet of the Day — March 6, 2026
 
-## ⭐ Denver Nuggets -4.5 vs LA Lakers
+## ⭐ Houston Rockets -6.5 vs Portland Trail Blazers
 
-**Sport:** NBA  
-**Time:** 9:10 PM ET | Ball Arena, Denver  
-**Spread:** -4.5 | **Odds:** -110 | **Units:** 2
+**Time:** 8:10 PM ET (6:10 PM MT)  
+**Units:** 2 units  
+**Odds:** -110  
+**Confidence:** HIGH
 
-### Why I Love This Pick
+### Why We Love This Pick
 
-Jokic and the Nuggets are at home against a Lakers team on a road stretch. Ball Arena is a fortress — Denver has been dominant at home this season. The line opened at -4 and has been bet up to -4.5, showing sharp action on Denver. Lakers without full rest, Nuggets playing their best basketball of the year.
+The Houston Rockets are one of the best teams in the Western Conference, and they are **dominant at Toyota Center**. Meanwhile, the Portland Trail Blazers are in full rebuild mode — consistently one of the worst road teams in the NBA.
 
-**Confidence:** 🔒 HIGH  
-**Record Going In:** 19-6 (+8.0 units)
+Every major book has this at -6.5, which tells you the sharp money has landed. No line movement, no controversy — just a clean number to lay.
+
+- ✅ Rockets top-5 in the West, home court advantage
+- ✅ Blazers struggling badly on the road
+- ✅ Line consistent across FanDuel, DraftKings, BetMGM, BetRivers (-6.5 everywhere)
+
+### Also Playing Tonight
+
+- **Denver Nuggets -1.5 vs NY Knicks** (9:10 PM ET) — 1 unit lean. Jokic at Ball Arena.
 
 ---
 
-*Tonight's Full Card: Rockets -4.5, Wolves -5, Suns -12, Flames ML, Islanders -1.5*
+## Season Record: 20-6 (+8.5 Units) 🔥
 
-*MaggieBets — Real picks, honest record. Always bet responsibly.*
+*Last updated: March 6, 2026 at 6:00 PM MT*
