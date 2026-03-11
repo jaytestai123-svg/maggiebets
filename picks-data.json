@@ -1,42 +1,62 @@
 {
-  "date": "March 6, 2026",
-  "lastUpdated": "2026-03-06T18:00:00-07:00",
-  "record": "20-6 (+8.5 units)",
+  "date": "March 10, 2026",
+  "lastUpdated": "2026-03-10T18:00:00-07:00",
+  "record": "21-7 (+8.5 units)",
   "betOfDay": {
-    "team": "Houston Rockets -6.5",
+    "team": "Houston Rockets -4.5",
     "sport": "NBA",
-    "time": "8:10 PM ET",
-    "opponent": "vs Portland Trail Blazers",
-    "spread": "-6.5",
+    "time": "6:10 PM MT",
+    "opponent": "vs Toronto Raptors",
+    "spread": "-4.5",
     "odds": "-110",
     "units": 2,
-    "analysis": "Rockets are one of the best teams in the Western Conference and absolutely dominate at Toyota Center. The Trail Blazers are in full rebuild mode — one of the worst road teams in the league. The -6.5 is consistent across every major book, which means the sharp money agrees. No controversy here. Lay the points.",
+    "analysis": "Rockets at home vs the Raptors — one of the worst teams in the East. Houston has been one of the most consistent covers all season long, dominating at Toyota Center. Toronto is in full rebuild mode with nothing to play for. The -4.5 is consistent across FanDuel and DraftKings. Sharp money hasn't moved this line, which means it's right where it should be. Lay the points confidently.",
     "confidence": "HIGH"
   },
   "picks": [
     {
       "sport": "NBA",
-      "game": "Portland Trail Blazers @ Houston Rockets",
-      "time": "8:10 PM ET",
-      "pick": "Houston Rockets -6.5",
+      "game": "Toronto Raptors @ Houston Rockets",
+      "time": "6:10 PM MT",
+      "pick": "Houston Rockets -4.5",
       "odds": "-110",
       "units": 2,
       "tag": "⭐ TOP PICK",
-      "reasoning": "Rockets are a top-5 team in the West and dominant at home. Blazers are one of the worst road teams in the league. -6.5 locked in across all books — sharps agree. Easy lay."
+      "reasoning": "Rockets are one of the hottest teams in the West and dominant at home all season. Raptors are a bottom-tier rebuild squad with no defensive identity on the road. Line is -4.5 across all major books — sharps haven't moved it. Best game on the slate."
     },
     {
       "sport": "NBA",
-      "game": "New York Knicks @ Denver Nuggets",
-      "time": "9:10 PM ET",
-      "pick": "Denver Nuggets -1.5",
+      "game": "Chicago Bulls @ Golden State Warriors",
+      "time": "8:10 PM MT",
+      "pick": "Golden State Warriors -6",
       "odds": "-110",
       "units": 1,
       "tag": "",
-      "reasoning": "Nuggets are slight home favorites with Jokic. The altitude edge at Ball Arena is real. Knicks are a good team but Denver is hard to beat at home. Tight spread, 1-unit lean."
+      "reasoning": "Warriors at home -6 vs a Bulls squad that struggles on the road. Curry elevates Chase Center into one of the toughest road environments in the league. Bulls don't have the firepower to keep up. 6 points feels right."
+    },
+    {
+      "sport": "NBA",
+      "game": "Minnesota Timberwolves @ Los Angeles Lakers",
+      "time": "9:10 PM MT",
+      "pick": "Minnesota Timberwolves -2.5",
+      "odds": "-110",
+      "units": 1,
+      "tag": "",
+      "reasoning": "Wolves have one of the best defenses in the league. Favored by 2.5 on the road — that's a slight ask, but Minnesota's defensive identity stifles Lakers' transition game. Tight 1-unit lean."
+    },
+    {
+      "sport": "NHL",
+      "game": "Anaheim Ducks @ Winnipeg Jets",
+      "time": "6:40 PM MT",
+      "pick": "Winnipeg Jets -1.5",
+      "odds": "-115",
+      "units": 1,
+      "tag": "",
+      "reasoning": "Jets are one of the top teams in the NHL this season and dominant at Canada Life Centre. Ducks are one of the worst teams in the league — young rebuild squad. Jets -1.5 puck line is absolutely justified here."
     }
   ],
   "research": {
-    "nba": "Friday slate — 4 NBA games. Early games (Heat @ Charlotte, Dallas @ Boston) already tipping. Focus on late games: Rockets and Nuggets haven't tipped yet.",
-    "ncaab": "March Madness conference tournaments starting this week. Big-name NCAAB matchups coming. Stay tuned."
+    "nba": "Tuesday slate — 7 NBA games. Top of the slate kicks off at 6:10 PM MT. Big late game: Wolves @ Lakers at 9:10 PM. Conference race heating up with 3-4 weeks left in the regular season.",
+    "nhl": "5 NHL games tonight including a big Oilers @ Avalanche matchup at 8:10 PM. Jets -1.5 vs Ducks is the value play."
   }
 }
