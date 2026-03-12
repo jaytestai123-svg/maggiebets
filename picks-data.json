@@ -1,62 +1,62 @@
 {
-  "date": "March 10, 2026",
-  "lastUpdated": "2026-03-10T18:00:00-07:00",
+  "date": "March 12, 2026",
+  "lastUpdated": "2026-03-12T06:00:00-07:00",
   "record": "21-7 (+8.5 units)",
   "betOfDay": {
-    "team": "Houston Rockets -4.5",
+    "team": "Oklahoma City Thunder -6.5",
     "sport": "NBA",
-    "time": "6:10 PM MT",
-    "opponent": "vs Toronto Raptors",
-    "spread": "-4.5",
-    "odds": "-110",
+    "time": "7:40 PM MT",
+    "opponent": "vs Boston Celtics",
+    "spread": "-6.5",
+    "odds": "-114",
     "units": 2,
-    "analysis": "Rockets at home vs the Raptors — one of the worst teams in the East. Houston has been one of the most consistent covers all season long, dominating at Toyota Center. Toronto is in full rebuild mode with nothing to play for. The -4.5 is consistent across FanDuel and DraftKings. Sharp money hasn't moved this line, which means it's right where it should be. Lay the points confidently.",
+    "analysis": "OKC is the best team in the NBA this season and they are an absolute force at home. The Celtics have been inconsistent on the road and this is a massive environment to come into. Thunder -6.5 is properly priced — sharps haven't moved it off this number. Boston will compete but OKC has the depth, the defense, and the crowd. Lay the points.",
     "confidence": "HIGH"
   },
   "picks": [
     {
       "sport": "NBA",
-      "game": "Toronto Raptors @ Houston Rockets",
-      "time": "6:10 PM MT",
-      "pick": "Houston Rockets -4.5",
-      "odds": "-110",
+      "game": "Boston Celtics @ Oklahoma City Thunder",
+      "time": "7:40 PM MT",
+      "pick": "Oklahoma City Thunder -6.5",
+      "odds": "-114",
       "units": 2,
       "tag": "⭐ TOP PICK",
-      "reasoning": "Rockets are one of the hottest teams in the West and dominant at home all season. Raptors are a bottom-tier rebuild squad with no defensive identity on the road. Line is -4.5 across all major books — sharps haven't moved it. Best game on the slate."
+      "reasoning": "OKC is the best team in the league and one of the most dominant home teams in the NBA. Celtics have been inconsistent away from the Garden. Thunder have the defense and depth to win this by double digits. Best game on the slate — back the Thunder."
     },
     {
       "sport": "NBA",
-      "game": "Chicago Bulls @ Golden State Warriors",
-      "time": "8:10 PM MT",
-      "pick": "Golden State Warriors -6",
+      "game": "Milwaukee Bucks @ Miami Heat",
+      "time": "5:40 PM MT",
+      "pick": "Miami Heat -6",
       "odds": "-110",
       "units": 1,
       "tag": "",
-      "reasoning": "Warriors at home -6 vs a Bulls squad that struggles on the road. Curry elevates Chase Center into one of the toughest road environments in the league. Bulls don't have the firepower to keep up. 6 points feels right."
+      "reasoning": "Heat at home are one of the most consistently dangerous teams in the East. Bucks are dealing with roster questions on the road and Miami's defense is top-tier. -6 at home is right in the Heat's wheelhouse."
     },
     {
       "sport": "NBA",
-      "game": "Minnesota Timberwolves @ Los Angeles Lakers",
-      "time": "9:10 PM MT",
-      "pick": "Minnesota Timberwolves -2.5",
-      "odds": "-110",
+      "game": "Dallas Mavericks @ Memphis Grizzlies",
+      "time": "6:10 PM MT",
+      "pick": "Memphis Grizzlies +4.5",
+      "odds": "-108",
       "units": 1,
       "tag": "",
-      "reasoning": "Wolves have one of the best defenses in the league. Favored by 2.5 on the road — that's a slight ask, but Minnesota's defensive identity stifles Lakers' transition game. Tight 1-unit lean."
+      "reasoning": "Grizzlies are scrappy at home and 4.5 points is a solid cushion. Dallas has been inconsistent on the road. Taking the points with the home team in a competitive mid-stakes game."
     },
     {
       "sport": "NHL",
-      "game": "Anaheim Ducks @ Winnipeg Jets",
-      "time": "6:40 PM MT",
-      "pick": "Winnipeg Jets -1.5",
-      "odds": "-115",
+      "game": "St Louis Blues @ Carolina Hurricanes",
+      "time": "5:00 PM MT",
+      "pick": "Carolina Hurricanes -1.5",
+      "odds": "-110",
       "units": 1,
       "tag": "",
-      "reasoning": "Jets are one of the top teams in the NHL this season and dominant at Canada Life Centre. Ducks are one of the worst teams in the league — young rebuild squad. Jets -1.5 puck line is absolutely justified here."
+      "reasoning": "Canes are one of the best teams in the NHL and dominant at PNC Arena. Blues are struggling and have the worst road record in the Metropolitan division matchup. -1.5 at -110 is outstanding value for a team of Carolina's caliber. Take the puck line."
     }
   ],
   "research": {
-    "nba": "Tuesday slate — 7 NBA games. Top of the slate kicks off at 6:10 PM MT. Big late game: Wolves @ Lakers at 9:10 PM. Conference race heating up with 3-4 weeks left in the regular season.",
-    "nhl": "5 NHL games tonight including a big Oilers @ Avalanche matchup at 8:10 PM. Jets -1.5 vs Ducks is the value play."
+    "nba": "Thursday slate — 10 NBA games. Headliner is Celtics @ OKC at 7:40 PM MT. Other notable games: Bucks @ Heat at 5:40 PM and Nuggets @ Spurs at 7:10 PM. Playoff seeding races heating up with about 3 weeks left in the regular season.",
+    "nhl": "14 NHL games tomorrow. Hurricanes vs Blues is the value play on the puck line. Big Western matchup: Oilers @ Stars at 6:00 PM MT."
   }
 }
