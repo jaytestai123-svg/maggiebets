@@ -96,6 +96,17 @@
 
 ---
 
-## Season Record: 21-7 (+8.5 Units)
+### Mar 12 Games (Completed)
 
-*Last updated: Mar 10, 2026 9:00 AM MT*
+| Sport | Pick | Odds | Result | Units | Score |
+|-------|------|------|--------|-------|-------|
+| NBA | ⭐ OKC Thunder -6.5 vs Celtics | -114 | ❌ LOSS (-2.0) | 104-102 |
+| NBA | Heat -6 vs Bucks | -110 | ✅ WIN (+1.0) | 112-105 |
+| NBA | Grizzlies +4.5 @ Mavericks | -108 | ❌ LOSS (-1.0) | 112-120 |
+| NHL | Hurricanes -1.5 vs Blues | -110 | ❌ LOSS (-1.0) | 1-3 |
+
+---
+
+## Season Record: 21-11 (+5.5 Units)
+
+*Last updated: Mar 13, 2026 9:00 AM MT*
