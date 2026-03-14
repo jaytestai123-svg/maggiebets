@@ -1,62 +1,62 @@
 {
-  "date": "March 12, 2026",
-  "lastUpdated": "2026-03-12T06:00:00-07:00",
-  "record": "21-7 (+8.5 units)",
+  "date": "March 13, 2026",
+  "lastUpdated": "2026-03-13T18:00:00-07:00",
+  "record": "21-11 (+5.5 units)",
   "betOfDay": {
-    "team": "Oklahoma City Thunder -6.5",
+    "team": "Houston Rockets -5.5",
     "sport": "NBA",
-    "time": "7:40 PM MT",
-    "opponent": "vs Boston Celtics",
-    "spread": "-6.5",
-    "odds": "-114",
+    "time": "6:10 PM MT",
+    "opponent": "vs New Orleans Pelicans",
+    "spread": "-5.5",
+    "odds": "-112",
     "units": 2,
-    "analysis": "OKC is the best team in the NBA this season and they are an absolute force at home. The Celtics have been inconsistent on the road and this is a massive environment to come into. Thunder -6.5 is properly priced — sharps haven't moved it off this number. Boston will compete but OKC has the depth, the defense, and the crowd. Lay the points.",
+    "analysis": "The Rockets are a top-5 team in the Western Conference and one of the most dominant home teams in the NBA. The Pelicans are one of the worst teams in the league, with one of the worst road records going. -5.5 is locked in at the same number across DraftKings, FanDuel, and BetMGM — no line movement means sharp money agrees. Rockets cover easily at home.",
     "confidence": "HIGH"
   },
   "picks": [
     {
       "sport": "NBA",
-      "game": "Boston Celtics @ Oklahoma City Thunder",
-      "time": "7:40 PM MT",
-      "pick": "Oklahoma City Thunder -6.5",
-      "odds": "-114",
+      "game": "New Orleans Pelicans @ Houston Rockets",
+      "time": "6:10 PM MT",
+      "pick": "Houston Rockets -5.5",
+      "odds": "-112",
       "units": 2,
       "tag": "⭐ TOP PICK",
-      "reasoning": "OKC is the best team in the league and one of the most dominant home teams in the NBA. Celtics have been inconsistent away from the Garden. Thunder have the defense and depth to win this by double digits. Best game on the slate — back the Thunder."
+      "reasoning": "Line locked at -5.5 across all major books — zero movement means sharps agree. Rockets are a top-5 West team playing at home vs the Pelicans, who are one of the worst franchises in the NBA right now. Home crowd, better roster, better coach. Lay the points with confidence."
     },
     {
       "sport": "NBA",
-      "game": "Milwaukee Bucks @ Miami Heat",
-      "time": "5:40 PM MT",
-      "pick": "Miami Heat -6",
-      "odds": "-110",
+      "game": "Minnesota Timberwolves @ Golden State Warriors",
+      "time": "8:10 PM MT",
+      "pick": "Minnesota Timberwolves -5.5",
+      "odds": "-105",
       "units": 1,
       "tag": "",
-      "reasoning": "Heat at home are one of the most consistently dangerous teams in the East. Bucks are dealing with roster questions on the road and Miami's defense is top-tier. -6 at home is right in the Heat's wheelhouse."
+      "reasoning": "Wolves have one of the best defenses in the NBA and are a legitimate Western Conference contender. Warriors have been inconsistent at home late in the season. Minnesota is the better team and -5.5 at -105 on DraftKings is excellent value."
     },
     {
       "sport": "NBA",
-      "game": "Dallas Mavericks @ Memphis Grizzlies",
-      "time": "6:10 PM MT",
-      "pick": "Memphis Grizzlies +4.5",
-      "odds": "-108",
+      "game": "Chicago Bulls @ Los Angeles Clippers",
+      "time": "8:40 PM MT",
+      "pick": "Los Angeles Clippers -13",
+      "odds": "-112",
       "units": 1,
       "tag": "",
-      "reasoning": "Grizzlies are scrappy at home and 4.5 points is a solid cushion. Dallas has been inconsistent on the road. Taking the points with the home team in a competitive mid-stakes game."
+      "reasoning": "Clippers at home are a reliable cover spot. Bulls are one of the weaker road teams in the East — they struggle against physical, athletic teams like LA. Line sits at -13 on FanDuel, -13.5 DK and MGM. Taking the better number on FanDuel."
     },
     {
       "sport": "NHL",
-      "game": "St Louis Blues @ Carolina Hurricanes",
-      "time": "5:00 PM MT",
-      "pick": "Carolina Hurricanes -1.5",
-      "odds": "-110",
+      "game": "Edmonton Oilers @ St Louis Blues",
+      "time": "6:10 PM MT",
+      "pick": "Edmonton Oilers ML",
+      "odds": "-148",
       "units": 1,
       "tag": "",
-      "reasoning": "Canes are one of the best teams in the NHL and dominant at PNC Arena. Blues are struggling and have the worst road record in the Metropolitan division matchup. -1.5 at -110 is outstanding value for a team of Carolina's caliber. Take the puck line."
+      "reasoning": "Oilers are one of the elite teams in the NHL with McDavid leading the charge. Blues are a mid-tier team at home but getting -148 on a team of Edmonton's caliber is reasonable. Don't overthink this — back the better team on the ML."
     }
   ],
   "research": {
-    "nba": "Thursday slate — 10 NBA games. Headliner is Celtics @ OKC at 7:40 PM MT. Other notable games: Bucks @ Heat at 5:40 PM and Nuggets @ Spurs at 7:10 PM. Playoff seeding races heating up with about 3 weeks left in the regular season.",
-    "nhl": "14 NHL games tomorrow. Hurricanes vs Blues is the value play on the puck line. Big Western matchup: Oilers @ Stars at 6:00 PM MT."
+    "nba": "Friday slate — 8 NBA games tonight. Four early games already in progress at 6 PM MT (Pistons, Pacers, Raptors, Mavs). Key picks from upcoming games: Rockets vs Pelicans (6:10 PM MT), Wolves @ Warriors (8:10 PM MT), Clippers vs Bulls (8:40 PM MT). Several additional games Saturday.",
+    "nhl": "Massive NHL Friday with 16 games across the weekend slate. Oilers @ Blues leads our NHL card. Winnipeg Jets vs Colorado Avalanche and Minnesota Wild vs NY Rangers are intriguing Saturday matchups."
   }
 }
