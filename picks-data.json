@@ -1,62 +1,52 @@
 {
-  "date": "March 13, 2026",
-  "lastUpdated": "2026-03-13T18:00:00-07:00",
+  "date": "March 14, 2026",
+  "lastUpdated": "2026-03-14T07:30:00-07:00",
   "record": "21-11 (+5.5 units)",
   "betOfDay": {
-    "team": "Houston Rockets -5.5",
+    "team": "Denver Nuggets -2.5",
     "sport": "NBA",
-    "time": "6:10 PM MT",
-    "opponent": "vs New Orleans Pelicans",
-    "spread": "-5.5",
-    "odds": "-112",
+    "time": "8:30 PM MT",
+    "opponent": "@ Los Angeles Lakers",
+    "spread": "-2.5",
+    "odds": "-110",
     "units": 2,
-    "analysis": "The Rockets are a top-5 team in the Western Conference and one of the most dominant home teams in the NBA. The Pelicans are one of the worst teams in the league, with one of the worst road records going. -5.5 is locked in at the same number across DraftKings, FanDuel, and BetMGM — no line movement means sharp money agrees. Rockets cover easily at home.",
+    "analysis": "Nuggets hit the road to face the Lakers in what should be a competitive Western Conference matchup. Denver has been one of the more consistent teams against the spread this season, especially on the road. Jokic makes this team extremely tough to bet against. Lakers have shown vulnerabilities at home. Taking the better team at a small number.",
     "confidence": "HIGH"
   },
   "picks": [
     {
       "sport": "NBA",
-      "game": "New Orleans Pelicans @ Houston Rockets",
-      "time": "6:10 PM MT",
-      "pick": "Houston Rockets -5.5",
-      "odds": "-112",
+      "game": "Brooklyn Nets @ Philadelphia 76ers",
+      "time": "5:10 PM MT",
+      "pick": "Philadelphia 76ers -9",
+      "odds": "-110",
+      "units": 1,
+      "tag": "",
+      "reasoning": "76ers are a much better team than the Nets and playing at home. Maxey and Embiid should handle Brooklyn comfortably. -9 is a decent number for a team with this much talent disparity."
+    },
+    {
+      "sport": "NBA",
+      "game": "Orlando Magic @ Miami Heat",
+      "time": "5:10 PM MT",
+      "pick": "Miami Heat -3.5",
+      "odds": "-110",
+      "units": 1,
+      "tag": "",
+      "reasoning": "Heat are solid at home and the Magic are still a developing team. Butler being back gives Miami another scoring option. Take the Heat to cover at home."
+    },
+    {
+      "sport": "NBA",
+      "game": "Denver Nuggets @ Los Angeles Lakers",
+      "time": "8:30 PM MT",
+      "pick": "Denver Nuggets -2.5",
+      "odds": "-110",
       "units": 2,
       "tag": "⭐ TOP PICK",
-      "reasoning": "Line locked at -5.5 across all major books — zero movement means sharps agree. Rockets are a top-5 West team playing at home vs the Pelicans, who are one of the worst franchises in the NBA right now. Home crowd, better roster, better coach. Lay the points with confidence."
-    },
-    {
-      "sport": "NBA",
-      "game": "Minnesota Timberwolves @ Golden State Warriors",
-      "time": "8:10 PM MT",
-      "pick": "Minnesota Timberwolves -5.5",
-      "odds": "-105",
-      "units": 1,
-      "tag": "",
-      "reasoning": "Wolves have one of the best defenses in the NBA and are a legitimate Western Conference contender. Warriors have been inconsistent at home late in the season. Minnesota is the better team and -5.5 at -105 on DraftKings is excellent value."
-    },
-    {
-      "sport": "NBA",
-      "game": "Chicago Bulls @ Los Angeles Clippers",
-      "time": "8:40 PM MT",
-      "pick": "Los Angeles Clippers -13",
-      "odds": "-112",
-      "units": 1,
-      "tag": "",
-      "reasoning": "Clippers at home are a reliable cover spot. Bulls are one of the weaker road teams in the East — they struggle against physical, athletic teams like LA. Line sits at -13 on FanDuel, -13.5 DK and MGM. Taking the better number on FanDuel."
-    },
-    {
-      "sport": "NHL",
-      "game": "Edmonton Oilers @ St Louis Blues",
-      "time": "6:10 PM MT",
-      "pick": "Edmonton Oilers ML",
-      "odds": "-148",
-      "units": 1,
-      "tag": "",
-      "reasoning": "Oilers are one of the elite teams in the NHL with McDavid leading the charge. Blues are a mid-tier team at home but getting -148 on a team of Edmonton's caliber is reasonable. Don't overthink this — back the better team on the ML."
+      "reasoning": "Nuggets are the defending champs and have the best player in the world in Jokic. Small road favorite is the right number for this matchup. Lakers have been inconsistent and Denver's depth wins this one."
     }
   ],
   "research": {
-    "nba": "Friday slate — 8 NBA games tonight. Four early games already in progress at 6 PM MT (Pistons, Pacers, Raptors, Mavs). Key picks from upcoming games: Rockets vs Pelicans (6:10 PM MT), Wolves @ Warriors (8:10 PM MT), Clippers vs Bulls (8:40 PM MT). Several additional games Saturday.",
-    "nhl": "Massive NHL Friday with 16 games across the weekend slate. Oilers @ Blues leads our NHL card. Winnipeg Jets vs Colorado Avalanche and Minnesota Wild vs NY Rangers are intriguing Saturday matchups."
+    "nba": "Saturday slate features 7 NBA games. Our top picks: Nuggets -2.5 @ Lakers (⭐ TOP PICK), 76ers -9 vs Nets, Heat -3.5 vs Magic. Solid 3-card with our best write on the defending champs on the road.",
+    "nhl": "Saturday NHL features 12 games. Check back later for evening card."
   }
 }
