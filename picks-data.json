@@ -1,52 +1,62 @@
 {
   "date": "March 14, 2026",
-  "lastUpdated": "2026-03-14T07:30:00-07:00",
+  "lastUpdated": "2026-03-14T18:00:00-07:00",
   "record": "21-11 (+5.5 units)",
   "betOfDay": {
-    "team": "Denver Nuggets -2.5",
+    "team": "Los Angeles Clippers -13.5",
     "sport": "NBA",
-    "time": "8:30 PM MT",
-    "opponent": "@ Los Angeles Lakers",
-    "spread": "-2.5",
-    "odds": "-110",
+    "time": "8:40 PM MT",
+    "opponent": "vs Sacramento Kings",
+    "spread": "-13.5",
+    "odds": "-112",
     "units": 2,
-    "analysis": "Nuggets hit the road to face the Lakers in what should be a competitive Western Conference matchup. Denver has been one of the more consistent teams against the spread this season, especially on the road. Jokic makes this team extremely tough to bet against. Lakers have shown vulnerabilities at home. Taking the better team at a small number.",
+    "analysis": "The line is locked at -13.5 across FanDuel, DraftKings, and BetMGM — zero movement, which means sharp money is on the Clippers. Sacramento is struggling and historically bad against physical home teams. LA at the Intuit Dome is one of the best home-court advantages in the West. Lay the points.",
     "confidence": "HIGH"
   },
   "picks": [
     {
       "sport": "NBA",
-      "game": "Brooklyn Nets @ Philadelphia 76ers",
-      "time": "5:10 PM MT",
-      "pick": "Philadelphia 76ers -9",
-      "odds": "-110",
-      "units": 1,
-      "tag": "",
-      "reasoning": "76ers are a much better team than the Nets and playing at home. Maxey and Embiid should handle Brooklyn comfortably. -9 is a decent number for a team with this much talent disparity."
-    },
-    {
-      "sport": "NBA",
-      "game": "Orlando Magic @ Miami Heat",
-      "time": "5:10 PM MT",
-      "pick": "Miami Heat -3.5",
-      "odds": "-110",
-      "units": 1,
-      "tag": "",
-      "reasoning": "Heat are solid at home and the Magic are still a developing team. Butler being back gives Miami another scoring option. Take the Heat to cover at home."
+      "game": "Sacramento Kings @ Los Angeles Clippers",
+      "time": "8:40 PM MT",
+      "pick": "Los Angeles Clippers -13.5",
+      "odds": "-112",
+      "units": 2,
+      "tag": "⭐ TOP PICK",
+      "reasoning": "Line perfectly locked at -13.5 across all three major books — no movement means sharpest money agrees. Kings have been one of the worst road teams in the West. Clippers at home are dominant. Best number on this slate."
     },
     {
       "sport": "NBA",
       "game": "Denver Nuggets @ Los Angeles Lakers",
-      "time": "8:30 PM MT",
-      "pick": "Denver Nuggets -2.5",
+      "time": "6:40 PM MT",
+      "pick": "Denver Nuggets -1.5",
+      "odds": "-115",
+      "units": 1,
+      "tag": "",
+      "reasoning": "Jokic and the Nuggets are the better team, even on the road. Lakers have been inconsistent at home this season. DraftKings and BetMGM locked at -1.5. Small spread but Nuggets are clearly the superior squad and should handle business."
+    },
+    {
+      "sport": "NBA",
+      "game": "Orlando Magic @ Miami Heat",
+      "time": "6:10 PM MT",
+      "pick": "Miami Heat -4.5",
       "odds": "-110",
-      "units": 2,
-      "tag": "⭐ TOP PICK",
-      "reasoning": "Nuggets are the defending champs and have the best player in the world in Jokic. Small road favorite is the right number for this matchup. Lakers have been inconsistent and Denver's depth wins this one."
+      "units": 1,
+      "tag": "",
+      "reasoning": "Line locked at -4.5 across all three books. Heat at home in Miami are a reliable cover team — the crowd and culture matter. Magic are inconsistent on the road. Straightforward home-team lean with solid line consensus."
+    },
+    {
+      "sport": "NHL",
+      "game": "Chicago Blackhawks @ Vegas Golden Knights",
+      "time": "8:00 PM MT",
+      "pick": "Vegas Golden Knights ML",
+      "odds": "-225",
+      "units": 1,
+      "tag": "",
+      "reasoning": "Golden Knights are one of the most dominant home teams in the NHL. Blackhawks are in full rebuild mode and one of the worst road teams in the league. Line locked at -225 to -230 across books. Back the better team at home."
     }
   ],
   "research": {
-    "nba": "Saturday slate features 7 NBA games. Our top picks: Nuggets -2.5 @ Lakers (⭐ TOP PICK), 76ers -9 vs Nets, Heat -3.5 vs Magic. Solid 3-card with our best write on the defending champs on the road.",
-    "nhl": "Saturday NHL features 12 games. Check back later for evening card."
+    "nba": "Saturday slate — 9 NBA games. Celtics vs Wizards already in progress at 6 PM MT. Key tonight: Heat vs Magic (6:10 PM), Nuggets @ Lakers (6:40 PM), Clippers vs Kings (8:40 PM). Sunday has OKC vs Minnesota and Cavs vs Dallas as big matchups.",
+    "nhl": "Big NHL Saturday with 16 games. Several already underway at 6 PM MT. Best play: Golden Knights at home vs Blackhawks (8 PM MT). Also watching Oilers vs Predators and Minnesota vs Toronto for Sunday card."
   }
 }
