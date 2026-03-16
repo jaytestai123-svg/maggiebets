@@ -107,6 +107,15 @@
 
 ---
 
-## Season Record: 21-11 (+5.5 Units)
+### Mar 15 Games (Completed)
 
-*Last updated: Mar 13, 2026 9:00 AM MT*
+| Sport | Pick | Odds | Result | Units | Score |
+|-------|------|------|--------|-------|-------|
+| NBA | ⭐ Knicks -14.5 vs Warriors | -110 | ❌ LOSS (-2.0) | 110-107 |
+| NBA | Kings -3.5 vs Jazz | -110 | ✅ WIN (+1.0) | 116-111 |
+
+---
+
+## Season Record: 22-12 (+4.0 Units)
+
+*Last updated: Mar 16, 2026 9:00 AM MT*
