@@ -1,62 +1,52 @@
 {
-  "date": "March 14, 2026",
-  "lastUpdated": "2026-03-14T18:00:00-07:00",
+  "date": "March 15, 2026",
+  "lastUpdated": "2026-03-15T18:00:00-06:00",
   "record": "21-11 (+5.5 units)",
   "betOfDay": {
-    "team": "Los Angeles Clippers -13.5",
+    "team": "New York Knicks -14.5",
     "sport": "NBA",
-    "time": "8:40 PM MT",
-    "opponent": "vs Sacramento Kings",
-    "spread": "-13.5",
-    "odds": "-112",
+    "time": "6:10 PM MT",
+    "opponent": "vs Golden State Warriors",
+    "spread": "-14.5",
+    "odds": "-110",
     "units": 2,
-    "analysis": "The line is locked at -13.5 across FanDuel, DraftKings, and BetMGM — zero movement, which means sharp money is on the Clippers. Sacramento is struggling and historically bad against physical home teams. LA at the Intuit Dome is one of the best home-court advantages in the West. Lay the points.",
+    "analysis": "Line moved from -12.5 all the way to -14.5 — sharp money has been hammering the Knicks all day. Warriors are 8-20 on the road, one of the worst away records in the league. Knicks are 25-6 at home. Golden State's defense ranks 28th away from home. Every major book locked at -14.5. No movement = consensus. Back the Knicks.",
     "confidence": "HIGH"
   },
   "picks": [
     {
       "sport": "NBA",
-      "game": "Sacramento Kings @ Los Angeles Clippers",
-      "time": "8:40 PM MT",
-      "pick": "Los Angeles Clippers -13.5",
-      "odds": "-112",
+      "game": "Golden State Warriors @ New York Knicks",
+      "time": "6:10 PM MT",
+      "pick": "New York Knicks -14.5",
+      "odds": "-110",
       "units": 2,
       "tag": "⭐ TOP PICK",
-      "reasoning": "Line perfectly locked at -13.5 across all three major books — no movement means sharpest money agrees. Kings have been one of the worst road teams in the West. Clippers at home are dominant. Best number on this slate."
+      "reasoning": "Line locked at -14.5 across FD, DK, BetOnline, BetRivers, Bovada, BetUS, MyBookie — 8 books consensus. Knicks 25-6 at home. Warriors 8-20 on road. No movement = sharps agree."
     },
     {
       "sport": "NBA",
-      "game": "Denver Nuggets @ Los Angeles Lakers",
-      "time": "6:40 PM MT",
-      "pick": "Denver Nuggets -1.5",
-      "odds": "-115",
-      "units": 1,
-      "tag": "",
-      "reasoning": "Jokic and the Nuggets are the better team, even on the road. Lakers have been inconsistent at home this season. DraftKings and BetMGM locked at -1.5. Small spread but Nuggets are clearly the superior squad and should handle business."
-    },
-    {
-      "sport": "NBA",
-      "game": "Orlando Magic @ Miami Heat",
-      "time": "6:10 PM MT",
-      "pick": "Miami Heat -4.5",
+      "game": "Utah Jazz @ Sacramento Kings",
+      "time": "8:10 PM MT",
+      "pick": "Sacramento Kings -3.5",
       "odds": "-110",
       "units": 1,
       "tag": "",
-      "reasoning": "Line locked at -4.5 across all three books. Heat at home in Miami are a reliable cover team — the crowd and culture matter. Magic are inconsistent on the road. Straightforward home-team lean with solid line consensus."
+      "reasoning": "Kings at home vs worst team in West. Line at -3.5 across DK, BetMGM, LowVig, BetOnline. Kings solid at home, Jazz 10-21 on road with one of worst defensive ratings in NBA."
     },
     {
       "sport": "NHL",
-      "game": "Chicago Blackhawks @ Vegas Golden Knights",
-      "time": "8:00 PM MT",
-      "pick": "Vegas Golden Knights ML",
-      "odds": "-225",
+      "game": "Nashville Predators @ Edmonton Oilers",
+      "time": "6:10 PM MT",
+      "pick": "Edmonton Oilers ML (-185)",
+      "odds": "-185",
       "units": 1,
-      "tag": "",
-      "reasoning": "Golden Knights are one of the most dominant home teams in the NHL. Blackhawks are in full rebuild mode and one of the worst road teams in the league. Line locked at -225 to -230 across books. Back the better team at home."
+      "tag": "🏒 NHL VALUE",
+      "reasoning": "Oilers elite home team with McDavid leading the way. Nashville Predators are one of the weakest teams in the West. Line consistent at -178 to -200 across all books. Back the Oilers at home."
     }
   ],
   "research": {
-    "nba": "Saturday slate — 9 NBA games. Celtics vs Wizards already in progress at 6 PM MT. Key tonight: Heat vs Magic (6:10 PM), Nuggets @ Lakers (6:40 PM), Clippers vs Kings (8:40 PM). Sunday has OKC vs Minnesota and Cavs vs Dallas as big matchups.",
-    "nhl": "Big NHL Saturday with 16 games. Several already underway at 6 PM MT. Best play: Golden Knights at home vs Blackhawks (8 PM MT). Also watching Oilers vs Predators and Minnesota vs Toronto for Sunday card."
+    "nba": "Sunday slate - 3 active NBA games. 76ers vs Blazers already in progress (skip). Best edge: Knicks -14.5 vs Warriors (line moved 2 full points from open). Also Kings -3.5 vs Jazz.",
+    "nhl": "Oilers host Predators at 6:10 PM MT. Edmonton heavy home fav (-178 to -200 across books). Value at ML. Panthers @ Kraken also available but line less clean."
   }
 }
