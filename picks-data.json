@@ -1,52 +1,52 @@
 {
-  "date": "March 15, 2026",
-  "lastUpdated": "2026-03-15T18:00:00-06:00",
+  "date": "March 16, 2026",
+  "lastUpdated": "2026-03-16T18:00:00-06:00",
   "record": "21-11 (+5.5 units)",
   "betOfDay": {
-    "team": "New York Knicks -14.5",
+    "team": "New Orleans Pelicans -8.5",
     "sport": "NBA",
     "time": "6:10 PM MT",
-    "opponent": "vs Golden State Warriors",
-    "spread": "-14.5",
+    "opponent": "vs Dallas Mavericks",
+    "spread": "-8.5",
     "odds": "-110",
     "units": 2,
-    "analysis": "Line moved from -12.5 all the way to -14.5 — sharp money has been hammering the Knicks all day. Warriors are 8-20 on the road, one of the worst away records in the league. Knicks are 25-6 at home. Golden State's defense ranks 28th away from home. Every major book locked at -14.5. No movement = consensus. Back the Knicks.",
+    "analysis": "FanDuel and DraftKings both locked at -8.5, BetOnline and LowVig (sharp books) sitting at -9.0 — the line has crept up from the key number. Pelicans are one of the more dangerous home teams in the West. Dallas is in full rebuild mode, sitting bottom-5 in the league on the road. Consensus across all major books. Back the Pelicans to cover.",
     "confidence": "HIGH"
   },
   "picks": [
     {
       "sport": "NBA",
-      "game": "Golden State Warriors @ New York Knicks",
+      "game": "Dallas Mavericks @ New Orleans Pelicans",
       "time": "6:10 PM MT",
-      "pick": "New York Knicks -14.5",
+      "pick": "New Orleans Pelicans -8.5",
       "odds": "-110",
       "units": 2,
       "tag": "⭐ TOP PICK",
-      "reasoning": "Line locked at -14.5 across FD, DK, BetOnline, BetRivers, Bovada, BetUS, MyBookie — 8 books consensus. Knicks 25-6 at home. Warriors 8-20 on road. No movement = sharps agree."
+      "reasoning": "FD and DK at -8.5, BetOnline and LowVig at -9.0 — sharp books moved the line up. Pelicans at home vs rebuilding Mavs. Dallas bottom-5 in road record. Strong consensus."
     },
     {
       "sport": "NBA",
-      "game": "Utah Jazz @ Sacramento Kings",
-      "time": "8:10 PM MT",
-      "pick": "Sacramento Kings -3.5",
+      "game": "Memphis Grizzlies @ Chicago Bulls",
+      "time": "6:10 PM MT",
+      "pick": "Chicago Bulls -7",
       "odds": "-110",
       "units": 1,
       "tag": "",
-      "reasoning": "Kings at home vs worst team in West. Line at -3.5 across DK, BetMGM, LowVig, BetOnline. Kings solid at home, Jazz 10-21 on road with one of worst defensive ratings in NBA."
+      "reasoning": "BetOnline and LowVig (sharp books) locked at -7.0. Bulls reliable at home, Memphis in full rebuild. Key number -7 holds across the sharp books — value here."
     },
     {
       "sport": "NHL",
-      "game": "Nashville Predators @ Edmonton Oilers",
-      "time": "6:10 PM MT",
-      "pick": "Edmonton Oilers ML (-185)",
-      "odds": "-185",
+      "game": "Utah Mammoth @ Dallas Stars",
+      "time": "6:00 PM MT",
+      "pick": "Dallas Stars ML (-162)",
+      "odds": "-162",
       "units": 1,
       "tag": "🏒 NHL VALUE",
-      "reasoning": "Oilers elite home team with McDavid leading the way. Nashville Predators are one of the weakest teams in the West. Line consistent at -178 to -200 across all books. Back the Oilers at home."
+      "reasoning": "Stars at home vs Utah Mammoth — clean consensus at -162 to -165 across BetRivers, FanDuel, DraftKings. Dallas is a playoff contender playing at home; Utah is one of the weaker Western teams. Reasonable juice for a solid home fav."
     }
   ],
   "research": {
-    "nba": "Sunday slate - 3 active NBA games. 76ers vs Blazers already in progress (skip). Best edge: Knicks -14.5 vs Warriors (line moved 2 full points from open). Also Kings -3.5 vs Jazz.",
-    "nhl": "Oilers host Predators at 6:10 PM MT. Edmonton heavy home fav (-178 to -200 across books). Value at ML. Panthers @ Kraken also available but line less clean."
+    "nba": "11 NBA games on the board. 4 already in progress at 6 PM MT (Warriors @ Wizards, Magic @ Hawks, Blazers @ Nets, Suns @ Celtics) — skipped. Best edges: Pelicans -8.5 at home vs Mavs (consensus sharp number), Bulls -7 at home vs Memphis (BetOnline/LowVig locked). Lakers-Rockets too tight (-1.5), skip.",
+    "nhl": "14 NHL games. First 3 pucks already dropped at 5 PM MT. Best clean value: Dallas Stars ML (-162) at home vs Utah Mammoth. Avs juice too heavy (-235) vs Penguins to chase."
   }
 }

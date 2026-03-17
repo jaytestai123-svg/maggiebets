@@ -1,17 +1,17 @@
-# 🏀 Bet of the Day — March 14, 2026
+# 🏀 Bet of the Day — March 16, 2026
 
-## ⭐ Los Angeles Clippers -13.5 vs Sacramento Kings
+## ⭐ New Orleans Pelicans -8.5 vs Dallas Mavericks
 
 **Sport:** NBA  
-**Time:** 8:40 PM MT  
-**Spread:** -13.5  
-**Odds:** -112  
+**Time:** 6:10 PM MT  
+**Spread:** -8.5  
+**Odds:** -110  
 **Units:** 2  
 **Confidence:** HIGH
 
 ### Analysis
 
-The line is locked at -13.5 across FanDuel, DraftKings, and BetMGM — zero movement, which means sharp money is on the Clippers. Sacramento is struggling and historically bad against physical home teams. LA at the Intuit Dome is one of the best home-court advantages in the West. Lay the points.
+FanDuel and DraftKings locked at -8.5, BetOnline and LowVig (the sharp books) sitting at -9.0 — the number has crept up, which means smart money is on New Orleans. Pelicans are a dangerous home team in the West. Dallas is in full rebuild mode, bottom-5 in road record this season. Zero movement = consensus. Back the Pelicans to cover.
 
 ---
 
@@ -19,9 +19,8 @@ The line is locked at -13.5 across FanDuel, DraftKings, and BetMGM — zero move
 
 | Sport | Pick | Odds | Units |
 |-------|------|------|-------|
-| NBA ⭐ | **Los Angeles Clippers -13.5 vs Kings** | -112 | 2u |
-| NBA | Denver Nuggets -1.5 @ Lakers | -115 | 1u |
-| NBA | Miami Heat -4.5 vs Magic | -110 | 1u |
-| NHL | Vegas Golden Knights ML vs Blackhawks | -225 | 1u |
+| NBA ⭐ | **New Orleans Pelicans -8.5 vs Mavericks** | -110 | 2u |
+| NBA | Chicago Bulls -7 vs Memphis Grizzlies | -110 | 1u |
+| NHL | Dallas Stars ML vs Utah Mammoth | -162 | 1u |
 
 **Season Record: 21-11 (+5.5 Units)**
