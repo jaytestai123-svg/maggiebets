@@ -116,6 +116,16 @@
 
 ---
 
-## Season Record: 22-12 (+4.0 Units)
+### Mar 16 Games (Completed)
 
-*Last updated: Mar 16, 2026 9:00 AM MT*
+| Sport | Pick | Odds | Result | Units | Score |
+|-------|------|------|--------|-------|-------|
+| NBA | ⭐ Pelicans -8.5 vs Mavericks | -110 | ✅ WIN (+2.0) | 129-111 |
+| NBA | Bulls -7 vs Grizzlies | -110 | ✅ WIN (+1.0) | 132-107 |
+| NHL | Stars ML vs Mammoth | -162 | ❌ LOSS (-1.0) | 3-4 |
+
+---
+
+## Season Record: 24-13 (+6.0 Units)
+
+*Last updated: Mar 17, 2026 9:00 AM MT*

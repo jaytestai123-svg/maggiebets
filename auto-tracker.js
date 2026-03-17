@@ -258,6 +258,8 @@ if (command === 'results') {
   checkResults().then(() => process.exit(0));
 } else if (command === 'games') {
   getTodayGames().then(() => process.exit(0));
+} else if (command === 'add') {
+  addPick(process.argv.slice(3)).then(() => process.exit(0));
 } else if (command === 'show') {
   showPicks();
 } else {
