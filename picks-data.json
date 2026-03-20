@@ -1,66 +1,52 @@
 {
-  "date": "March 19, 2026",
-  "lastUpdated": "2026-03-19T18:00:00-06:00",
+  "date": "March 20, 2026",
+  "lastUpdated": "2026-03-20T07:30:00-06:00",
   "record": "24-13 (+6.0 units)",
   "betOfDay": {
-    "team": "Milwaukee Bucks -5.5",
+    "team": "Minnesota Timberwolves -2.5",
     "sport": "NBA",
     "time": "7:10 PM MT",
-    "opponent": "@ Utah Jazz",
-    "spread": "-5.5",
+    "opponent": "vs Portland Trail Blazers",
+    "spread": "-2.5",
     "odds": "-110",
     "units": 2,
-    "analysis": "Jazz are in full tank mode — no playoff motivation. Bucks are fighting for playoff seeding. Line moved from -5.5 to -6.0 on some books (sharp action on Milwaukee). No significant Bucks injuries. Clean spot.",
+    "analysis": "Timberwolves fighting for playoff positioning in competitive West. Home court advantage significant. Blazers rebuilding. Line reasonable at -2.5.",
     "confidence": "HIGH"
   },
   "picks": [
     {
       "sport": "NBA",
-      "game": "Milwaukee Bucks @ Utah Jazz",
+      "game": "Minnesota Timberwolves vs Portland Trail Blazers",
       "time": "7:10 PM MT",
-      "pick": "Milwaukee Bucks -5.5",
+      "pick": "Minnesota Timberwolves -2.5",
       "odds": "-110",
       "units": 2,
       "tag": "⭐ TOP PICK",
-      "reasoning": "Jazz tanking, Bucks need wins. Line moved to -6.0 on some books (sharp). No major Bucks injuries."
+      "reasoning": "Wolves need wins for playoff seeding. Home crowd should help. Blazers clearly rebuilding."
     },
     {
       "sport": "NBA",
-      "game": "Phoenix Suns @ San Antonio Spurs",
-      "time": "6:10 PM MT",
-      "pick": "San Antonio Spurs -9.5",
-      "odds": "-110",
-      "units": 1,
-      "tag": "",
-      "reasoning": "Kawhi Leonard OUT (ankle) + Bradley Beal OUT (season) for Phoenix. Depleted Suns vs healthy home Spurs."
-    },
-    {
-      "sport": "NBA",
-      "game": "Los Angeles Lakers @ Miami Heat",
-      "time": "6:10 PM MT",
-      "pick": "Miami Heat -3.5",
-      "odds": "-110",
-      "units": 1,
-      "tag": "",
-      "reasoning": "Heat reliable at home, Lakers inconsistent on road. Line consistent at -3 to -3.5."
-    },
-    {
-      "sport": "NHL",
-      "game": "Utah Mammoth @ Vegas Golden Knights",
+      "game": "Denver Nuggets vs Toronto Raptors",
       "time": "8:10 PM MT",
-      "pick": "Vegas Golden Knights -1.5",
+      "pick": "Denver Nuggets -7",
       "odds": "-110",
       "units": 1,
-      "tag": "🏒 NHL VALUE",
-      "reasoning": "VGK top-5 home record in NHL, T-Mobile Arena crowd elite. Utah Mammoth expansion team on the road. Line locked -1.5 across all books."
+      "tag": "",
+      "reasoning": "Nuggets at home where they're dominant. Raptors on road struggling. Jokic makes the difference."
+    },
+    {
+      "sport": "NBA",
+      "game": "Houston Rockets vs Atlanta Hawks",
+      "time": "7:10 PM MT",
+      "pick": "Houston Rockets -3.5",
+      "odds": "-110",
+      "units": 1,
+      "tag": "",
+      "reasoning": "Rockets have been one of the hottest teams. Young core playing well. Hawks inconsistent on road."
     }
   ],
-  "injuries_flagged": [
-    "CLE: Donovan Mitchell OUT (eye), Darius Garland OUT (toe), Jarrett Allen OUT (knee) — avoided CLE pick",
-    "PHX: Kawhi Leonard OUT (ankle), Bradley Beal OUT (season) — factored into Spurs -9.5"
-  ],
+  "injuries_flagged": [],
   "research": {
-    "nba": "8 NBA games tonight. Charlotte-Orlando and Detroit-Washington already in progress at 6 PM MT — skipped. Key injury dodges: Cavs -9.5 avoided (Mitchell/Garland/Allen all out). Best edges: Bucks -5.5 at Jazz (tank squad), Spurs -9.5 at home vs decimated Suns (Kawhi+Beal out), Heat -3.5 at home vs Lakers.",
-    "nhl": "11 NHL games tonight. Early games (Jets-Bruins, Islanders-Ottawa, Rangers-Columbus, Habs-Detroit, Wild-Blackhawks) already started. Best upcoming value: VGK -1.5 at home vs expansion Utah Mammoth."
+    "nba": "7 NBA games today (March 20). Notable lines: Knicks -17 at Nets (too high), Celtics -15 at Grizzlies (avoid), Warriors +5 at Pistons (interesting dog). Best values: Wolves -2.5, Nuggets -7, Rockets -3.5."
   }
 }
