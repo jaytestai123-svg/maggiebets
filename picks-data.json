@@ -1,52 +1,66 @@
 {
-  "date": "March 16, 2026",
-  "lastUpdated": "2026-03-16T18:00:00-06:00",
-  "record": "21-11 (+5.5 units)",
+  "date": "March 19, 2026",
+  "lastUpdated": "2026-03-19T18:00:00-06:00",
+  "record": "24-13 (+6.0 units)",
   "betOfDay": {
-    "team": "New Orleans Pelicans -8.5",
+    "team": "Milwaukee Bucks -5.5",
     "sport": "NBA",
-    "time": "6:10 PM MT",
-    "opponent": "vs Dallas Mavericks",
-    "spread": "-8.5",
+    "time": "7:10 PM MT",
+    "opponent": "@ Utah Jazz",
+    "spread": "-5.5",
     "odds": "-110",
     "units": 2,
-    "analysis": "FanDuel and DraftKings both locked at -8.5, BetOnline and LowVig (sharp books) sitting at -9.0 — the line has crept up from the key number. Pelicans are one of the more dangerous home teams in the West. Dallas is in full rebuild mode, sitting bottom-5 in the league on the road. Consensus across all major books. Back the Pelicans to cover.",
+    "analysis": "Jazz are in full tank mode — no playoff motivation. Bucks are fighting for playoff seeding. Line moved from -5.5 to -6.0 on some books (sharp action on Milwaukee). No significant Bucks injuries. Clean spot.",
     "confidence": "HIGH"
   },
   "picks": [
     {
       "sport": "NBA",
-      "game": "Dallas Mavericks @ New Orleans Pelicans",
-      "time": "6:10 PM MT",
-      "pick": "New Orleans Pelicans -8.5",
+      "game": "Milwaukee Bucks @ Utah Jazz",
+      "time": "7:10 PM MT",
+      "pick": "Milwaukee Bucks -5.5",
       "odds": "-110",
       "units": 2,
       "tag": "⭐ TOP PICK",
-      "reasoning": "FD and DK at -8.5, BetOnline and LowVig at -9.0 — sharp books moved the line up. Pelicans at home vs rebuilding Mavs. Dallas bottom-5 in road record. Strong consensus."
+      "reasoning": "Jazz tanking, Bucks need wins. Line moved to -6.0 on some books (sharp). No major Bucks injuries."
     },
     {
       "sport": "NBA",
-      "game": "Memphis Grizzlies @ Chicago Bulls",
+      "game": "Phoenix Suns @ San Antonio Spurs",
       "time": "6:10 PM MT",
-      "pick": "Chicago Bulls -7",
+      "pick": "San Antonio Spurs -9.5",
       "odds": "-110",
       "units": 1,
       "tag": "",
-      "reasoning": "BetOnline and LowVig (sharp books) locked at -7.0. Bulls reliable at home, Memphis in full rebuild. Key number -7 holds across the sharp books — value here."
+      "reasoning": "Kawhi Leonard OUT (ankle) + Bradley Beal OUT (season) for Phoenix. Depleted Suns vs healthy home Spurs."
+    },
+    {
+      "sport": "NBA",
+      "game": "Los Angeles Lakers @ Miami Heat",
+      "time": "6:10 PM MT",
+      "pick": "Miami Heat -3.5",
+      "odds": "-110",
+      "units": 1,
+      "tag": "",
+      "reasoning": "Heat reliable at home, Lakers inconsistent on road. Line consistent at -3 to -3.5."
     },
     {
       "sport": "NHL",
-      "game": "Utah Mammoth @ Dallas Stars",
-      "time": "6:00 PM MT",
-      "pick": "Dallas Stars ML (-162)",
-      "odds": "-162",
+      "game": "Utah Mammoth @ Vegas Golden Knights",
+      "time": "8:10 PM MT",
+      "pick": "Vegas Golden Knights -1.5",
+      "odds": "-110",
       "units": 1,
       "tag": "🏒 NHL VALUE",
-      "reasoning": "Stars at home vs Utah Mammoth — clean consensus at -162 to -165 across BetRivers, FanDuel, DraftKings. Dallas is a playoff contender playing at home; Utah is one of the weaker Western teams. Reasonable juice for a solid home fav."
+      "reasoning": "VGK top-5 home record in NHL, T-Mobile Arena crowd elite. Utah Mammoth expansion team on the road. Line locked -1.5 across all books."
     }
   ],
+  "injuries_flagged": [
+    "CLE: Donovan Mitchell OUT (eye), Darius Garland OUT (toe), Jarrett Allen OUT (knee) — avoided CLE pick",
+    "PHX: Kawhi Leonard OUT (ankle), Bradley Beal OUT (season) — factored into Spurs -9.5"
+  ],
   "research": {
-    "nba": "11 NBA games on the board. 4 already in progress at 6 PM MT (Warriors @ Wizards, Magic @ Hawks, Blazers @ Nets, Suns @ Celtics) — skipped. Best edges: Pelicans -8.5 at home vs Mavs (consensus sharp number), Bulls -7 at home vs Memphis (BetOnline/LowVig locked). Lakers-Rockets too tight (-1.5), skip.",
-    "nhl": "14 NHL games. First 3 pucks already dropped at 5 PM MT. Best clean value: Dallas Stars ML (-162) at home vs Utah Mammoth. Avs juice too heavy (-235) vs Penguins to chase."
+    "nba": "8 NBA games tonight. Charlotte-Orlando and Detroit-Washington already in progress at 6 PM MT — skipped. Key injury dodges: Cavs -9.5 avoided (Mitchell/Garland/Allen all out). Best edges: Bucks -5.5 at Jazz (tank squad), Spurs -9.5 at home vs decimated Suns (Kawhi+Beal out), Heat -3.5 at home vs Lakers.",
+    "nhl": "11 NHL games tonight. Early games (Jets-Bruins, Islanders-Ottawa, Rangers-Columbus, Habs-Detroit, Wild-Blackhawks) already started. Best upcoming value: VGK -1.5 at home vs expansion Utah Mammoth."
   }
 }
