@@ -1,52 +1,52 @@
 {
-  "date": "March 20, 2026",
-  "lastUpdated": "2026-03-20T07:30:00-06:00",
+  "date": "March 21, 2026",
+  "lastUpdated": "2026-03-21T07:30:00-06:00",
   "record": "24-13 (+6.0 units)",
   "betOfDay": {
-    "team": "Minnesota Timberwolves -2.5",
+    "team": "Houston Rockets -2",
     "sport": "NBA",
     "time": "7:10 PM MT",
-    "opponent": "vs Portland Trail Blazers",
-    "spread": "-2.5",
+    "opponent": "vs Miami Heat",
+    "spread": "-2",
     "odds": "-110",
     "units": 2,
-    "analysis": "Timberwolves fighting for playoff positioning in competitive West. Home court advantage significant. Blazers rebuilding. Line reasonable at -2.5.",
+    "analysis": "Rockets are one of the hottest teams in the league, 11-4 in their last 15. Getting them at home -2 is solid value. Heat struggling on the road.",
     "confidence": "HIGH"
   },
   "picks": [
     {
       "sport": "NBA",
-      "game": "Minnesota Timberwolves vs Portland Trail Blazers",
+      "game": "Cleveland Cavaliers @ New Orleans Pelicans",
       "time": "7:10 PM MT",
-      "pick": "Minnesota Timberwolves -2.5",
+      "pick": "Cleveland Cavaliers -4.5",
       "odds": "-110",
       "units": 2,
       "tag": "⭐ TOP PICK",
-      "reasoning": "Wolves need wins for playoff seeding. Home crowd should help. Blazers clearly rebuilding."
+      "reasoning": "Cavs one of the best teams in the East. Road game but -4.5 is reasonable value. Pelicans struggling."
     },
     {
       "sport": "NBA",
-      "game": "Denver Nuggets vs Toronto Raptors",
-      "time": "8:10 PM MT",
-      "pick": "Denver Nuggets -7",
-      "odds": "-110",
-      "units": 1,
-      "tag": "",
-      "reasoning": "Nuggets at home where they're dominant. Raptors on road struggling. Jokic makes the difference."
-    },
-    {
-      "sport": "NBA",
-      "game": "Houston Rockets vs Atlanta Hawks",
+      "game": "Houston Rockets vs Miami Heat",
       "time": "7:10 PM MT",
-      "pick": "Houston Rockets -3.5",
+      "pick": "Houston Rockets -2",
       "odds": "-110",
       "units": 1,
       "tag": "",
-      "reasoning": "Rockets have been one of the hottest teams. Young core playing well. Hawks inconsistent on road."
+      "reasoning": "Rockets red hot, best record in West. Home court advantage key. Heat inconsistent on road."
+    },
+    {
+      "sport": "NBA",
+      "game": "Los Angeles Lakers @ Orlando Magic",
+      "time": "7:10 PM MT",
+      "pick": "Los Angeles Lakers +3",
+      "odds": "-110",
+      "units": 1,
+      "tag": "",
+      "reasoning": "Lakers are the better team, getting 3 points on the road is value. Magic inconsistent at home."
     }
   ],
   "injuries_flagged": [],
   "research": {
-    "nba": "7 NBA games today (March 20). Notable lines: Knicks -17 at Nets (too high), Celtics -15 at Grizzlies (avoid), Warriors +5 at Pistons (interesting dog). Best values: Wolves -2.5, Nuggets -7, Rockets -3.5."
+    "nba": "10 NBA games today (March 21). Best values: Cavs -4.5, Rockets -2, Lakers +3. Avoid: OKC -21.5, MEM -16.5 (lines too steep)."
   }
 }
