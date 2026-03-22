@@ -251,6 +251,179 @@ function showPicks() {
   }
 }
 
+// Auto-generate picks for today
+async function generatePicks() {
+  console.log('🎯 Generating today\'s picks...\n');
+  
+  const games = await getTodayGames();
+  if (games.length === 0) {
+    console.log('No games found for today.');
+    return;
+  }
+  
+  const picks = [];
+  const teamNames = {
+    'Portland Trail Blazers': 'Portland Trail Blazers',
+    'Denver Nuggets': 'Denver Nuggets',
+    'Brooklyn Nets': 'Brooklyn Nets',
+    'Sacramento Kings': 'Sacramento Kings',
+    'Washington Wizards': 'Washington Wizards',
+    'New York Knicks': 'New York Knicks',
+    'Minnesota Timberwolves': 'Minnesota Timberwolves',
+    'Boston Celtics': 'Boston Celtics',
+    'Toronto Raptors': 'Toronto Raptors',
+    'Phoenix Suns': 'Phoenix Suns',
+    'LA Clippers': 'Los Angeles Clippers',
+    'Los Angeles Clippers': 'Los Angeles Clippers',
+    'Dallas Mavericks': 'Dallas Mavericks',
+    'Miami Heat': 'Miami Heat',
+    'Houston Rockets': 'Houston Rockets',
+    'Golden State Warriors': 'Golden State Warriors',
+    'Atlanta Hawks': 'Atlanta Hawks'
+  };
+  
+  for (const game of games) {
+    const fd = game.bookmakers?.find(b => b.key === 'fanduel');
+    const spread = fd?.markets?.find(m => m.key === 'spreads');
+    
+    if (spread) {
+      const home = spread.outcomes.find(o => o.point < 0);
+      const away = spread.outcomes.find(o => o.point > 0);
+      
+      if (home && away) {
+        const gameTime = new Date(game.commence_time);
+        const timeStr = gameTime.toLocaleString('en-US', { timeZone: 'America/Denver', hour: 'numeric', minute: '2-digit' }) + ' MT';
+        
+        // Select the best pick (favorite with reasonable line, or best value)
+        let pick = null;
+        const line = Math.abs(home.point);
+        
+        // Skip if line is too steep (>15)
+        if (line <= 12) {
+          pick = {
+            sport: 'NBA',
+            game: `${game.away_team} @ ${game.home_team}`,
+            time: timeStr,
+            pick: `${game.home_team} ${home.point}`,
+            odds: '-110',
+            units: line <= 5 ? 2 : 1,
+            tag: line <= 5 ? '⭐ TOP PICK' : '',
+            reasoning: `${game.home_team} ${home.point} at home. Line at ${line} points.`
+          };
+        } else if (away.point <= 12) {
+          pick = {
+            sport: 'NBA',
+            game: `${game.away_team} @ ${game.home_team}`,
+            time: timeStr,
+            pick: `${game.away_team} ${away.point}`,
+            odds: '-110',
+            units: 1,
+            tag: '',
+            reasoning: `${game.away_team} ${away.point} getting points. Value play.`
+          };
+        }
+        
+        if (pick) picks.push(pick);
+      }
+    }
+  }
+  
+  // Update picks-data.json
+  const today = new Date();
+  const dateStr = today.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+  
+  const newData = {
+    date: dateStr,
+    lastUpdated: new Date().toISOString(),
+    record: '24-13 (+6.0 units)',
+    betOfDay: picks.find(p => p.tag === '⭐ TOP PICK') || picks[0] || null,
+    picks: picks,
+    injuries_flagged: [],
+    research: {
+      nba: `${games.length} NBA games today (${dateStr}). Auto-generated picks based on line value.`
+    }
+  };
+  
+  fs.writeFileSync(PICKS_FILE, JSON.stringify(newData, null, 2));
+  console.log(`\n✅ Updated picks: ${picks.length} picks saved to picks-data.json`);
+  
+  // Update website
+  await updateWebsite(picks);
+  
+  // Send Telegram notification
+  await sendNotification(picks);
+  
+  console.log('\n🎉 Daily picks complete!');
+}
+
+async function updateWebsite(picks) {
+  const indexPath = path.join(__dirname, 'index.html');
+  let html = fs.readFileSync(indexPath, 'utf8');
+  
+  const betOfDay = picks.find(p => p.tag === '⭐ TOP PICK') || picks[0];
+  const topPicks = picks.filter(p => p.tag === '⭐ TOP PICK');
+  const otherPicks = picks.filter(p => p.tag !== '⭐ TOP PICK');
+  
+  const picksHtml = picks.map(p => `
+    <div class="pick">
+      <div class="pick-header">
+        <span class="tag">${p.tag || '📊'}</span>
+        <span class="units">${p.units}u</span>
+      </div>
+      <div class="game">${p.game}</div>
+      <div class="pick-line">${p.pick} @ ${p.odds}</div>
+      <div class="time">${p.time}</div>
+      <div class="reasoning">${p.reasoning}</div>
+    </div>
+  `).join('');
+  
+  const betHtml = betOfDay ? `
+    <div class="bet-of-day">
+      <h2>⭐ Bet of the Day</h2>
+      <div class="bet-team">${betOfDay.pick}</div>
+      <div class="bet-game">${betOfDay.game}</div>
+      <div class="bet-details">${betOfDay.units}u @ ${betOfDay.odds}</div>
+      <div class="bet-time">${betOfDay.time}</div>
+    </div>
+  ` : '';
+  
+  // Simple replace
+  html = html.replace(/<div class="picks-container">[\s\S]*?<\/div>\s*<\/div>/, `<div class="picks-container">${picksHtml}</div></div>`);
+  html = html.replace(/<div class="bet-of-day">[\s\S]*?<\/div>\s*<\/div>/, betHtml || '<div class="bet-of-day"><p>No picks today</p></div>');
+  
+  fs.writeFileSync(indexPath, html);
+  console.log('✅ Website updated');
+}
+
+async function sendNotification(picks) {
+  const TelegramBot = require('node-telegram-bot-api');
+  const token = '8561009218:AAFz5os5lzxpIdEkqRA0yzUiXYZmMos5ms8';
+  
+  try {
+    const bot = new TelegramBot(token, { polling: false });
+    const chatId = '17079628'; // Eric's Telegram
+    
+    const betOfDay = picks.find(p => p.tag === '⭐ TOP PICK') || picks[0];
+    let msg = `🏀 *MaggieBets Daily Picks*\n\n`;
+    
+    if (betOfDay) {
+      msg += `⭐ *BET OF THE DAY*\n${betOfDay.pick}\n${betOfDay.game}\n${betOfDay.units}u @ ${betOfDay.odds}\n\n`;
+    }
+    
+    msg += `📊 *${picks.length} Total Picks*\n`;
+    picks.forEach((p, i) => {
+      msg += `${i + 1}. ${p.pick} (${p.units}u)\n`;
+    });
+    
+    msg += `\n🔗 maggiebets.com`;
+    
+    await bot.sendMessage(chatId, msg, { parse_mode: 'Markdown' });
+    console.log('✅ Telegram notification sent');
+  } catch (e) {
+    console.log('⚠️ Telegram notification failed:', e.message);
+  }
+}
+
 // Main
 const command = process.argv[2];
 
@@ -262,6 +435,8 @@ if (command === 'results') {
   addPick(process.argv.slice(3)).then(() => process.exit(0));
 } else if (command === 'show') {
   showPicks();
+} else if (command === 'picks') {
+  generatePicks().then(() => process.exit(0));
 } else {
   console.log('MaggieBets Auto-Tracker');
   console.log('');
@@ -270,4 +445,5 @@ if (command === 'results') {
   console.log('  node auto-tracker.js results - Check pending picks');
   console.log('  node auto-tracker.js show    - Show current picks');
   console.log('  node auto-tracker.js add     - Add a pick (manual for now)');
+  console.log('  node auto-tracker.js picks   - Auto-generate today\'s picks');
 }

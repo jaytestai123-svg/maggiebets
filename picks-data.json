@@ -1,52 +1,61 @@
 {
-  "date": "March 21, 2026",
-  "lastUpdated": "2026-03-21T18:00:00-06:00",
+  "date": "March 22, 2026",
+  "lastUpdated": "2026-03-22T13:33:35.231Z",
   "record": "24-13 (+6.0 units)",
   "betOfDay": {
-    "team": "Atlanta Hawks -7.5",
     "sport": "NBA",
-    "time": "6:10 PM MT",
-    "opponent": "vs Golden State Warriors",
-    "spread": "-7.5",
+    "game": "Toronto Raptors @ Phoenix Suns",
+    "time": "7:10 PM MT",
+    "pick": "Phoenix Suns -2.5",
     "odds": "-110",
     "units": 2,
-    "analysis": "Hawks -7.5 locked perfectly across all 9 books (FanDuel, DraftKings, BetMGM, BetRivers, Bovada, BetOnline, BetUS, LowVig, MyBookie). Zero line movement = sharp consensus. Hawks dominant at home, Warriors struggling on the road this season.",
-    "confidence": "HIGH"
+    "tag": "⭐ TOP PICK",
+    "reasoning": "Phoenix Suns -2.5 at home. Line at 2.5 points."
   },
   "picks": [
     {
       "sport": "NBA",
-      "game": "Golden State Warriors @ Atlanta Hawks",
+      "game": "Portland Trail Blazers @ Denver Nuggets",
+      "time": "3:10 PM MT",
+      "pick": "Denver Nuggets -9",
+      "odds": "-110",
+      "units": 1,
+      "tag": "",
+      "reasoning": "Denver Nuggets -9 at home. Line at 9 points."
+    },
+    {
+      "sport": "NBA",
+      "game": "Brooklyn Nets @ Sacramento Kings",
+      "time": "4:10 PM MT",
+      "pick": "Sacramento Kings -6.5",
+      "odds": "-110",
+      "units": 1,
+      "tag": "",
+      "reasoning": "Sacramento Kings -6.5 at home. Line at 6.5 points."
+    },
+    {
+      "sport": "NBA",
+      "game": "Minnesota Timberwolves @ Boston Celtics",
       "time": "6:10 PM MT",
-      "pick": "Atlanta Hawks -7.5",
+      "pick": "Boston Celtics -10",
+      "odds": "-110",
+      "units": 1,
+      "tag": "",
+      "reasoning": "Boston Celtics -10 at home. Line at 10 points."
+    },
+    {
+      "sport": "NBA",
+      "game": "Toronto Raptors @ Phoenix Suns",
+      "time": "7:10 PM MT",
+      "pick": "Phoenix Suns -2.5",
       "odds": "-110",
       "units": 2,
       "tag": "⭐ TOP PICK",
-      "reasoning": "Line locked at -7.5 across all 9 major books — no movement, full sharp consensus. Hawks at home vs struggling Warriors road team. Best line-lock play of the night."
-    },
-    {
-      "sport": "NBA",
-      "game": "Los Angeles Clippers @ Dallas Mavericks",
-      "time": "6:45 PM MT",
-      "pick": "Los Angeles Clippers -7.5",
-      "odds": "-110",
-      "units": 1,
-      "tag": "",
-      "reasoning": "Clippers -7.5 locked across all 9 books as well. Strong road team vs struggling Mavs. Double-locked spread night."
-    },
-    {
-      "sport": "NBA",
-      "game": "Miami Heat @ Houston Rockets",
-      "time": "6:10 PM MT",
-      "pick": "Houston Rockets -2.5",
-      "odds": "-110",
-      "units": 1,
-      "tag": "",
-      "reasoning": "Rockets have been one of the hottest teams in the West. Home court advantage. Heat inconsistent on road. Majority of books at -2.5."
+      "reasoning": "Phoenix Suns -2.5 at home. Line at 2.5 points."
     }
   ],
   "injuries_flagged": [],
   "research": {
-    "nba": "8 NBA games tonight (March 21). Top value plays: Hawks -7.5 (perfect lock), Clippers -7.5 (perfect lock), Rockets -2.5 at home. Avoid: Spurs -16 (too steep), Knicks -19.5 (blowout risk). 76ers @ Jazz line split -5 to -6, not clean enough."
+    "nba": "5 NBA games today (March 22, 2026). Auto-generated picks based on line value."
   }
 }
