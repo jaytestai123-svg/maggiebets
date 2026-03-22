@@ -1,52 +1,52 @@
 {
   "date": "March 21, 2026",
-  "lastUpdated": "2026-03-21T07:30:00-06:00",
+  "lastUpdated": "2026-03-21T18:00:00-06:00",
   "record": "24-13 (+6.0 units)",
   "betOfDay": {
-    "team": "Houston Rockets -2",
+    "team": "Atlanta Hawks -7.5",
     "sport": "NBA",
-    "time": "7:10 PM MT",
-    "opponent": "vs Miami Heat",
-    "spread": "-2",
+    "time": "6:10 PM MT",
+    "opponent": "vs Golden State Warriors",
+    "spread": "-7.5",
     "odds": "-110",
     "units": 2,
-    "analysis": "Rockets are one of the hottest teams in the league, 11-4 in their last 15. Getting them at home -2 is solid value. Heat struggling on the road.",
+    "analysis": "Hawks -7.5 locked perfectly across all 9 books (FanDuel, DraftKings, BetMGM, BetRivers, Bovada, BetOnline, BetUS, LowVig, MyBookie). Zero line movement = sharp consensus. Hawks dominant at home, Warriors struggling on the road this season.",
     "confidence": "HIGH"
   },
   "picks": [
     {
       "sport": "NBA",
-      "game": "Cleveland Cavaliers @ New Orleans Pelicans",
-      "time": "7:10 PM MT",
-      "pick": "Cleveland Cavaliers -4.5",
+      "game": "Golden State Warriors @ Atlanta Hawks",
+      "time": "6:10 PM MT",
+      "pick": "Atlanta Hawks -7.5",
       "odds": "-110",
       "units": 2,
       "tag": "⭐ TOP PICK",
-      "reasoning": "Cavs one of the best teams in the East. Road game but -4.5 is reasonable value. Pelicans struggling."
+      "reasoning": "Line locked at -7.5 across all 9 major books — no movement, full sharp consensus. Hawks at home vs struggling Warriors road team. Best line-lock play of the night."
     },
     {
       "sport": "NBA",
-      "game": "Houston Rockets vs Miami Heat",
-      "time": "7:10 PM MT",
-      "pick": "Houston Rockets -2",
+      "game": "Los Angeles Clippers @ Dallas Mavericks",
+      "time": "6:45 PM MT",
+      "pick": "Los Angeles Clippers -7.5",
       "odds": "-110",
       "units": 1,
       "tag": "",
-      "reasoning": "Rockets red hot, best record in West. Home court advantage key. Heat inconsistent on road."
+      "reasoning": "Clippers -7.5 locked across all 9 books as well. Strong road team vs struggling Mavs. Double-locked spread night."
     },
     {
       "sport": "NBA",
-      "game": "Los Angeles Lakers @ Orlando Magic",
-      "time": "7:10 PM MT",
-      "pick": "Los Angeles Lakers +3",
+      "game": "Miami Heat @ Houston Rockets",
+      "time": "6:10 PM MT",
+      "pick": "Houston Rockets -2.5",
       "odds": "-110",
       "units": 1,
       "tag": "",
-      "reasoning": "Lakers are the better team, getting 3 points on the road is value. Magic inconsistent at home."
+      "reasoning": "Rockets have been one of the hottest teams in the West. Home court advantage. Heat inconsistent on road. Majority of books at -2.5."
     }
   ],
   "injuries_flagged": [],
   "research": {
-    "nba": "10 NBA games today (March 21). Best values: Cavs -4.5, Rockets -2, Lakers +3. Avoid: OKC -21.5, MEM -16.5 (lines too steep)."
+    "nba": "8 NBA games tonight (March 21). Top value plays: Hawks -7.5 (perfect lock), Clippers -7.5 (perfect lock), Rockets -2.5 at home. Avoid: Spurs -16 (too steep), Knicks -19.5 (blowout risk). 76ers @ Jazz line split -5 to -6, not clean enough."
   }
 }

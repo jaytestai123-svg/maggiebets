@@ -1,26 +1,27 @@
-# 🏀 Bet of the Day — March 16, 2026
+# 🏀 Bet of the Day — March 21, 2026
 
-## ⭐ New Orleans Pelicans -8.5 vs Dallas Mavericks
-
-**Sport:** NBA  
+## ⭐ TOP PICK: Atlanta Hawks -7.5 vs Golden State Warriors
 **Time:** 6:10 PM MT  
-**Spread:** -8.5  
-**Odds:** -110  
+**Spread:** Hawks -7.5 (-110)  
 **Units:** 2  
 **Confidence:** HIGH
 
-### Analysis
-
-FanDuel and DraftKings locked at -8.5, BetOnline and LowVig (the sharp books) sitting at -9.0 — the number has crept up, which means smart money is on New Orleans. Pelicans are a dangerous home team in the West. Dallas is in full rebuild mode, bottom-5 in road record this season. Zero movement = consensus. Back the Pelicans to cover.
+**Why:** Hawks -7.5 is locked perfectly across ALL 9 books (FanDuel, DraftKings, BetMGM, BetRivers, Bovada, BetOnline, BetUS, LowVig, MyBookie). Zero line movement = full sharp money consensus. Hawks are dominant at home this season; Warriors are struggling on the road.
 
 ---
 
 ## Tonight's Full Card
 
-| Sport | Pick | Odds | Units |
-|-------|------|------|-------|
-| NBA ⭐ | **New Orleans Pelicans -8.5 vs Mavericks** | -110 | 2u |
-| NBA | Chicago Bulls -7 vs Memphis Grizzlies | -110 | 1u |
-| NHL | Dallas Stars ML vs Utah Mammoth | -162 | 1u |
+| Game | Pick | Spread | Units |
+|------|------|--------|-------|
+| ⭐ Warriors @ Hawks | **Atlanta Hawks** | -7.5 (-110) | 2 |
+| Clippers @ Mavs | **LA Clippers** | -7.5 (-110) | 1 |
+| Heat @ Rockets | **Houston Rockets** | -2.5 (-110) | 1 |
 
-**Season Record: 21-11 (+5.5 Units)**
+**Total risk: 4 units**
+
+---
+
+## Season Record: 24-13 (+6.0 units)
+
+*Picks generated 6:00 PM MT — MaggieBets AI*
