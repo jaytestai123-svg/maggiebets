@@ -1,61 +1,43 @@
 {
   "date": "March 22, 2026",
-  "lastUpdated": "2026-03-22T13:33:35.231Z",
+  "lastUpdated": "2026-03-22T18:00:00-06:00",
   "record": "24-13 (+6.0 units)",
   "betOfDay": {
+    "team": "Toronto Raptors -3.5",
     "sport": "NBA",
-    "game": "Toronto Raptors @ Phoenix Suns",
     "time": "7:10 PM MT",
-    "pick": "Phoenix Suns -2.5",
+    "opponent": "@ Phoenix Suns",
+    "spread": "-3.5",
     "odds": "-110",
     "units": 2,
-    "tag": "⭐ TOP PICK",
-    "reasoning": "Phoenix Suns -2.5 at home. Line at 2.5 points."
+    "analysis": "Raptors are road favorites over the Suns, who have been one of the worst teams in the West this season. Line consensus at -3.5 across FanDuel, DraftKings, BetMGM, MyBookie, BetUS. Clean majority number. Raptors playing well of late.",
+    "confidence": "HIGH"
   },
   "picks": [
     {
       "sport": "NBA",
-      "game": "Portland Trail Blazers @ Denver Nuggets",
-      "time": "3:10 PM MT",
-      "pick": "Denver Nuggets -9",
+      "game": "Toronto Raptors @ Phoenix Suns",
+      "time": "7:10 PM MT",
+      "pick": "Toronto Raptors -3.5",
       "odds": "-110",
-      "units": 1,
-      "tag": "",
-      "reasoning": "Denver Nuggets -9 at home. Line at 9 points."
-    },
-    {
-      "sport": "NBA",
-      "game": "Brooklyn Nets @ Sacramento Kings",
-      "time": "4:10 PM MT",
-      "pick": "Sacramento Kings -6.5",
-      "odds": "-110",
-      "units": 1,
-      "tag": "",
-      "reasoning": "Sacramento Kings -6.5 at home. Line at 6.5 points."
+      "units": 2,
+      "tag": "⭐ TOP PICK",
+      "reasoning": "Raptors road favorites vs a struggling Suns team. -3.5 is the consensus at 5 of 9 books. Suns have been dreadful this season, one of the worst in the West. Take the Raptors."
     },
     {
       "sport": "NBA",
       "game": "Minnesota Timberwolves @ Boston Celtics",
-      "time": "6:10 PM MT",
+      "time": "6:12 PM MT",
       "pick": "Boston Celtics -10",
       "odds": "-110",
       "units": 1,
       "tag": "",
-      "reasoning": "Boston Celtics -10 at home. Line at 10 points."
-    },
-    {
-      "sport": "NBA",
-      "game": "Toronto Raptors @ Phoenix Suns",
-      "time": "7:10 PM MT",
-      "pick": "Phoenix Suns -2.5",
-      "odds": "-110",
-      "units": 2,
-      "tag": "⭐ TOP PICK",
-      "reasoning": "Phoenix Suns -2.5 at home. Line at 2.5 points."
+      "reasoning": "Taking the lower number (-10, available at BetRivers, LowVig, BetOnline, Bovada, BetUS). Celtics elite at home. Wolves are good but not a -10 road team."
     }
   ],
   "injuries_flagged": [],
   "research": {
-    "nba": "5 NBA games today (March 22, 2026). Auto-generated picks based on line value."
+    "nba": "Light Sunday slate — only 2 upcoming NBA games. Top plays: Raptors -3.5 (road fav over terrible Suns), Celtics -10 at home vs Wolves (take the lower number).",
+    "nhl": "3 NHL games tonight. Tampa Bay -176 ML vs Calgary too much juice. Kings @ Mammoth (-178 home) also steep. Skipping NHL tonight."
   }
 }
