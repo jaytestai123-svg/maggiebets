@@ -1,43 +1,62 @@
 {
-  "date": "March 22, 2026",
-  "lastUpdated": "2026-03-22T18:00:00-06:00",
+  "date": "March 23, 2026",
+  "lastUpdated": "2026-03-23T18:00:00.000Z",
   "record": "24-13 (+6.0 units)",
   "betOfDay": {
-    "team": "Toronto Raptors -3.5",
     "sport": "NBA",
-    "time": "7:10 PM MT",
-    "opponent": "@ Phoenix Suns",
-    "spread": "-3.5",
+    "game": "Milwaukee Bucks @ Los Angeles Clippers",
+    "time": "7:40 PM MT",
+    "pick": "Los Angeles Clippers -13.5",
     "odds": "-110",
     "units": 2,
-    "analysis": "Raptors are road favorites over the Suns, who have been one of the worst teams in the West this season. Line consensus at -3.5 across FanDuel, DraftKings, BetMGM, MyBookie, BetUS. Clean majority number. Raptors playing well of late.",
-    "confidence": "HIGH"
+    "tag": "⭐ TOP PICK",
+    "reasoning": "Clippers dominant at home — locked at -13.5 across all major books. Bucks struggling on the road this season and missing key contributors. Classic fade-the-road-underdog spot. Take the Clippers big."
   },
   "picks": [
     {
       "sport": "NBA",
-      "game": "Toronto Raptors @ Phoenix Suns",
-      "time": "7:10 PM MT",
-      "pick": "Toronto Raptors -3.5",
+      "game": "Milwaukee Bucks @ Los Angeles Clippers",
+      "time": "7:40 PM MT",
+      "pick": "Los Angeles Clippers -13.5",
       "odds": "-110",
       "units": 2,
       "tag": "⭐ TOP PICK",
-      "reasoning": "Raptors road favorites vs a struggling Suns team. -3.5 is the consensus at 5 of 9 books. Suns have been dreadful this season, one of the worst in the West. Take the Raptors."
+      "reasoning": "Clippers locked at -13.5 across all books. Dominant home team, Bucks struggling on road."
     },
     {
       "sport": "NBA",
-      "game": "Minnesota Timberwolves @ Boston Celtics",
-      "time": "6:12 PM MT",
-      "pick": "Boston Celtics -10",
+      "game": "Houston Rockets @ Chicago Bulls",
+      "time": "6:10 PM MT",
+      "pick": "Houston Rockets -8.5",
       "odds": "-110",
       "units": 1,
       "tag": "",
-      "reasoning": "Taking the lower number (-10, available at BetRivers, LowVig, BetOnline, Bovada, BetUS). Celtics elite at home. Wolves are good but not a -10 road team."
+      "reasoning": "Rockets top-5 West, dominant road team. Bulls weak at home this season. Line consistent at -8.5."
+    },
+    {
+      "sport": "NBA",
+      "game": "Golden State Warriors @ Dallas Mavericks",
+      "time": "7:40 PM MT",
+      "pick": "Golden State Warriors -1.5",
+      "odds": "-110",
+      "units": 1,
+      "tag": "",
+      "reasoning": "Warriors slight road favorite — line movement toward GSW. Mavs inconsistent at home this stretch."
+    },
+    {
+      "sport": "NBA",
+      "game": "Toronto Raptors @ Utah Jazz",
+      "time": "7:10 PM MT",
+      "pick": "Toronto Raptors -10.5",
+      "odds": "-110",
+      "units": 1,
+      "tag": "",
+      "reasoning": "Raptors road favorite vs Jazz, worst team in the league. Double-digit spread justified against Utah's rebuild."
     }
   ],
   "injuries_flagged": [],
   "research": {
-    "nba": "Light Sunday slate — only 2 upcoming NBA games. Top plays: Raptors -3.5 (road fav over terrible Suns), Celtics -10 at home vs Wolves (take the lower number).",
-    "nhl": "3 NHL games tonight. Tampa Bay -176 ML vs Calgary too much juice. Kings @ Mammoth (-178 home) also steep. Skipping NHL tonight."
+    "nba": "10 NBA games today (March 23, 2026). 6 PM MT refresh — evening slate picks.",
+    "notes": "5:10 PM games (Lakers/Detroit, Spurs/Heat) already in progress at update time."
   }
 }
