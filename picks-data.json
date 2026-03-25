@@ -1,62 +1,111 @@
 {
-  "date": "March 24, 2026",
-  "lastUpdated": "2026-03-24T18:00:00.000Z",
-  "record": "30-16 (+11.0 units)",
+  "date": "March 25, 2026",
+  "lastUpdated": "2026-03-25T13:31:38.687Z",
+  "record": "24-13 (+6.0 units)",
   "betOfDay": {
     "sport": "NBA",
-    "game": "Denver Nuggets @ Phoenix Suns",
-    "time": "9:10 PM MT",
-    "pick": "Denver Nuggets -6",
+    "game": "Atlanta Hawks @ Detroit Pistons",
+    "time": "5:10 PM MT",
+    "pick": "Detroit Pistons -2.5",
     "odds": "-110",
     "units": 2,
     "tag": "⭐ TOP PICK",
-    "reasoning": "Jokic dominant, line at -6 with slight sharp movement toward Denver. Suns struggling at home."
+    "reasoning": "Detroit Pistons -2.5 at home. Line at 2.5 points."
   },
   "picks": [
     {
       "sport": "NBA",
-      "game": "Denver Nuggets @ Phoenix Suns",
-      "time": "9:10 PM MT",
-      "pick": "Denver Nuggets -6",
+      "game": "Atlanta Hawks @ Detroit Pistons",
+      "time": "5:10 PM MT",
+      "pick": "Detroit Pistons -2.5",
       "odds": "-110",
       "units": 2,
       "tag": "⭐ TOP PICK",
-      "reasoning": "Jokic dominant road favorite. Line -6 to -6.5 with sharp movement. Suns one of worst teams in West."
+      "reasoning": "Detroit Pistons -2.5 at home. Line at 2.5 points."
     },
     {
       "sport": "NBA",
-      "game": "Orlando Magic @ Cleveland Cavaliers",
-      "time": "6:10 PM MT",
-      "pick": "Cleveland Cavaliers -10.5",
+      "game": "Chicago Bulls @ Philadelphia 76ers",
+      "time": "5:10 PM MT",
+      "pick": "Philadelphia 76ers -6.5",
       "odds": "-110",
       "units": 1,
       "tag": "",
-      "reasoning": "#1 seed East at home. Locked at -10.5 across all 8 books. Magic weak on road."
+      "reasoning": "Philadelphia 76ers -6.5 at home. Line at 6.5 points."
     },
     {
       "sport": "NBA",
-      "game": "New Orleans Pelicans @ New York Knicks",
-      "time": "5:44 PM MT",
-      "pick": "New York Knicks -8.5",
+      "game": "Los Angeles Lakers @ Indiana Pacers",
+      "time": "5:10 PM MT",
+      "pick": "Indiana Pacers -10.5",
       "odds": "-110",
       "units": 1,
       "tag": "",
-      "reasoning": "Knicks at MSG vs worst team in West. Line -8.5 consensus."
+      "reasoning": "Indiana Pacers -10.5 at home. Line at 10.5 points."
     },
     {
-      "sport": "NHL",
-      "game": "San Jose Sharks @ Nashville Predators",
-      "time": "6:05 PM MT",
-      "pick": "Nashville Predators -1.5",
+      "sport": "NBA",
+      "game": "Oklahoma City Thunder @ Boston Celtics",
+      "time": "5:40 PM MT",
+      "pick": "Boston Celtics -3",
+      "odds": "-110",
+      "units": 2,
+      "tag": "⭐ TOP PICK",
+      "reasoning": "Boston Celtics -3 at home. Line at 3 points."
+    },
+    {
+      "sport": "NBA",
+      "game": "Miami Heat @ Cleveland Cavaliers",
+      "time": "5:40 PM MT",
+      "pick": "Cleveland Cavaliers -3.5",
+      "odds": "-110",
+      "units": 2,
+      "tag": "⭐ TOP PICK",
+      "reasoning": "Cleveland Cavaliers -3.5 at home. Line at 3.5 points."
+    },
+    {
+      "sport": "NBA",
+      "game": "Washington Wizards @ Utah Jazz",
+      "time": "7:10 PM MT",
+      "pick": "Utah Jazz -4.5",
+      "odds": "-110",
+      "units": 2,
+      "tag": "⭐ TOP PICK",
+      "reasoning": "Utah Jazz -4.5 at home. Line at 4.5 points."
+    },
+    {
+      "sport": "NBA",
+      "game": "Houston Rockets @ Minnesota Timberwolves",
+      "time": "7:40 PM MT",
+      "pick": "Minnesota Timberwolves -1.5",
+      "odds": "-110",
+      "units": 2,
+      "tag": "⭐ TOP PICK",
+      "reasoning": "Minnesota Timberwolves -1.5 at home. Line at 1.5 points."
+    },
+    {
+      "sport": "NBA",
+      "game": "Brooklyn Nets @ Golden State Warriors",
+      "time": "8:10 PM MT",
+      "pick": "Golden State Warriors -11.5",
       "odds": "-110",
       "units": 1,
       "tag": "",
-      "reasoning": "Sharks worst in NHL. Preds home puck-line value."
+      "reasoning": "Golden State Warriors -11.5 at home. Line at 11.5 points."
+    },
+    {
+      "sport": "NBA",
+      "game": "Toronto Raptors @ Los Angeles Clippers",
+      "time": "8:40 PM MT",
+      "pick": "Los Angeles Clippers -4",
+      "odds": "-110",
+      "units": 2,
+      "tag": "⭐ TOP PICK",
+      "reasoning": "Los Angeles Clippers -4 at home. Line at 4 points."
     }
   ],
   "injuries_flagged": [],
   "research": {
-    "nba": "4 NBA picks today. Odds via The Odds API. Top pick: Denver Nuggets -6 road favorite with Jokic.",
-    "nhl": "1 NHL pick: Nashville -1.5 vs San Jose (worst team in NHL)."
+    "nba": "12 NBA games today (March 25, 2026). Auto-generated picks based on line value."
   }
 }

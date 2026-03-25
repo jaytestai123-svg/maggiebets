@@ -126,6 +126,17 @@
 
 ---
 
-## Season Record: 24-13 (+6.0 Units)
+## Season Record: 27-13 (+8.0 Units)
 
-*Last updated: Mar 17, 2026 9:00 AM MT*
+*Last updated: Mar 24, 2026 9:00 AM MT*
+
+---
+
+### Mar 23 Games (Completed)
+
+| Sport | Pick | Odds | Result | Units | Score |
+|-------|------|------|--------|-------|-------|
+| NBA | ⭐ Clippers -13.5 vs Bucks | -110 | ✅ WIN (+1.0) | 129-96 |
+| NBA | Rockets -8.5 @ Bulls | -110 | ❌ LOSS (-1.0) | 124-132 |
+| NBA | Warriors -1.5 @ Mavericks | -110 | ✅ WIN (+1.0) | 137-131 |
+| NBA | Raptors -10.5 @ Jazz | -110 | ✅ WIN (+1.0) | 143-127 |
