@@ -1,62 +1,62 @@
 {
-  "date": "March 23, 2026",
-  "lastUpdated": "2026-03-23T18:00:00.000Z",
-  "record": "24-13 (+6.0 units)",
+  "date": "March 24, 2026",
+  "lastUpdated": "2026-03-24T18:00:00.000Z",
+  "record": "30-16 (+11.0 units)",
   "betOfDay": {
     "sport": "NBA",
-    "game": "Milwaukee Bucks @ Los Angeles Clippers",
-    "time": "7:40 PM MT",
-    "pick": "Los Angeles Clippers -13.5",
+    "game": "Denver Nuggets @ Phoenix Suns",
+    "time": "9:10 PM MT",
+    "pick": "Denver Nuggets -6",
     "odds": "-110",
     "units": 2,
     "tag": "⭐ TOP PICK",
-    "reasoning": "Clippers dominant at home — locked at -13.5 across all major books. Bucks struggling on the road this season and missing key contributors. Classic fade-the-road-underdog spot. Take the Clippers big."
+    "reasoning": "Jokic dominant, line at -6 with slight sharp movement toward Denver. Suns struggling at home."
   },
   "picks": [
     {
       "sport": "NBA",
-      "game": "Milwaukee Bucks @ Los Angeles Clippers",
-      "time": "7:40 PM MT",
-      "pick": "Los Angeles Clippers -13.5",
+      "game": "Denver Nuggets @ Phoenix Suns",
+      "time": "9:10 PM MT",
+      "pick": "Denver Nuggets -6",
       "odds": "-110",
       "units": 2,
       "tag": "⭐ TOP PICK",
-      "reasoning": "Clippers locked at -13.5 across all books. Dominant home team, Bucks struggling on road."
+      "reasoning": "Jokic dominant road favorite. Line -6 to -6.5 with sharp movement. Suns one of worst teams in West."
     },
     {
       "sport": "NBA",
-      "game": "Houston Rockets @ Chicago Bulls",
+      "game": "Orlando Magic @ Cleveland Cavaliers",
       "time": "6:10 PM MT",
-      "pick": "Houston Rockets -8.5",
+      "pick": "Cleveland Cavaliers -10.5",
       "odds": "-110",
       "units": 1,
       "tag": "",
-      "reasoning": "Rockets top-5 West, dominant road team. Bulls weak at home this season. Line consistent at -8.5."
+      "reasoning": "#1 seed East at home. Locked at -10.5 across all 8 books. Magic weak on road."
     },
     {
       "sport": "NBA",
-      "game": "Golden State Warriors @ Dallas Mavericks",
-      "time": "7:40 PM MT",
-      "pick": "Golden State Warriors -1.5",
+      "game": "New Orleans Pelicans @ New York Knicks",
+      "time": "5:44 PM MT",
+      "pick": "New York Knicks -8.5",
       "odds": "-110",
       "units": 1,
       "tag": "",
-      "reasoning": "Warriors slight road favorite — line movement toward GSW. Mavs inconsistent at home this stretch."
+      "reasoning": "Knicks at MSG vs worst team in West. Line -8.5 consensus."
     },
     {
-      "sport": "NBA",
-      "game": "Toronto Raptors @ Utah Jazz",
-      "time": "7:10 PM MT",
-      "pick": "Toronto Raptors -10.5",
+      "sport": "NHL",
+      "game": "San Jose Sharks @ Nashville Predators",
+      "time": "6:05 PM MT",
+      "pick": "Nashville Predators -1.5",
       "odds": "-110",
       "units": 1,
       "tag": "",
-      "reasoning": "Raptors road favorite vs Jazz, worst team in the league. Double-digit spread justified against Utah's rebuild."
+      "reasoning": "Sharks worst in NHL. Preds home puck-line value."
     }
   ],
   "injuries_flagged": [],
   "research": {
-    "nba": "10 NBA games today (March 23, 2026). 6 PM MT refresh — evening slate picks.",
-    "notes": "5:10 PM games (Lakers/Detroit, Spurs/Heat) already in progress at update time."
+    "nba": "4 NBA picks today. Odds via The Odds API. Top pick: Denver Nuggets -6 road favorite with Jokic.",
+    "nhl": "1 NHL pick: Nashville -1.5 vs San Jose (worst team in NHL)."
   }
 }
