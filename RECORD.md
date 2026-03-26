@@ -126,9 +126,20 @@
 
 ---
 
-## Season Record: 27-13 (+8.0 Units)
+## Season Record: 29-15 (+6.0 Units)
 
-*Last updated: Mar 24, 2026 9:00 AM MT*
+*Last updated: Mar 26, 2026 9:00 AM MT*
+
+---
+
+### Mar 26 Games (Completed)
+
+| Sport | Pick | Odds | Result | Units | Score |
+|-------|------|------|--------|-------|-------|
+| NBA | Hawks +7.5 @ Celtics | -110 | ✅ WIN (+1.0) | 119-129 |
+| NBA | Heat +4.5 @ Cavs | -110 | ✅ WIN (+1.0) | 103-120 |
+| NBA | Pistons -4 vs Pelicans | -110 | ⏸ PUSH (0.0) | 129-129 |
+| NBA | ⭐ Knicks -1 @ Hornets | -110 | ⏳ PENDING | 5:10 PM MT |
 
 ---
 
