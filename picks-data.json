@@ -1,5 +1,5 @@
 {
-  "date": "March 25, 2026",
+  "date": "2026-03-25",
   "lastUpdated": "2026-03-25T13:31:38.687Z",
   "record": "24-13 (+6.0 units)",
   "betOfDay": {
@@ -9,103 +9,57 @@
     "pick": "Detroit Pistons -2.5",
     "odds": "-110",
     "units": 2,
-    "tag": "⭐ TOP PICK",
+    "tag": "\u2b50 TOP PICK",
     "reasoning": "Detroit Pistons -2.5 at home. Line at 2.5 points."
   },
   "picks": [
     {
       "sport": "NBA",
-      "game": "Atlanta Hawks @ Detroit Pistons",
-      "time": "5:10 PM MT",
-      "pick": "Detroit Pistons -2.5",
+      "game": "Dallas Mavericks @ Denver Nuggets",
+      "time": "8:10 PM MT",
+      "pick": "Denver Nuggets -11.5",
       "odds": "-110",
       "units": 2,
-      "tag": "⭐ TOP PICK",
-      "reasoning": "Detroit Pistons -2.5 at home. Line at 2.5 points."
-    },
-    {
-      "sport": "NBA",
-      "game": "Chicago Bulls @ Philadelphia 76ers",
-      "time": "5:10 PM MT",
-      "pick": "Philadelphia 76ers -6.5",
-      "odds": "-110",
-      "units": 1,
-      "tag": "",
-      "reasoning": "Philadelphia 76ers -6.5 at home. Line at 6.5 points."
-    },
-    {
-      "sport": "NBA",
-      "game": "Los Angeles Lakers @ Indiana Pacers",
-      "time": "5:10 PM MT",
-      "pick": "Indiana Pacers -10.5",
-      "odds": "-110",
-      "units": 1,
-      "tag": "",
-      "reasoning": "Indiana Pacers -10.5 at home. Line at 10.5 points."
-    },
-    {
-      "sport": "NBA",
-      "game": "Oklahoma City Thunder @ Boston Celtics",
-      "time": "5:40 PM MT",
-      "pick": "Boston Celtics -3",
-      "odds": "-110",
-      "units": 2,
-      "tag": "⭐ TOP PICK",
-      "reasoning": "Boston Celtics -3 at home. Line at 3 points."
-    },
-    {
-      "sport": "NBA",
-      "game": "Miami Heat @ Cleveland Cavaliers",
-      "time": "5:40 PM MT",
-      "pick": "Cleveland Cavaliers -3.5",
-      "odds": "-110",
-      "units": 2,
-      "tag": "⭐ TOP PICK",
-      "reasoning": "Cleveland Cavaliers -3.5 at home. Line at 3.5 points."
-    },
-    {
-      "sport": "NBA",
-      "game": "Washington Wizards @ Utah Jazz",
-      "time": "7:10 PM MT",
-      "pick": "Utah Jazz -4.5",
-      "odds": "-110",
-      "units": 2,
-      "tag": "⭐ TOP PICK",
-      "reasoning": "Utah Jazz -4.5 at home. Line at 4.5 points."
+      "tag": "\u2b50 TOP PICK",
+      "reasoning": "Line locked tight at -11.5 across all 9 books. Dallas missing Kyrie Irving (OUT season) and Dereck Lively II (OUT season). Jokic at home is a massive edge."
     },
     {
       "sport": "NBA",
       "game": "Houston Rockets @ Minnesota Timberwolves",
       "time": "7:40 PM MT",
-      "pick": "Minnesota Timberwolves -1.5",
-      "odds": "-110",
+      "pick": "Houston Rockets -2",
+      "odds": "-112",
       "units": 2,
-      "tag": "⭐ TOP PICK",
-      "reasoning": "Minnesota Timberwolves -1.5 at home. Line at 1.5 points."
+      "tag": "\u2b50 TOP PICK",
+      "reasoning": "Houston priced as road favorites, line locked -2 across 9 books (range 0.5). Sharp consensus on Rockets."
     },
     {
       "sport": "NBA",
-      "game": "Brooklyn Nets @ Golden State Warriors",
-      "time": "8:10 PM MT",
-      "pick": "Golden State Warriors -11.5",
+      "game": "Washington Wizards @ Utah Jazz",
+      "time": "7:10 PM MT",
+      "pick": "Utah Jazz -3.5",
       "odds": "-110",
       "units": 1,
       "tag": "",
-      "reasoning": "Golden State Warriors -11.5 at home. Line at 11.5 points."
+      "reasoning": "Jazz at home vs worst team in league. Line locked -3.5 across 9 books."
     },
     {
       "sport": "NBA",
       "game": "Toronto Raptors @ Los Angeles Clippers",
       "time": "8:40 PM MT",
-      "pick": "Los Angeles Clippers -4",
+      "pick": "Los Angeles Clippers -3.5",
       "odds": "-110",
-      "units": 2,
-      "tag": "⭐ TOP PICK",
-      "reasoning": "Los Angeles Clippers -4 at home. Line at 4 points."
+      "units": 1,
+      "tag": "",
+      "reasoning": "Clippers reliable at home, tight lock across 9 books, Raptors bottom-tier road team."
     }
   ],
-  "injuries_flagged": [],
+  "injuries_flagged": [
+    "DAL: Kyrie Irving OUT (season, knee), Dereck Lively II OUT (season, foot)",
+    "GSW: Stephen Curry OUT (knee, out until Mar 27+) \u2014 avoided Warriors pick",
+    "CLE: Jarrett Allen OUT (knee)"
+  ],
   "research": {
-    "nba": "12 NBA games today (March 25, 2026). Auto-generated picks based on line value."
+    "nba": "14 NBA games checked (Mar 25, 2026). 4 picks selected for evening slate."
   }
 }
