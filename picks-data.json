@@ -1,51 +1,71 @@
 {
-  "date": "March 26, 2026",
-  "lastUpdated": "2026-03-26T18:00:00.000Z",
+  "date": "March 27, 2026",
+  "lastUpdated": "2026-03-27T13:32:09.404Z",
   "record": "24-13 (+6.0 units)",
   "betOfDay": {
     "sport": "NBA",
-    "game": "Miami Heat @ Cleveland Cavaliers",
+    "game": "Atlanta Hawks @ Boston Celtics",
     "time": "5:40 PM MT",
-    "pick": "Cleveland Cavaliers -5.5",
+    "pick": "Boston Celtics -5",
     "odds": "-110",
     "units": 2,
     "tag": "⭐ TOP PICK",
-    "reasoning": "Cavs best team in East, line locked at -5.5 across FanDuel and DraftKings — no movement = sharp consensus. Heat struggling on road. Home court advantage at Rocket Mortgage."
+    "reasoning": "Boston Celtics -5 at home. Line at 5 points."
   },
   "picks": [
+    {
+      "sport": "NBA",
+      "game": "Los Angeles Clippers @ Indiana Pacers",
+      "time": "5:10 PM MT",
+      "pick": "Indiana Pacers -9.5",
+      "odds": "-110",
+      "units": 1,
+      "tag": "",
+      "reasoning": "Indiana Pacers -9.5 at home. Line at 9.5 points."
+    },
+    {
+      "sport": "NBA",
+      "game": "Atlanta Hawks @ Boston Celtics",
+      "time": "5:40 PM MT",
+      "pick": "Boston Celtics -5",
+      "odds": "-110",
+      "units": 2,
+      "tag": "⭐ TOP PICK",
+      "reasoning": "Boston Celtics -5 at home. Line at 5 points."
+    },
     {
       "sport": "NBA",
       "game": "Miami Heat @ Cleveland Cavaliers",
       "time": "5:40 PM MT",
       "pick": "Cleveland Cavaliers -5.5",
       "odds": "-110",
-      "units": 2,
-      "tag": "⭐ TOP PICK",
-      "reasoning": "Cavs best team in East, line locked at -5.5 across FD/DK — sharp consensus. Heat struggling on road."
+      "units": 1,
+      "tag": "",
+      "reasoning": "Cleveland Cavaliers -5.5 at home. Line at 5.5 points."
     },
     {
       "sport": "NBA",
-      "game": "New Orleans Pelicans @ Detroit Pistons",
-      "time": "5:12 PM MT",
-      "pick": "Detroit Pistons -7.5",
+      "game": "New Orleans Pelicans @ Toronto Raptors",
+      "time": "6:40 PM MT",
+      "pick": "Toronto Raptors -8.5",
       "odds": "-110",
       "units": 1,
       "tag": "",
-      "reasoning": "Pelicans worst team in West, Detroit solid at home. -7.5 middle of the line spread."
+      "reasoning": "Toronto Raptors -8.5 at home. Line at 8.5 points."
     },
     {
       "sport": "NBA",
-      "game": "Chicago Bulls @ Oklahoma City Thunder",
-      "time": "6:10 PM MT",
-      "pick": "Oklahoma City Thunder -20.5",
+      "game": "Dallas Mavericks @ Portland Trail Blazers",
+      "time": "8:10 PM MT",
+      "pick": "Portland Trail Blazers -10",
       "odds": "-110",
       "units": 1,
       "tag": "",
-      "reasoning": "OKC best team in NBA, Bulls worst in East. Blowout potential. Take the big number."
+      "reasoning": "Portland Trail Blazers -10 at home. Line at 10 points."
     }
   ],
   "injuries_flagged": [],
   "research": {
-    "nba": "8 NBA games on the slate (March 26-27). Odds via The Odds API. Top pick: Cavs -5.5 locked across all major books."
+    "nba": "10 NBA games today (March 27, 2026). Auto-generated picks based on line value."
   }
 }

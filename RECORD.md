@@ -139,7 +139,7 @@
 | NBA | Hawks +7.5 @ Celtics | -110 | ✅ WIN (+1.0) | 119-129 |
 | NBA | Heat +4.5 @ Cavs | -110 | ✅ WIN (+1.0) | 103-120 |
 | NBA | Pistons -4 vs Pelicans | -110 | ⏸ PUSH (0.0) | 129-129 |
-| NBA | ⭐ Knicks -1 @ Hornets | -110 | ⏳ PENDING | 5:10 PM MT |
+| NBA | ⭐ Knicks -1 @ Hornets | -110 | ❌ LOSS (-1.0) | 103-114 |
 
 ---
 
