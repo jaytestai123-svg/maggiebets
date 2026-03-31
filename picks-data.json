@@ -1,51 +1,81 @@
 {
-  "date": "March 30, 2026",
-  "lastUpdated": "2026-03-30T13:32:53.645Z",
+  "date": "March 31, 2026",
+  "lastUpdated": "2026-03-31T13:32:52.732Z",
   "record": "24-13 (+6.0 units)",
   "betOfDay": {
     "sport": "NBA",
-    "game": "Philadelphia 76ers @ Miami Heat",
+    "game": "Phoenix Suns @ Orlando Magic",
     "time": "5:10 PM MT",
-    "pick": "Miami Heat -2",
+    "pick": "Orlando Magic -2",
     "odds": "-110",
     "units": 2,
     "tag": "⭐ TOP PICK",
-    "reasoning": "Miami Heat -2 at home. Line at 2 points."
+    "reasoning": "Orlando Magic -2 at home. Line at 2 points."
   },
   "picks": [
     {
       "sport": "NBA",
-      "game": "Philadelphia 76ers @ Miami Heat",
+      "game": "Phoenix Suns @ Orlando Magic",
       "time": "5:10 PM MT",
-      "pick": "Miami Heat -2",
+      "pick": "Orlando Magic -2",
       "odds": "-110",
       "units": 2,
       "tag": "⭐ TOP PICK",
-      "reasoning": "Miami Heat -2 at home. Line at 2 points."
+      "reasoning": "Orlando Magic -2 at home. Line at 2 points."
     },
     {
       "sport": "NBA",
-      "game": "Boston Celtics @ Atlanta Hawks",
-      "time": "5:40 PM MT",
-      "pick": "Atlanta Hawks -1",
+      "game": "Dallas Mavericks @ Milwaukee Bucks",
+      "time": "6:10 PM MT",
+      "pick": "Milwaukee Bucks -1",
       "odds": "-110",
       "units": 2,
       "tag": "⭐ TOP PICK",
-      "reasoning": "Atlanta Hawks -1 at home. Line at 1 points."
+      "reasoning": "Milwaukee Bucks -1 at home. Line at 1 points."
     },
     {
       "sport": "NBA",
-      "game": "Minnesota Timberwolves @ Dallas Mavericks",
-      "time": "6:40 PM MT",
-      "pick": "Dallas Mavericks -7",
+      "game": "Toronto Raptors @ Detroit Pistons",
+      "time": "6:10 PM MT",
+      "pick": "Detroit Pistons -2.5",
+      "odds": "-110",
+      "units": 2,
+      "tag": "⭐ TOP PICK",
+      "reasoning": "Detroit Pistons -2.5 at home. Line at 2.5 points."
+    },
+    {
+      "sport": "NBA",
+      "game": "New York Knicks @ Houston Rockets",
+      "time": "6:10 PM MT",
+      "pick": "Houston Rockets -1",
+      "odds": "-110",
+      "units": 2,
+      "tag": "⭐ TOP PICK",
+      "reasoning": "Houston Rockets -1 at home. Line at 1 points."
+    },
+    {
+      "sport": "NBA",
+      "game": "Cleveland Cavaliers @ Los Angeles Lakers",
+      "time": "8:40 PM MT",
+      "pick": "Los Angeles Lakers -2",
+      "odds": "-110",
+      "units": 2,
+      "tag": "⭐ TOP PICK",
+      "reasoning": "Los Angeles Lakers -2 at home. Line at 2 points."
+    },
+    {
+      "sport": "NBA",
+      "game": "Portland Trail Blazers @ Los Angeles Clippers",
+      "time": "9:10 PM MT",
+      "pick": "Los Angeles Clippers -6",
       "odds": "-110",
       "units": 1,
       "tag": "",
-      "reasoning": "Dallas Mavericks -7 at home. Line at 7 points."
+      "reasoning": "Los Angeles Clippers -6 at home. Line at 6 points."
     }
   ],
   "injuries_flagged": [],
   "research": {
-    "nba": "8 NBA games today (March 30, 2026). Auto-generated picks based on line value."
+    "nba": "7 NBA games today (March 31, 2026). Auto-generated picks based on line value."
   }
 }
