@@ -14,7 +14,7 @@ const https = require('https');
 const { execSync } = require('child_process');
 
 const ODDS_API_KEY    = process.env.ODDS_API_KEY    || '12d709f9b4d84245e7d8b1bc93dde55a';
-const TELEGRAM_TOKEN  = process.env.TELEGRAM_TOKEN  || '8561009218:AAFz5os5lzxpIdEkqRA0yzUiXYZmMos5ms8';
+const TELEGRAM_TOKEN  = process.env.TELEGRAM_TOKEN  || '8594045165:AAFrMyWjnnosa6B3jk0ibdhIeAcVp-yx3Wk';
 const TELEGRAM_CHAT   = process.env.TELEGRAM_CHAT   || '6945880534';
 
 const RECORD_FILE  = path.join(__dirname, 'RECORD.md');
