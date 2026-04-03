@@ -14,8 +14,8 @@
 | NBA | Heat +6.5 @ Celtics | -110 | ✅ WIN (+0.5) | 129-147 |
 | NBA | Pacers +3.5 @ Bulls | -110 | ✅ WIN (+0.5) | 145-126 |
 | NBA | ⭐ Knicks -13.5 @ Grizzlies | -110 | ❌ LOSS (-0.5) | 130-119 |
-| NBA | Thunder -8.5 vs Lakers | -110 | ⏸ PENDING | Apr 2 |
-| NHL | Capitals +1.5 @ Devils | -240 | ⏸ PENDING | Apr 2 |
+| NBA | Thunder -8.5 vs Lakers | -110 | ✅ WIN (+0.5) | 139-96 |
+| NHL | Capitals +1.5 @ Devils | -240 | ❌ LOSS (-0.5) | 3-7 |
 
 ---
 
