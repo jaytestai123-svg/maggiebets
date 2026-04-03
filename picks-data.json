@@ -1,86 +1,52 @@
 {
-  "date": "April 1, 2026",
-  "lastUpdated": "2026-04-02T00:05:00.000Z",
+  "date": "April 2, 2026",
+  "lastUpdated": "2026-04-03T00:01:00.000Z",
   "record": "24-13 (+6.0 units)",
   "betOfDay": {
     "sport": "NBA",
-    "game": "New York Knicks @ Memphis Grizzlies",
-    "time": "8:05 PM MT",
-    "pick": "New York Knicks -13.5",
+    "game": "Cleveland Cavaliers @ Golden State Warriors",
+    "time": "8:10 PM MT",
+    "pick": "Cleveland Cavaliers -10.5",
     "odds": "-110",
     "units": 2,
     "tag": "⭐ TOP PICK",
-    "reasoning": "Line locked at -13.5 across FanDuel, DraftKings, and BetMGM — perfect book consensus. Knicks are a locked-in playoff team, Grizzlies are one of the worst teams in the West. No line movement = sharp money agrees. Strong fade of Memphis late in the season."
+    "reasoning": "Line locked at -10.5 across FanDuel, DraftKings, AND BetMGM — perfect consensus with zero movement. Cavs are arguably the best team in the NBA right now. Golden State is deep in a rebuild and struggling at home to close the season. No key injuries flagged for Cleveland. The number is sharp — hammer the Cavs."
   },
   "picks": [
     {
       "sport": "NBA",
-      "game": "Atlanta Hawks @ Orlando Magic",
-      "time": "5:10 PM MT",
-      "pick": "Orlando Magic -4.5",
-      "odds": "-110",
-      "units": 1,
-      "tag": "",
-      "reasoning": "Orlando at home. Hawks on road. Line value."
-    },
-    {
-      "sport": "NBA",
-      "game": "Boston Celtics @ Miami Heat",
-      "time": "5:30 PM MT",
-      "pick": "Miami Heat +6.5",
-      "odds": "-110",
-      "units": 1,
-      "tag": "",
-      "reasoning": "Taking the points with Miami at home. Heat play tough at home. Celtics -6.5 is a lot to give."
-    },
-    {
-      "sport": "NBA",
-      "game": "Indiana Pacers @ Chicago Bulls",
-      "time": "6:10 PM MT",
-      "pick": "Indiana Pacers +3.5",
-      "odds": "-115",
-      "units": 1,
-      "tag": "🔥 INJURY ALERT",
-      "reasoning": "Chicago Bulls are missing Josh Giddey (hamstring), Anfernee Simons (wrist), AND Nick Richards (elbow) tonight — all confirmed out. Bulls are severely short-handed. Pacers are the better team, getting points. Lean hard on Indy."
-    },
-    {
-      "sport": "NBA",
-      "game": "New York Knicks @ Memphis Grizzlies",
-      "time": "8:05 PM MT",
-      "pick": "New York Knicks -13.5",
+      "game": "Cleveland Cavaliers @ Golden State Warriors",
+      "time": "8:10 PM MT",
+      "pick": "Cleveland Cavaliers -10.5",
       "odds": "-110",
       "units": 2,
       "tag": "⭐ TOP PICK",
-      "reasoning": "Line locked at -13.5 across FanDuel, DraftKings, and BetMGM — perfect book consensus. Knicks are a locked-in playoff team, Grizzlies are one of the worst teams in the West. No line movement = sharp money agrees. Strong fade of Memphis late in the season."
+      "reasoning": "Line locked at -10.5 across FanDuel, DraftKings, AND BetMGM — perfect consensus with zero movement. Cavs are arguably the best team in the NBA right now. Golden State is deep in a rebuild and struggling at home to close the season. No key injuries flagged for Cleveland. The number is sharp — hammer the Cavs."
     },
     {
       "sport": "NBA",
       "game": "Los Angeles Lakers @ Oklahoma City Thunder",
       "time": "7:40 PM MT",
-      "pick": "Oklahoma City Thunder -8.5",
+      "pick": "Oklahoma City Thunder -9.5",
       "odds": "-110",
       "units": 1,
       "tag": "",
-      "reasoning": "OKC is the best team in the NBA. At home. Line locked at -8.5 on FanDuel and DraftKings. Lakers are struggling to close the season. Thunder should handle this with ease."
+      "reasoning": "OKC is the best team in the NBA, playing at home. Line at -9.5 on DraftKings and BetMGM. Lakers inconsistent to close the season. Thunder handle business at Paycom Center."
     },
     {
       "sport": "NHL",
-      "game": "Washington Capitals @ New Jersey Devils",
-      "time": "5:30 PM MT",
-      "pick": "Washington Capitals +1.5",
-      "odds": "-240",
+      "game": "Nashville Predators @ Los Angeles Kings",
+      "time": "8:30 PM MT",
+      "pick": "Nashville Predators +1.5",
+      "odds": "-250",
       "units": 1,
       "tag": "",
-      "reasoning": "Capitals are one of the best teams in the East. Getting a puck and a half. Line locked at +1.5 across all books at big juice, which means the market respects Washington here. Playoff push for both teams — Caps won't get blown out."
+      "reasoning": "Locked at -250 across FanDuel, DraftKings, AND BetMGM — the market is screaming Nashville keeps it within a goal. Getting a puck and a half with a team the books respect this heavily is excellent value. Nashville won't get blown out here."
     }
   ],
-  "injuries_flagged": [
-    "Josh Giddey (CHI) — Hamstring — OUT",
-    "Anfernee Simons (CHI) — Wrist — OUT",
-    "Nick Richards (CHI) — Elbow — OUT"
-  ],
+  "injuries_flagged": [],
   "research": {
-    "nba": "12 NBA games today (April 1, 2026). 3 already in progress at 6 PM MT. Picking 3 upcoming games.",
-    "nhl": "Multiple NHL games tonight. Washington Capitals value play on +1.5."
+    "nba": "12 NBA games today (April 2, 2026). 2 already in progress at 6 PM MT. Picking 2 upcoming games.",
+    "nhl": "Multiple NHL games tonight. Nashville Predators value play on +1.5."
   }
 }
