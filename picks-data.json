@@ -1,47 +1,47 @@
 {
   "date": "April 5, 2026",
-  "lastUpdated": "2026-04-05T13:36:09.921Z",
+  "lastUpdated": "2026-04-05T16:00:06.526Z",
   "record": "35-18 (+15.0 units)",
   "betOfDay": {
     "sport": "NBA",
     "game": "Toronto Raptors @ Boston Celtics",
-    "pick": "Boston Celtics -10",
+    "pick": "Boston Celtics -9.5",
     "odds": "-109",
     "units": 2,
     "tag": "⭐ TOP PICK",
     "time": "1:40 PM MT",
-    "reasoning": "2-book consensus at -10. Boston Celtics laying 10 points."
+    "reasoning": "8-book consensus at -9.5. Boston Celtics laying 9.5 points."
   },
   "picks": [
     {
       "sport": "NBA",
       "game": "Toronto Raptors @ Boston Celtics",
-      "pick": "Boston Celtics -10",
+      "pick": "Boston Celtics -9.5",
       "odds": "-109",
       "units": 2,
       "tag": "⭐ TOP PICK",
       "time": "1:40 PM MT",
-      "reasoning": "2-book consensus at -10. Boston Celtics laying 10 points."
+      "reasoning": "8-book consensus at -9.5. Boston Celtics laying 9.5 points."
     },
     {
       "sport": "NBA",
       "game": "Toronto Raptors @ Boston Celtics",
-      "pick": "Toronto Raptors +10",
-      "odds": "-112",
+      "pick": "Toronto Raptors +9.5",
+      "odds": "-111",
       "units": 1,
       "tag": "PLAY",
       "time": "1:40 PM MT",
-      "reasoning": "2-book consensus at 10. Toronto Raptors getting 10 points."
+      "reasoning": "8-book consensus at 9.5. Toronto Raptors getting 9.5 points."
     },
     {
       "sport": "NBA",
-      "game": "Toronto Raptors @ Boston Celtics",
-      "pick": "Boston Celtics -9.5",
-      "odds": "-112",
+      "game": "Washington Wizards @ Brooklyn Nets",
+      "pick": "Brooklyn Nets -3.5",
+      "odds": "-109",
       "units": 1,
       "tag": "PLAY",
       "time": "1:40 PM MT",
-      "reasoning": "6-book consensus at -9.5. Boston Celtics laying 9.5 points."
+      "reasoning": "9-book consensus at -3.5. Brooklyn Nets laying 3.5 points."
     }
   ]
 }
