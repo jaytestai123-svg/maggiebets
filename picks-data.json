@@ -1,52 +1,47 @@
 {
-  "date": "April 3, 2026",
-  "lastUpdated": "2026-04-04T00:00:00.000Z",
-  "record": "24-13 (+6.0 units)",
+  "date": "April 5, 2026",
+  "lastUpdated": "2026-04-05T13:36:09.921Z",
+  "record": "35-18 (+15.0 units)",
   "betOfDay": {
     "sport": "NBA",
-    "game": "Boston Celtics @ Milwaukee Bucks",
-    "time": "6:10 PM MT",
-    "pick": "Boston Celtics -17.5",
-    "odds": "-110",
+    "game": "Toronto Raptors @ Boston Celtics",
+    "pick": "Boston Celtics -10",
+    "odds": "-109",
     "units": 2,
     "tag": "⭐ TOP PICK",
-    "reasoning": "Line locked at -17.5 to -18 across every major book — FanDuel, DraftKings, BetMGM, BetOnline, BetRivers, Bovada all agree. Milwaukee is clearly depleted this late in the season and the Celtics are one of the top teams in the East. Road chalk on a double-digit number needs strong consensus, and we have it. Back the Celtics to cover big."
+    "time": "1:40 PM MT",
+    "reasoning": "2-book consensus at -10. Boston Celtics laying 10 points."
   },
   "picks": [
     {
       "sport": "NBA",
-      "game": "Boston Celtics @ Milwaukee Bucks",
-      "time": "6:10 PM MT",
-      "pick": "Boston Celtics -17.5",
-      "odds": "-110",
+      "game": "Toronto Raptors @ Boston Celtics",
+      "pick": "Boston Celtics -10",
+      "odds": "-109",
       "units": 2,
       "tag": "⭐ TOP PICK",
-      "reasoning": "Line locked at -17.5 to -18 across every major book — FanDuel, DraftKings, BetMGM, BetOnline, BetRivers, Bovada all agree. Milwaukee is clearly depleted this late in the season and the Celtics are one of the top teams in the East. Road chalk on a double-digit number needs strong consensus, and we have it. Back the Celtics to cover big."
+      "time": "1:40 PM MT",
+      "reasoning": "2-book consensus at -10. Boston Celtics laying 10 points."
     },
     {
       "sport": "NBA",
-      "game": "Houston Rockets vs Utah Jazz",
-      "time": "6:10 PM MT",
-      "pick": "Houston Rockets -18.5",
-      "odds": "-110",
+      "game": "Toronto Raptors @ Boston Celtics",
+      "pick": "Toronto Raptors +10",
+      "odds": "-112",
       "units": 1,
-      "tag": "",
-      "reasoning": "Perfect -18.5 consensus across 6 books with zero movement. Rockets are a top-5 West team at home, Jazz are in full rebuild mode and among the worst in the league. This number has been sharp and steady all day."
+      "tag": "PLAY",
+      "time": "1:40 PM MT",
+      "reasoning": "2-book consensus at 10. Toronto Raptors getting 10 points."
     },
     {
-      "sport": "NHL",
-      "game": "Florida Panthers @ Pittsburgh Penguins",
-      "time": "5:00 PM MT",
-      "pick": "Florida Panthers -1.5",
-      "odds": "-140",
+      "sport": "NBA",
+      "game": "Toronto Raptors @ Boston Celtics",
+      "pick": "Boston Celtics -9.5",
+      "odds": "-112",
       "units": 1,
-      "tag": "",
-      "reasoning": "Panthers are an elite team and consistent -1.5 favorites at -140 across all books. Pittsburgh is struggling this season. Florida's depth and system makes winning by 2 a very achievable result. Clean value at -140 juice."
+      "tag": "PLAY",
+      "time": "1:40 PM MT",
+      "reasoning": "6-book consensus at -9.5. Boston Celtics laying 9.5 points."
     }
-  ],
-  "injuries_flagged": [],
-  "research": {
-    "nba": "9 NBA games today (April 3, 2026). 4 already in progress at 6 PM MT. Picking 2 upcoming games.",
-    "nhl": "Multiple NHL games. Florida Panthers best value play at -1.5 (-140)."
-  }
+  ]
 }

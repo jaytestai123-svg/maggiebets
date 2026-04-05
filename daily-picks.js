@@ -1,11 +1,12 @@
 /**
  * MaggieBets Daily Picks Engine — Single source of truth
- * Run once per day via cron. Does everything:
- *   1. Fetches today's NBA odds
- *   2. Generates picks
- *   3. Updates public/index.html
- *   4. Sends Telegram notification
- *   5. Commits & pushes to GitHub
+ * Runs at 10 AM MT daily via cron:
+ *   1. Settle yesterday's picks against real scores
+ *   2. Update record in RECORD.md + index.html
+ *   3. Fetch today's odds + generate picks
+ *   4. Update public/index.html
+ *   5. Send one Telegram message to MaggieBets bot
+ *   6. Commit & push to GitHub
  */
 
 const fs   = require('fs');
@@ -13,138 +14,205 @@ const path = require('path');
 const https = require('https');
 const { execSync } = require('child_process');
 
-const ODDS_API_KEY    = process.env.ODDS_API_KEY    || '12d709f9b4d84245e7d8b1bc93dde55a';
-const TELEGRAM_TOKEN  = process.env.TELEGRAM_TOKEN  || '8594045165:AAFrMyWjnnosa6B3jk0ibdhIeAcVp-yx3Wk';
-const TELEGRAM_CHAT   = process.env.TELEGRAM_CHAT   || '6945880534';
+const ODDS_API_KEY   = process.env.ODDS_API_KEY  || '12d709f9b4d84245e7d8b1bc93dde55a';
+const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN || '8594045165:AAFrMyWjnnosa6B3jk0ibdhIeAcVp-yx3Wk';
+const TELEGRAM_CHAT  = process.env.TELEGRAM_CHAT  || '6945880534';
 
-const RECORD_FILE  = path.join(__dirname, 'RECORD.md');
-const INDEX_FILE   = path.join(__dirname, 'public', 'index.html');
+const RECORD_FILE    = path.join(__dirname, 'RECORD.md');
+const INDEX_FILE     = path.join(__dirname, 'public', 'index.html');
+const PICKS_FILE     = path.join(__dirname, 'picks-data.json');
 
-// ── Helpers ──────────────────────────────────────────────────────────────────
+// ── HTTP helper ───────────────────────────────────────────────────────────────
 function get(url) {
   return new Promise((resolve, reject) => {
-    https.get(url, res => {
+    https.get(url, { headers: { 'User-Agent': 'Mozilla/5.0' } }, res => {
       let data = '';
       res.on('data', c => data += c);
       res.on('end', () => {
         try { resolve(JSON.parse(data)); }
-        catch(e) { reject(new Error('JSON parse failed: ' + data.slice(0, 200))); }
+        catch(e) { reject(new Error('JSON parse failed')); }
       });
     }).on('error', reject);
   });
 }
 
+// ── Read/write record ─────────────────────────────────────────────────────────
 function parseRecord() {
   try {
-    const txt = fs.readFileSync(RECORD_FILE, 'utf8');
-    const m = txt.match(/##\s*Overall[^\n]*\n[^*]*\*\*(\d+)-(\d+)[^*]*\*\*([^u]*units?)/i)
-           || txt.match(/(\d+)-(\d+)[^+\n]*\+?([\d.]+)\s*[Uu]nits?/);
-    if (m) return { wins: parseInt(m[1]), losses: parseInt(m[2]), units: parseFloat(m[3]) };
-  } catch(e) {}
-  // Fallback: read from index.html
-  try {
     const html = fs.readFileSync(INDEX_FILE, 'utf8');
-    const wl   = html.match(/<div class="stats">(\d+)-(\d+)<\/div>/);
-    const u    = html.match(/<div class="units">\+?([\d.]+)\s*Units<\/div>/);
+    const wl = html.match(/<div class="stats">(\d+)-(\d+)<\/div>/);
+    const u  = html.match(/<div class="units">\+?([\d.]+)\s*Units<\/div>/);
     if (wl && u) return { wins: parseInt(wl[1]), losses: parseInt(wl[2]), units: parseFloat(u[1]) };
+  } catch(e) {}
+  try {
+    const txt = fs.readFileSync(RECORD_FILE, 'utf8');
+    const m = txt.match(/(\d+)-(\d+)[^+\n]*\+?([\d.]+)\s*[Uu]nits?/);
+    if (m) return { wins: parseInt(m[1]), losses: parseInt(m[2]), units: parseFloat(m[3]) };
   } catch(e) {}
   return { wins: 35, losses: 18, units: 15.0 };
 }
 
-function pickGames(odds) {
-  if (!odds || !odds.length) return [];
+function saveRecord(record) {
+  try {
+    let txt = fs.readFileSync(RECORD_FILE, 'utf8');
+    txt = txt.replace(/## Season Record:.*/, `## Season Record: ${record.wins}-${record.losses} (+${record.units.toFixed(1)} Units)`);
+    fs.writeFileSync(RECORD_FILE, txt);
+  } catch(e) {}
+}
 
+// ── Load yesterday's picks ────────────────────────────────────────────────────
+function loadYesterdayPicks() {
+  try {
+    const d = JSON.parse(fs.readFileSync(PICKS_FILE, 'utf8'));
+    const picks = [d.betOfDay, ...(d.picks || [])].filter(Boolean);
+    // Deduplicate by game+pick
+    const seen = new Set();
+    return picks.filter(p => {
+      const key = `${p.game}|${p.pick}`;
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+  } catch(e) { return []; }
+}
+
+// ── Fetch ESPN scores for a date (YYYYMMDD) ───────────────────────────────────
+async function fetchScores(dateStr) {
+  try {
+    const data = await get(`https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=${dateStr}`);
+    const games = {};
+    for (const event of (data.events || [])) {
+      const comp = event.competitions?.[0];
+      if (!comp) continue;
+      const home = comp.competitors.find(c => c.homeAway === 'home');
+      const away = comp.competitors.find(c => c.homeAway === 'away');
+      if (!home || !away) continue;
+      const homeScore = parseInt(home.score || 0);
+      const awayScore = parseInt(away.score || 0);
+      const homeName  = home.team.displayName;
+      const awayName  = away.team.displayName;
+      // Index by both team names for easy lookup
+      games[homeName] = { homeScore, awayScore, homeName, awayName };
+      games[awayName] = { homeScore, awayScore, homeName, awayName };
+    }
+    return games;
+  } catch(e) {
+    console.error('Score fetch error:', e.message);
+    return {};
+  }
+}
+
+// ── Settle one pick against scores ───────────────────────────────────────────
+function settlePick(pick, scores) {
+  if (pick.sport === 'NHL') return null; // skip NHL for now
+
+  // Parse: "Team Name -7.5" or "Team Name +3"
+  const m = pick.pick.match(/^(.+?)\s+([+-][\d.]+)$/);
+  if (!m) return null;
+
+  const team   = m[1].trim();
+  const spread = parseFloat(m[2]);
+  const units  = pick.units || 1;
+
+  const game = scores[team];
+  if (!game) return null; // game not found
+
+  const isHome = game.homeName === team;
+  const teamScore  = isHome ? game.homeScore : game.awayScore;
+  const oppScore   = isHome ? game.awayScore : game.homeScore;
+  const margin     = teamScore - oppScore; // positive = team won
+
+  // Apply spread: team covers if (margin + spread) > 0
+  const coverMargin = margin + spread;
+
+  if (coverMargin > 0)  return { result: 'WIN',  units: +units };
+  if (coverMargin < 0)  return { result: 'LOSS', units: -units };
+  return { result: 'PUSH', units: 0 };
+}
+
+// ── Generate picks from odds ──────────────────────────────────────────────────
+function generatePicks(odds) {
+  if (!odds || !odds.length) return [];
   const picks = [];
 
   for (const game of odds) {
-    if (!game.bookmakers || !game.bookmakers.length) continue;
-
-    // Find spreads
-    const bookmakers = game.bookmakers;
+    if (!game.bookmakers?.length) continue;
     const spreads = [];
 
-    for (const bk of bookmakers) {
+    for (const bk of game.bookmakers) {
       const market = (bk.markets || []).find(m => m.key === 'spreads');
       if (!market) continue;
-      for (const outcome of market.outcomes) {
-        spreads.push({ book: bk.title, team: outcome.name, point: outcome.point, price: outcome.price });
+      for (const o of market.outcomes) {
+        spreads.push({ team: o.name, point: o.point, price: o.price });
       }
     }
+    if (spreads.length < 2) continue;
 
-    if (!spreads.length) continue;
-
-    // Find consensus — team with spread covered by 3+ books
+    // Find consensus lines
     const consensus = {};
     for (const s of spreads) {
       const key = `${s.team}|${s.point}`;
-      consensus[key] = (consensus[key] || []);
+      if (!consensus[key]) consensus[key] = [];
       consensus[key].push(s);
     }
 
     for (const [key, entries] of Object.entries(consensus)) {
       if (entries.length < 2) continue;
       const [team, point] = key.split('|');
+      const pt = parseFloat(point);
       const avgPrice = Math.round(entries.reduce((s, e) => s + e.price, 0) / entries.length);
-      const absSpread = Math.abs(parseFloat(point));
+      const absSpread = Math.abs(pt);
 
-      // Pick logic: favor underdogs getting 4-14 pts, or heavy favorites
-      if ((parseFloat(point) > 3 && parseFloat(point) < 15) || absSpread > 14) {
-        const home = game.home_team;
-        const away = game.away_team;
-        const isHome = team === home;
-        const gameTime = new Date(game.commence_time);
-        const mtHour = gameTime.getUTCHours() - 6; // rough MT
-        const timeStr = `${mtHour > 12 ? mtHour - 12 : mtHour}:${String(gameTime.getUTCMinutes()).padStart(2,'0')} ${mtHour >= 12 ? 'PM' : 'AM'} MT`;
+      if (absSpread >= 3 && absSpread <= 18) {
+        const gameTime  = new Date(game.commence_time);
+        const mtHour    = ((gameTime.getUTCHours() - 6) + 24) % 24;
+        const ampm      = mtHour >= 12 ? 'PM' : 'AM';
+        const hour12    = mtHour > 12 ? mtHour - 12 : (mtHour === 0 ? 12 : mtHour);
+        const timeStr   = `${hour12}:${String(gameTime.getUTCMinutes()).padStart(2,'0')} ${ampm} MT`;
 
         picks.push({
-          game: `${away} @ ${home}`,
-          pick: `${team} ${parseFloat(point) > 0 ? '+' : ''}${point}`,
+          sport: 'NBA',
+          game: `${game.away_team} @ ${game.home_team}`,
+          pick: `${team} ${pt > 0 ? '+' : ''}${point}`,
           odds: avgPrice > 0 ? `+${avgPrice}` : `${avgPrice}`,
           units: picks.length === 0 ? 2 : 1,
           tag: picks.length === 0 ? '⭐ TOP PICK' : 'PLAY',
           time: timeStr,
-          books: entries.length,
-          reasoning: `${entries.length} books agree on this line. ${isHome ? 'Home' : 'Road'} spot for ${team}. Spread: ${point}.`
+          reasoning: `${entries.length}-book consensus at ${point}. ${team} ${pt > 0 ? 'getting' : 'laying'} ${absSpread} points.`
         });
-
         if (picks.length >= 3) break;
       }
     }
     if (picks.length >= 3) break;
   }
-
   return picks;
 }
 
-function buildHTML(record, picks, dateStr) {
-  const topPick = picks[0];
-  const rest    = picks.slice(1);
+// ── Build HTML ────────────────────────────────────────────────────────────────
+function buildHTML(record, picks, dateStr, settlements) {
+  const now = new Date().toLocaleString('en-US', {
+    timeZone: 'America/Denver', hour: 'numeric', minute: '2-digit', hour12: true
+  });
 
-  const topCard = topPick ? `
-        <div class="pick-card top-pick">
-            <div class="pick-header">
-                <span class="sport">NBA</span>
-                <span class="confidence">⭐ TOP PICK</span>
-            </div>
-            <div class="matchup">${topPick.game}</div>
-            <div class="pick">${topPick.pick} (${topPick.odds}) • ${topPick.units} Units</div>
-            <div class="time">${topPick.time}</div>
-            <div class="reasoning"><strong>Why:</strong> ${topPick.reasoning}</div>
-        </div>` : '';
+  const settleSummary = settlements.length
+    ? `<div style="background:rgba(255,255,255,0.05);border-radius:10px;padding:12px 16px;margin-bottom:20px;font-size:0.82rem;color:#9ca3af;line-height:1.8">
+        <strong style="color:#ffd700">Yesterday's Results:</strong><br>
+        ${settlements.map(s =>
+          `${s.result === 'WIN' ? '✅' : s.result === 'LOSS' ? '❌' : '➖'} ${s.pick} — ${s.result} (${s.units > 0 ? '+' : ''}${s.units}u)`
+        ).join('<br>')}
+      </div>` : '';
 
-  const restCards = rest.map(p => `
-        <div class="pick-card">
+  const cards = picks.map((p, i) => `
+        <div class="pick-card${i === 0 ? ' top-pick' : ''}">
             <div class="pick-header">
-                <span class="sport">NBA</span>
-                <span class="confidence">PLAY</span>
+                <span class="sport">${p.sport}</span>
+                <span class="confidence">${i === 0 ? '⭐ TOP PICK' : 'PLAY'}</span>
             </div>
             <div class="matchup">${p.game}</div>
-            <div class="pick">${p.pick} (${p.odds}) • ${p.units} Unit</div>
+            <div class="pick">${p.pick} (${p.odds}) • ${p.units} Unit${p.units > 1 ? 's' : ''}</div>
             <div class="time">${p.time}</div>
             <div class="reasoning"><strong>Why:</strong> ${p.reasoning}</div>
         </div>`).join('');
-
-  const now = new Date().toLocaleString('en-US', { timeZone: 'America/Denver', hour: 'numeric', minute: '2-digit', hour12: true });
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -183,17 +251,14 @@ function buildHTML(record, picks, dateStr) {
             <h1>🏆 MaggieBets</h1>
             <p class="subtitle">Daily Sports Picks</p>
         </header>
-
         <div class="record">
             <h2>Season Record</h2>
             <div class="stats">${record.wins}-${record.losses}</div>
             <div class="units">+${record.units.toFixed(1)} Units</div>
         </div>
-
         <h3 style="margin-bottom: 15px; color: #9ca3af;">Today's Picks — ${dateStr}</h3>
-        ${topCard}
-        ${restCards}
-
+        ${settleSummary}
+        ${cards || '<p style="color:#9ca3af;text-align:center;padding:20px">No picks today — check back tomorrow.</p>'}
         <div class="footer">
             <p>🎰 Brought to you by <a href="https://go.dimebitaffiliates.com/visit/?bta=35096&brand=dimebit" style="color: #ffd700; text-decoration: none;">DimeBit</a></p>
             <p>⚠️ Gamble responsibly. 18+ only.</p>
@@ -204,8 +269,9 @@ function buildHTML(record, picks, dateStr) {
 </html>`;
 }
 
+// ── Telegram ──────────────────────────────────────────────────────────────────
 function sendTelegram(msg) {
-  return new Promise((resolve) => {
+  return new Promise(resolve => {
     const body = JSON.stringify({ chat_id: TELEGRAM_CHAT, text: msg, parse_mode: 'Markdown' });
     const opts = {
       hostname: 'api.telegram.org',
@@ -213,13 +279,9 @@ function sendTelegram(msg) {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'Content-Length': Buffer.byteLength(body) }
     };
-    const req = https.request(opts, res => {
-      res.on('data', () => {});
-      res.on('end', resolve);
-    });
+    const req = https.request(opts, res => { res.on('data', ()=>{}); res.on('end', resolve); });
     req.on('error', () => resolve());
-    req.write(body);
-    req.end();
+    req.write(body); req.end();
   });
 }
 
@@ -227,66 +289,104 @@ function sendTelegram(msg) {
 async function run() {
   console.log('🏀 MaggieBets daily picks starting...');
 
-  const today = new Date().toLocaleDateString('en-US', {
-    timeZone: 'America/Denver', month: 'long', day: 'numeric', year: 'numeric'
-  });
-  const dateShort = new Date().toLocaleDateString('en-US', {
-    timeZone: 'America/Denver', month: 'short', day: 'numeric'
-  });
+  const now       = new Date();
+  const yesterday = new Date(now); yesterday.setDate(now.getDate() - 1);
+  const yStr      = yesterday.toISOString().slice(0,10).replace(/-/g,''); // YYYYMMDD
+  const today     = now.toLocaleDateString('en-US', { timeZone:'America/Denver', month:'long', day:'numeric', year:'numeric' });
+  const dateShort = now.toLocaleDateString('en-US', { timeZone:'America/Denver', month:'short', day:'numeric' });
 
-  // 1. Fetch odds
+  // 1. Load yesterday's picks + fetch scores to settle
+  let record = parseRecord();
+  console.log(`Starting record: ${record.wins}-${record.losses} +${record.units}u`);
+
+  const yesterdayPicks = loadYesterdayPicks();
+  const settlements    = [];
+
+  if (yesterdayPicks.length) {
+    console.log(`Settling ${yesterdayPicks.length} picks from yesterday...`);
+    const scores = await fetchScores(yStr);
+    console.log(`Got scores for ${Object.keys(scores).length} teams`);
+
+    for (const pick of yesterdayPicks) {
+      const result = settlePick(pick, scores);
+      if (!result) { console.log(`  SKIP: ${pick.pick} (no score found)`); continue; }
+
+      console.log(`  ${result.result}: ${pick.pick} (${result.units > 0 ? '+' : ''}${result.units}u)`);
+      settlements.push({ pick: pick.pick, ...result });
+
+      if (result.result === 'WIN')       { record.wins++;   record.units = Math.round((record.units + result.units) * 10) / 10; }
+      else if (result.result === 'LOSS') { record.losses++; record.units = Math.round((record.units + result.units) * 10) / 10; }
+    }
+
+    if (settlements.length) {
+      saveRecord(record);
+      console.log(`✅ Updated record: ${record.wins}-${record.losses} +${record.units}u`);
+    }
+  }
+
+  // 2. Fetch today's odds + generate picks
   let picks = [];
   try {
-    const url = `https://api.the-odds-api.com/v4/sports/basketball_nba/odds/?apiKey=${ODDS_API_KEY}&regions=us&markets=spreads&oddsFormat=american`;
+    const url  = `https://api.the-odds-api.com/v4/sports/basketball_nba/odds/?apiKey=${ODDS_API_KEY}&regions=us&markets=spreads&oddsFormat=american`;
     const odds = await get(url);
-    picks = pickGames(Array.isArray(odds) ? odds : []);
-    console.log(`Got ${picks.length} picks from odds API`);
+    picks      = generatePicks(Array.isArray(odds) ? odds : []);
+    console.log(`Generated ${picks.length} picks`);
   } catch(e) {
     console.error('Odds API error:', e.message);
   }
 
-  // 2. Read current record
-  const record = parseRecord();
-  console.log(`Current record: ${record.wins}-${record.losses} +${record.units}u`);
+  // Save picks for tomorrow's settlement
+  if (picks.length) {
+    fs.writeFileSync(PICKS_FILE, JSON.stringify({
+      date: today,
+      lastUpdated: new Date().toISOString(),
+      record: `${record.wins}-${record.losses} (+${record.units.toFixed(1)} units)`,
+      betOfDay: picks[0],
+      picks
+    }, null, 2));
+  }
 
   // 3. Update HTML
-  if (picks.length > 0) {
-    const html = buildHTML(record, picks, today);
-    fs.writeFileSync(INDEX_FILE, html);
-    console.log('✅ Updated public/index.html');
-  } else {
-    console.log('⚠️  No picks generated — HTML not updated');
+  const html = buildHTML(record, picks, today, settlements);
+  fs.writeFileSync(INDEX_FILE, html);
+  console.log('✅ Updated public/index.html');
+
+  // 4. Send Telegram — ONE message
+  const wins   = settlements.filter(s => s.result === 'WIN').length;
+  const losses = settlements.filter(s => s.result === 'LOSS').length;
+  const unitChg = settlements.reduce((sum, s) => sum + s.units, 0);
+
+  let msg = `🏆 *MaggieBets — ${dateShort}*\n`;
+  msg += `📊 Record: *${record.wins}-${record.losses} (+${record.units.toFixed(1)}u)*\n`;
+
+  if (settlements.length) {
+    msg += `\n*Yesterday:* ${wins}W-${losses}L (${unitChg >= 0 ? '+' : ''}${unitChg.toFixed(1)}u)\n`;
+    settlements.forEach(s => {
+      msg += `${s.result === 'WIN' ? '✅' : s.result === 'LOSS' ? '❌' : '➖'} ${s.pick}\n`;
+    });
   }
 
-  // 4. Send Telegram
-  const topPick = picks[0];
-  let msg = `🏆 *MaggieBets — ${dateShort}*\n\n`;
-  msg += `📊 Record: *${record.wins}-${record.losses} (+${record.units.toFixed(1)}u)*\n\n`;
-
-  if (topPick) {
-    msg += `⭐ *TOP PICK (${topPick.units}u)*\n`;
-    msg += `${topPick.game}\n`;
-    msg += `*${topPick.pick}* (${topPick.odds})\n`;
-    msg += `🕐 ${topPick.time}\n\n`;
-    picks.slice(1).forEach(p => {
-      msg += `▪️ ${p.game} — *${p.pick}* (${p.odds}) • ${p.units}u\n`;
+  if (picks.length) {
+    msg += `\n*Today's Picks:*\n`;
+    picks.forEach((p, i) => {
+      msg += `${i === 0 ? '⭐' : '▪️'} ${p.game}\n   *${p.pick}* (${p.odds}) • ${p.units}u\n`;
     });
   } else {
-    msg += `No picks today — no qualifying lines found.`;
+    msg += `\nNo qualifying picks today.\n`;
   }
-
   msg += `\n🌐 maggiebets.onrender.com`;
+
   await sendTelegram(msg);
   console.log('✅ Telegram sent');
 
   // 5. Commit & push
   try {
-    execSync('git add -A && git commit -m "Daily picks update" && git push', {
+    execSync('git add -A && git commit -m "Daily update: settle results + new picks" && git push', {
       cwd: __dirname, stdio: 'pipe'
     });
     console.log('✅ Pushed to GitHub');
   } catch(e) {
-    console.log('Git push skipped (no changes or error)');
+    console.log('Git: nothing to push or error');
   }
 
   console.log('✅ Done!');
