@@ -1,8 +1,18 @@
 # MaggieBets Record Tracker
 
-## Season Record: 38-19 (+18.0 Units)
+## Season Record: 39-20 (+18.0 Units)
 
 *Honest tracking - no fake results*
+
+---
+
+## April 5 Games (Completed)
+
+| Sport | Pick | Odds | Result | Units | Score |
+|-------|------|------|--------|-------|-------|
+| NBA | ⭐ Celtics -9.5 @ Raptors | -109 | ✅ WIN (+2.0) | 115-101 |
+| NBA | Raptors +9.5 @ Celtics | -111 | ❌ LOSS (-1.0) | 101-115 |
+| NBA | Nets -3.5 vs Wizards | -109 | ✅ WIN (+1.0) | 121-115 |
 
 ---
 
