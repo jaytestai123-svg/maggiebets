@@ -1,47 +1,47 @@
 {
   "date": "April 6, 2026",
-  "lastUpdated": "2026-04-06T10:03:10.500Z",
-  "record": "37-19 (+17.0 units)",
+  "lastUpdated": "2026-04-06T13:32:47.282Z",
+  "record": "38-19 (+18.0 units)",
   "betOfDay": {
     "sport": "NBA",
     "game": "Detroit Pistons @ Orlando Magic",
-    "pick": "Detroit Pistons -3",
-    "odds": "-113",
+    "pick": "Detroit Pistons -3.5",
+    "odds": "-110",
     "units": 2,
     "tag": "⭐ TOP PICK",
     "time": "5:10 PM MT",
-    "reasoning": "4-book consensus at -3. Detroit Pistons laying 3 points."
+    "reasoning": "8-book consensus at -3.5. Detroit Pistons laying 3.5 points."
   },
   "picks": [
     {
       "sport": "NBA",
       "game": "Detroit Pistons @ Orlando Magic",
-      "pick": "Detroit Pistons -3",
-      "odds": "-113",
+      "pick": "Detroit Pistons -3.5",
+      "odds": "-110",
       "units": 2,
       "tag": "⭐ TOP PICK",
       "time": "5:10 PM MT",
-      "reasoning": "4-book consensus at -3. Detroit Pistons laying 3 points."
+      "reasoning": "8-book consensus at -3.5. Detroit Pistons laying 3.5 points."
     },
     {
       "sport": "NBA",
       "game": "Detroit Pistons @ Orlando Magic",
-      "pick": "Orlando Magic +3",
-      "odds": "-55",
-      "units": 1,
-      "tag": "PLAY",
-      "time": "5:10 PM MT",
-      "reasoning": "4-book consensus at 3. Orlando Magic getting 3 points."
-    },
-    {
-      "sport": "NBA",
-      "game": "Detroit Pistons @ Orlando Magic",
-      "pick": "Detroit Pistons -3.5",
+      "pick": "Orlando Magic +3.5",
       "odds": "-109",
       "units": 1,
       "tag": "PLAY",
       "time": "5:10 PM MT",
-      "reasoning": "5-book consensus at -3.5. Detroit Pistons laying 3.5 points."
+      "reasoning": "8-book consensus at 3.5. Orlando Magic getting 3.5 points."
+    },
+    {
+      "sport": "NBA",
+      "game": "Cleveland Cavaliers @ Memphis Grizzlies",
+      "pick": "Cleveland Cavaliers -14",
+      "odds": "-110",
+      "units": 1,
+      "tag": "PLAY",
+      "time": "6:10 PM MT",
+      "reasoning": "6-book consensus at -14. Cleveland Cavaliers laying 14 points."
     }
   ]
 }
