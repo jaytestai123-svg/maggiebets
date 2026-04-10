@@ -1,47 +1,37 @@
 {
   "date": "April 9, 2026",
-  "lastUpdated": "2026-04-09T20:08:00.000Z",
+  "lastUpdated": "2026-04-10T02:17:58.491Z",
   "record": "39-20 (+18.0 units)",
   "betOfDay": {
     "sport": "NBA",
-    "game": "Memphis Grizzlies @ Utah Jazz",
-    "pick": "Utah Jazz ML (-163)",
-    "odds": "-163",
-    "units": 1.5,
+    "game": "Philadelphia 76ers @ Houston Rockets",
+    "pick": "Houston Rockets -9.5",
+    "odds": "-114",
+    "units": 2,
     "tag": "⭐ TOP PICK",
-    "time": "7:40 PM MT",
-    "reasoning": "Jazz at home vs Grizzlies. Consistent -163 line across FanDuel and DraftKings. Jazz end-of-season home edge, no major injury flags vs depleted Grizzlies."
+    "time": "6:11 PM MT",
+    "reasoning": "3-book consensus at -9.5. Houston Rockets laying 9.5 points."
   },
   "picks": [
     {
       "sport": "NBA",
-      "game": "Memphis Grizzlies @ Utah Jazz",
-      "pick": "Utah Jazz ML (-163)",
-      "odds": "-163",
-      "units": 1.5,
+      "game": "Philadelphia 76ers @ Houston Rockets",
+      "pick": "Houston Rockets -9.5",
+      "odds": "-114",
+      "units": 2,
       "tag": "⭐ TOP PICK",
-      "time": "7:40 PM MT",
-      "reasoning": "Jazz at home vs Grizzlies. Consistent -163 line across FanDuel and DraftKings. Jazz end-of-season home edge, no major injury flags vs depleted Grizzlies."
+      "time": "6:11 PM MT",
+      "reasoning": "3-book consensus at -9.5. Houston Rockets laying 9.5 points."
     },
     {
       "sport": "NBA",
-      "game": "Los Angeles Clippers @ Portland Trail Blazers",
-      "pick": "Los Angeles Clippers ML (+102)",
-      "odds": "+102",
+      "game": "Philadelphia 76ers @ Houston Rockets",
+      "pick": "Philadelphia 76ers +9.5",
+      "odds": "-117",
       "units": 1,
       "tag": "PLAY",
-      "time": "8:10 PM MT",
-      "reasoning": "Clippers as road underdogs with plus-money value. Portland is a weak home team, Clippers are a more experienced squad. +100 line offers excellent value."
-    },
-    {
-      "sport": "NHL",
-      "game": "Vegas Golden Knights @ Seattle Kraken",
-      "pick": "Vegas Golden Knights ML (-200)",
-      "odds": "-200",
-      "units": 1,
-      "tag": "PLAY",
-      "time": "8:08 PM MT",
-      "reasoning": "VGK -200 consistent across 9 sportsbooks. Golden Knights are a proven playoff team on the road vs struggling Kraken. Strong consensus line."
+      "time": "6:11 PM MT",
+      "reasoning": "3-book consensus at 9.5. Philadelphia 76ers getting 9.5 points."
     }
   ]
 }
