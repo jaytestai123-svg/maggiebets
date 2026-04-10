@@ -1,37 +1,47 @@
 {
   "date": "April 9, 2026",
-  "lastUpdated": "2026-04-10T02:19:19.491Z",
-  "record": "40-21 (+17.0 units)",
+  "lastUpdated": "2026-04-10T02:20:09.383Z",
+  "record": "41-22 (+18.0 units)",
   "betOfDay": {
     "sport": "NBA",
     "game": "Philadelphia 76ers @ Houston Rockets",
-    "pick": "Houston Rockets -7.5",
-    "odds": "-127",
+    "pick": "Houston Rockets -6.5",
+    "odds": "+113",
     "units": 2,
     "tag": "⭐ TOP PICK",
     "time": "6:11 PM MT",
-    "reasoning": "2-book consensus at -7.5. Houston Rockets laying 7.5 points."
+    "reasoning": "2-book consensus at -6.5. Houston Rockets laying 6.5 points."
   },
   "picks": [
     {
       "sport": "NBA",
       "game": "Philadelphia 76ers @ Houston Rockets",
-      "pick": "Houston Rockets -7.5",
-      "odds": "-127",
+      "pick": "Houston Rockets -6.5",
+      "odds": "+113",
       "units": 2,
       "tag": "⭐ TOP PICK",
       "time": "6:11 PM MT",
-      "reasoning": "2-book consensus at -7.5. Houston Rockets laying 7.5 points."
+      "reasoning": "2-book consensus at -6.5. Houston Rockets laying 6.5 points."
     },
     {
       "sport": "NBA",
       "game": "Philadelphia 76ers @ Houston Rockets",
-      "pick": "Philadelphia 76ers +7.5",
-      "odds": "-5",
+      "pick": "Philadelphia 76ers +6.5",
+      "odds": "-145",
       "units": 1,
       "tag": "PLAY",
       "time": "6:11 PM MT",
-      "reasoning": "2-book consensus at 7.5. Philadelphia 76ers getting 7.5 points."
+      "reasoning": "2-book consensus at 6.5. Philadelphia 76ers getting 6.5 points."
+    },
+    {
+      "sport": "NBA",
+      "game": "Los Angeles Lakers @ Golden State Warriors",
+      "pick": "Golden State Warriors +3.5",
+      "odds": "-116",
+      "units": 1,
+      "tag": "PLAY",
+      "time": "8:13 PM MT",
+      "reasoning": "2-book consensus at 3.5. Golden State Warriors getting 3.5 points."
     }
   ]
 }
