@@ -1,47 +1,47 @@
 {
-  "date": "April 9, 2026",
-  "lastUpdated": "2026-04-10T02:20:09.383Z",
-  "record": "41-22 (+18.0 units)",
+  "date": "April 12, 2026",
+  "lastUpdated": "2026-04-13T04:56:44.080Z",
+  "record": "43-23 (+20.0 units)",
   "betOfDay": {
     "sport": "NBA",
-    "game": "Philadelphia 76ers @ Houston Rockets",
-    "pick": "Houston Rockets -6.5",
-    "odds": "+113",
+    "game": "Miami Heat @ Charlotte Hornets",
+    "pick": "Charlotte Hornets -5.5",
+    "odds": "-109",
     "units": 2,
     "tag": "⭐ TOP PICK",
-    "time": "6:11 PM MT",
-    "reasoning": "2-book consensus at -6.5. Houston Rockets laying 6.5 points."
+    "time": "5:30 PM MT",
+    "reasoning": "8-book consensus at -5.5. Charlotte Hornets laying 5.5 points."
   },
   "picks": [
     {
       "sport": "NBA",
-      "game": "Philadelphia 76ers @ Houston Rockets",
-      "pick": "Houston Rockets -6.5",
-      "odds": "+113",
+      "game": "Miami Heat @ Charlotte Hornets",
+      "pick": "Charlotte Hornets -5.5",
+      "odds": "-109",
       "units": 2,
       "tag": "⭐ TOP PICK",
-      "time": "6:11 PM MT",
-      "reasoning": "2-book consensus at -6.5. Houston Rockets laying 6.5 points."
+      "time": "5:30 PM MT",
+      "reasoning": "8-book consensus at -5.5. Charlotte Hornets laying 5.5 points."
     },
     {
       "sport": "NBA",
-      "game": "Philadelphia 76ers @ Houston Rockets",
-      "pick": "Philadelphia 76ers +6.5",
-      "odds": "-145",
+      "game": "Miami Heat @ Charlotte Hornets",
+      "pick": "Miami Heat +5.5",
+      "odds": "-110",
       "units": 1,
       "tag": "PLAY",
-      "time": "6:11 PM MT",
-      "reasoning": "2-book consensus at 6.5. Philadelphia 76ers getting 6.5 points."
+      "time": "5:30 PM MT",
+      "reasoning": "8-book consensus at 5.5. Miami Heat getting 5.5 points."
     },
     {
       "sport": "NBA",
-      "game": "Los Angeles Lakers @ Golden State Warriors",
-      "pick": "Golden State Warriors +3.5",
-      "odds": "-116",
+      "game": "Portland Trail Blazers @ Phoenix Suns",
+      "pick": "Phoenix Suns -4.5",
+      "odds": "-108",
       "units": 1,
       "tag": "PLAY",
-      "time": "8:13 PM MT",
-      "reasoning": "2-book consensus at 3.5. Golden State Warriors getting 3.5 points."
+      "time": "8:10 PM MT",
+      "reasoning": "4-book consensus at -4.5. Phoenix Suns laying 4.5 points."
     }
   ]
 }
