@@ -1,47 +1,47 @@
 {
-  "date": "April 12, 2026",
-  "lastUpdated": "2026-04-13T04:56:44.080Z",
-  "record": "43-23 (+20.0 units)",
+  "date": "April 14, 2026",
+  "lastUpdated": "2026-04-15T05:06:00.116Z",
+  "record": "47-25 (+22.0 units)",
   "betOfDay": {
     "sport": "NBA",
-    "game": "Miami Heat @ Charlotte Hornets",
-    "pick": "Charlotte Hornets -5.5",
-    "odds": "-109",
+    "game": "Golden State Warriors @ Los Angeles Clippers",
+    "pick": "Golden State Warriors +5.5",
+    "odds": "-110",
     "units": 2,
     "tag": "⭐ TOP PICK",
-    "time": "5:30 PM MT",
-    "reasoning": "8-book consensus at -5.5. Charlotte Hornets laying 5.5 points."
+    "time": "8:10 PM MT",
+    "reasoning": "7-book consensus at 5.5. Golden State Warriors getting 5.5 points."
   },
   "picks": [
     {
       "sport": "NBA",
-      "game": "Miami Heat @ Charlotte Hornets",
-      "pick": "Charlotte Hornets -5.5",
-      "odds": "-109",
+      "game": "Golden State Warriors @ Los Angeles Clippers",
+      "pick": "Golden State Warriors +5.5",
+      "odds": "-110",
       "units": 2,
       "tag": "⭐ TOP PICK",
-      "time": "5:30 PM MT",
-      "reasoning": "8-book consensus at -5.5. Charlotte Hornets laying 5.5 points."
+      "time": "8:10 PM MT",
+      "reasoning": "7-book consensus at 5.5. Golden State Warriors getting 5.5 points."
     },
     {
       "sport": "NBA",
-      "game": "Miami Heat @ Charlotte Hornets",
-      "pick": "Miami Heat +5.5",
-      "odds": "-110",
-      "units": 1,
-      "tag": "PLAY",
-      "time": "5:30 PM MT",
-      "reasoning": "8-book consensus at 5.5. Miami Heat getting 5.5 points."
-    },
-    {
-      "sport": "NBA",
-      "game": "Portland Trail Blazers @ Phoenix Suns",
-      "pick": "Phoenix Suns -4.5",
-      "odds": "-108",
+      "game": "Golden State Warriors @ Los Angeles Clippers",
+      "pick": "Los Angeles Clippers -5.5",
+      "odds": "-109",
       "units": 1,
       "tag": "PLAY",
       "time": "8:10 PM MT",
-      "reasoning": "4-book consensus at -4.5. Phoenix Suns laying 4.5 points."
+      "reasoning": "7-book consensus at -5.5. Los Angeles Clippers laying 5.5 points."
+    },
+    {
+      "sport": "NBA",
+      "game": "Toronto Raptors @ Cleveland Cavaliers",
+      "pick": "Cleveland Cavaliers -8",
+      "odds": "-111",
+      "units": 1,
+      "tag": "PLAY",
+      "time": "11:10 AM MT",
+      "reasoning": "4-book consensus at -8. Cleveland Cavaliers laying 8 points."
     }
   ]
 }
