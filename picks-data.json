@@ -1,47 +1,47 @@
 {
-  "date": "April 20, 2026",
-  "lastUpdated": "2026-04-21T04:45:48.972Z",
+  "date": "April 21, 2026",
+  "lastUpdated": "2026-04-22T01:18:39.662Z",
   "record": "51-26 (+25.0 units)",
   "betOfDay": {
     "sport": "NBA",
-    "game": "Minnesota Timberwolves @ Denver Nuggets",
-    "pick": "Denver Nuggets -5.5",
-    "odds": "-111",
+    "game": "Philadelphia 76ers @ Boston Celtics",
+    "pick": "Boston Celtics +4.5",
+    "odds": "-119",
     "units": 2,
     "tag": "⭐ TOP PICK",
-    "time": "8:49 PM MT",
-    "reasoning": "3-book consensus at -5.5. Denver Nuggets laying 5.5 points."
+    "time": "5:12 PM MT",
+    "reasoning": "5-book consensus at 4.5. Boston Celtics getting 4.5 points."
   },
   "picks": [
     {
       "sport": "NBA",
-      "game": "Minnesota Timberwolves @ Denver Nuggets",
-      "pick": "Denver Nuggets -5.5",
-      "odds": "-111",
+      "game": "Philadelphia 76ers @ Boston Celtics",
+      "pick": "Boston Celtics +4.5",
+      "odds": "-119",
       "units": 2,
       "tag": "⭐ TOP PICK",
-      "time": "8:49 PM MT",
-      "reasoning": "3-book consensus at -5.5. Denver Nuggets laying 5.5 points."
+      "time": "5:12 PM MT",
+      "reasoning": "5-book consensus at 4.5. Boston Celtics getting 4.5 points."
     },
     {
       "sport": "NBA",
-      "game": "Minnesota Timberwolves @ Denver Nuggets",
-      "pick": "Minnesota Timberwolves +5.5",
-      "odds": "-121",
+      "game": "Philadelphia 76ers @ Boston Celtics",
+      "pick": "Philadelphia 76ers -4.5",
+      "odds": "-72",
       "units": 1,
       "tag": "PLAY",
-      "time": "8:49 PM MT",
-      "reasoning": "3-book consensus at 5.5. Minnesota Timberwolves getting 5.5 points."
+      "time": "5:12 PM MT",
+      "reasoning": "5-book consensus at -4.5. Philadelphia 76ers laying 4.5 points."
     },
     {
       "sport": "NBA",
-      "game": "Minnesota Timberwolves @ Denver Nuggets",
-      "pick": "Denver Nuggets -6.5",
-      "odds": "-4",
+      "game": "Portland Trail Blazers @ San Antonio Spurs",
+      "pick": "Portland Trail Blazers +4.5",
+      "odds": "-113",
       "units": 1,
       "tag": "PLAY",
-      "time": "8:49 PM MT",
-      "reasoning": "2-book consensus at -6.5. Denver Nuggets laying 6.5 points."
+      "time": "6:07 PM MT",
+      "reasoning": "4-book consensus at 4.5. Portland Trail Blazers getting 4.5 points."
     }
   ]
 }
