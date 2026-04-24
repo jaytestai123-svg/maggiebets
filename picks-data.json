@@ -1,47 +1,47 @@
 {
-  "date": "April 22, 2026",
-  "lastUpdated": "2026-04-22T16:00:05.873Z",
+  "date": "April 23, 2026",
+  "lastUpdated": "2026-04-24T05:57:48.952Z",
   "record": "53-27 (+25.0 units)",
   "betOfDay": {
     "sport": "NBA",
-    "game": "Orlando Magic @ Detroit Pistons",
-    "pick": "Detroit Pistons -8.5",
-    "odds": "-111",
+    "game": "Boston Celtics @ Philadelphia 76ers",
+    "pick": "Boston Celtics -6.5",
+    "odds": "-115",
     "units": 2,
     "tag": "⭐ TOP PICK",
     "time": "5:10 PM MT",
-    "reasoning": "8-book consensus at -8.5. Detroit Pistons laying 8.5 points."
+    "reasoning": "4-book consensus at -6.5. Boston Celtics laying 6.5 points."
   },
   "picks": [
     {
       "sport": "NBA",
-      "game": "Orlando Magic @ Detroit Pistons",
-      "pick": "Detroit Pistons -8.5",
-      "odds": "-111",
+      "game": "Boston Celtics @ Philadelphia 76ers",
+      "pick": "Boston Celtics -6.5",
+      "odds": "-115",
       "units": 2,
       "tag": "⭐ TOP PICK",
       "time": "5:10 PM MT",
-      "reasoning": "8-book consensus at -8.5. Detroit Pistons laying 8.5 points."
+      "reasoning": "4-book consensus at -6.5. Boston Celtics laying 6.5 points."
     },
     {
       "sport": "NBA",
-      "game": "Orlando Magic @ Detroit Pistons",
-      "pick": "Orlando Magic +8.5",
-      "odds": "-108",
+      "game": "Boston Celtics @ Philadelphia 76ers",
+      "pick": "Philadelphia 76ers +6.5",
+      "odds": "-103",
       "units": 1,
       "tag": "PLAY",
       "time": "5:10 PM MT",
-      "reasoning": "8-book consensus at 8.5. Orlando Magic getting 8.5 points."
+      "reasoning": "4-book consensus at 6.5. Philadelphia 76ers getting 6.5 points."
     },
     {
       "sport": "NBA",
-      "game": "Phoenix Suns @ Oklahoma City Thunder",
-      "pick": "Oklahoma City Thunder -17.5",
+      "game": "Boston Celtics @ Philadelphia 76ers",
+      "pick": "Boston Celtics -7.5",
       "odds": "-109",
       "units": 1,
       "tag": "PLAY",
-      "time": "7:40 PM MT",
-      "reasoning": "3-book consensus at -17.5. Oklahoma City Thunder laying 17.5 points."
+      "time": "5:10 PM MT",
+      "reasoning": "2-book consensus at -7.5. Boston Celtics laying 7.5 points."
     }
   ]
 }
