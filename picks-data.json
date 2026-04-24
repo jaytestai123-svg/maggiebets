@@ -1,47 +1,47 @@
 {
-  "date": "April 23, 2026",
-  "lastUpdated": "2026-04-24T05:57:48.952Z",
+  "date": "April 24, 2026",
+  "lastUpdated": "2026-04-24T19:26:29.614Z",
   "record": "53-27 (+25.0 units)",
   "betOfDay": {
     "sport": "NBA",
     "game": "Boston Celtics @ Philadelphia 76ers",
-    "pick": "Boston Celtics -6.5",
-    "odds": "-115",
+    "pick": "Boston Celtics -8.5",
+    "odds": "-103",
     "units": 2,
     "tag": "⭐ TOP PICK",
     "time": "5:10 PM MT",
-    "reasoning": "4-book consensus at -6.5. Boston Celtics laying 6.5 points."
+    "reasoning": "2-book consensus at -8.5. Boston Celtics laying 8.5 points."
   },
   "picks": [
     {
       "sport": "NBA",
       "game": "Boston Celtics @ Philadelphia 76ers",
-      "pick": "Boston Celtics -6.5",
-      "odds": "-115",
+      "pick": "Boston Celtics -8.5",
+      "odds": "-103",
       "units": 2,
       "tag": "⭐ TOP PICK",
       "time": "5:10 PM MT",
-      "reasoning": "4-book consensus at -6.5. Boston Celtics laying 6.5 points."
+      "reasoning": "2-book consensus at -8.5. Boston Celtics laying 8.5 points."
     },
     {
       "sport": "NBA",
       "game": "Boston Celtics @ Philadelphia 76ers",
-      "pick": "Philadelphia 76ers +6.5",
-      "odds": "-103",
+      "pick": "Philadelphia 76ers +8.5",
+      "odds": "-116",
       "units": 1,
       "tag": "PLAY",
       "time": "5:10 PM MT",
-      "reasoning": "4-book consensus at 6.5. Philadelphia 76ers getting 6.5 points."
+      "reasoning": "2-book consensus at 8.5. Philadelphia 76ers getting 8.5 points."
     },
     {
       "sport": "NBA",
       "game": "Boston Celtics @ Philadelphia 76ers",
-      "pick": "Boston Celtics -7.5",
-      "odds": "-109",
+      "pick": "Boston Celtics -8",
+      "odds": "-111",
       "units": 1,
       "tag": "PLAY",
       "time": "5:10 PM MT",
-      "reasoning": "2-book consensus at -7.5. Boston Celtics laying 7.5 points."
+      "reasoning": "6-book consensus at -8. Boston Celtics laying 8 points."
     }
   ]
 }
