@@ -1,47 +1,47 @@
 {
-  "date": "April 24, 2026",
-  "lastUpdated": "2026-04-24T19:26:29.614Z",
-  "record": "53-27 (+25.0 units)",
+  "date": "April 25, 2026",
+  "lastUpdated": "2026-04-25T17:57:03.594Z",
+  "record": "54-28 (+24.0 units)",
   "betOfDay": {
     "sport": "NBA",
-    "game": "Boston Celtics @ Philadelphia 76ers",
-    "pick": "Boston Celtics -8.5",
-    "odds": "-103",
+    "game": "Detroit Pistons @ Orlando Magic",
+    "pick": "Detroit Pistons +3.5",
+    "odds": "-119",
     "units": 2,
     "tag": "⭐ TOP PICK",
-    "time": "5:10 PM MT",
-    "reasoning": "2-book consensus at -8.5. Boston Celtics laying 8.5 points."
+    "time": "11:08 AM MT",
+    "reasoning": "6-book consensus at 3.5. Detroit Pistons getting 3.5 points."
   },
   "picks": [
     {
       "sport": "NBA",
-      "game": "Boston Celtics @ Philadelphia 76ers",
-      "pick": "Boston Celtics -8.5",
-      "odds": "-103",
+      "game": "Detroit Pistons @ Orlando Magic",
+      "pick": "Detroit Pistons +3.5",
+      "odds": "-119",
       "units": 2,
       "tag": "⭐ TOP PICK",
-      "time": "5:10 PM MT",
-      "reasoning": "2-book consensus at -8.5. Boston Celtics laying 8.5 points."
+      "time": "11:08 AM MT",
+      "reasoning": "6-book consensus at 3.5. Detroit Pistons getting 3.5 points."
     },
     {
       "sport": "NBA",
-      "game": "Boston Celtics @ Philadelphia 76ers",
-      "pick": "Philadelphia 76ers +8.5",
-      "odds": "-116",
-      "units": 1,
-      "tag": "PLAY",
-      "time": "5:10 PM MT",
-      "reasoning": "2-book consensus at 8.5. Philadelphia 76ers getting 8.5 points."
-    },
-    {
-      "sport": "NBA",
-      "game": "Boston Celtics @ Philadelphia 76ers",
-      "pick": "Boston Celtics -8",
+      "game": "Detroit Pistons @ Orlando Magic",
+      "pick": "Orlando Magic -3.5",
       "odds": "-111",
       "units": 1,
       "tag": "PLAY",
-      "time": "5:10 PM MT",
-      "reasoning": "6-book consensus at -8. Boston Celtics laying 8 points."
+      "time": "11:08 AM MT",
+      "reasoning": "6-book consensus at -3.5. Orlando Magic laying 3.5 points."
+    },
+    {
+      "sport": "NBA",
+      "game": "Oklahoma City Thunder @ Phoenix Suns",
+      "pick": "Oklahoma City Thunder -8.5",
+      "odds": "-110",
+      "units": 1,
+      "tag": "PLAY",
+      "time": "1:40 PM MT",
+      "reasoning": "8-book consensus at -8.5. Oklahoma City Thunder laying 8.5 points."
     }
   ]
 }
