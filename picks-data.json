@@ -1,47 +1,47 @@
 {
-  "date": "April 25, 2026",
-  "lastUpdated": "2026-04-25T17:57:03.594Z",
-  "record": "54-28 (+24.0 units)",
+  "date": "May 7, 2026",
+  "lastUpdated": "2026-05-08T01:22:18.804Z",
+  "record": "55-29 (+25.0 units)",
   "betOfDay": {
     "sport": "NBA",
-    "game": "Detroit Pistons @ Orlando Magic",
-    "pick": "Detroit Pistons +3.5",
-    "odds": "-119",
+    "game": "Cleveland Cavaliers @ Detroit Pistons",
+    "pick": "Cleveland Cavaliers +4.5",
+    "odds": "-111",
     "units": 2,
     "tag": "⭐ TOP PICK",
-    "time": "11:08 AM MT",
-    "reasoning": "6-book consensus at 3.5. Detroit Pistons getting 3.5 points."
+    "time": "5:11 PM MT",
+    "reasoning": "4-book consensus at 4.5. Cleveland Cavaliers getting 4.5 points."
   },
   "picks": [
     {
       "sport": "NBA",
-      "game": "Detroit Pistons @ Orlando Magic",
-      "pick": "Detroit Pistons +3.5",
-      "odds": "-119",
+      "game": "Cleveland Cavaliers @ Detroit Pistons",
+      "pick": "Cleveland Cavaliers +4.5",
+      "odds": "-111",
       "units": 2,
       "tag": "⭐ TOP PICK",
-      "time": "11:08 AM MT",
-      "reasoning": "6-book consensus at 3.5. Detroit Pistons getting 3.5 points."
+      "time": "5:11 PM MT",
+      "reasoning": "4-book consensus at 4.5. Cleveland Cavaliers getting 4.5 points."
     },
     {
       "sport": "NBA",
-      "game": "Detroit Pistons @ Orlando Magic",
-      "pick": "Orlando Magic -3.5",
-      "odds": "-111",
+      "game": "Cleveland Cavaliers @ Detroit Pistons",
+      "pick": "Detroit Pistons -4.5",
+      "odds": "-119",
       "units": 1,
       "tag": "PLAY",
-      "time": "11:08 AM MT",
-      "reasoning": "6-book consensus at -3.5. Orlando Magic laying 3.5 points."
+      "time": "5:11 PM MT",
+      "reasoning": "4-book consensus at -4.5. Detroit Pistons laying 4.5 points."
     },
     {
       "sport": "NBA",
-      "game": "Oklahoma City Thunder @ Phoenix Suns",
-      "pick": "Oklahoma City Thunder -8.5",
-      "odds": "-110",
+      "game": "Los Angeles Lakers @ Oklahoma City Thunder",
+      "pick": "Los Angeles Lakers +15.5",
+      "odds": "-108",
       "units": 1,
       "tag": "PLAY",
-      "time": "1:40 PM MT",
-      "reasoning": "8-book consensus at -8.5. Oklahoma City Thunder laying 8.5 points."
+      "time": "7:40 PM MT",
+      "reasoning": "6-book consensus at 15.5. Los Angeles Lakers getting 15.5 points."
     }
   ]
 }
