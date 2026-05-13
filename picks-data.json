@@ -1,47 +1,47 @@
 {
-  "date": "May 7, 2026",
-  "lastUpdated": "2026-05-08T01:22:18.804Z",
+  "date": "May 12, 2026",
+  "lastUpdated": "2026-05-13T00:09:25.466Z",
   "record": "55-29 (+25.0 units)",
   "betOfDay": {
     "sport": "NBA",
-    "game": "Cleveland Cavaliers @ Detroit Pistons",
-    "pick": "Cleveland Cavaliers +4.5",
-    "odds": "-111",
+    "game": "Minnesota Timberwolves @ San Antonio Spurs",
+    "pick": "Minnesota Timberwolves +10.5",
+    "odds": "-112",
     "units": 2,
     "tag": "⭐ TOP PICK",
-    "time": "5:11 PM MT",
-    "reasoning": "4-book consensus at 4.5. Cleveland Cavaliers getting 4.5 points."
+    "time": "6:15 PM MT",
+    "reasoning": "4-book consensus at 10.5. Minnesota Timberwolves getting 10.5 points."
   },
   "picks": [
     {
       "sport": "NBA",
-      "game": "Cleveland Cavaliers @ Detroit Pistons",
-      "pick": "Cleveland Cavaliers +4.5",
-      "odds": "-111",
+      "game": "Minnesota Timberwolves @ San Antonio Spurs",
+      "pick": "Minnesota Timberwolves +10.5",
+      "odds": "-112",
       "units": 2,
       "tag": "⭐ TOP PICK",
-      "time": "5:11 PM MT",
-      "reasoning": "4-book consensus at 4.5. Cleveland Cavaliers getting 4.5 points."
+      "time": "6:15 PM MT",
+      "reasoning": "4-book consensus at 10.5. Minnesota Timberwolves getting 10.5 points."
     },
     {
       "sport": "NBA",
-      "game": "Cleveland Cavaliers @ Detroit Pistons",
-      "pick": "Detroit Pistons -4.5",
-      "odds": "-119",
+      "game": "Minnesota Timberwolves @ San Antonio Spurs",
+      "pick": "San Antonio Spurs -10.5",
+      "odds": "-106",
       "units": 1,
       "tag": "PLAY",
-      "time": "5:11 PM MT",
-      "reasoning": "4-book consensus at -4.5. Detroit Pistons laying 4.5 points."
+      "time": "6:15 PM MT",
+      "reasoning": "4-book consensus at -10.5. San Antonio Spurs laying 10.5 points."
     },
     {
       "sport": "NBA",
-      "game": "Los Angeles Lakers @ Oklahoma City Thunder",
-      "pick": "Los Angeles Lakers +15.5",
-      "odds": "-108",
+      "game": "Minnesota Timberwolves @ San Antonio Spurs",
+      "pick": "Minnesota Timberwolves +10",
+      "odds": "-107",
       "units": 1,
       "tag": "PLAY",
-      "time": "7:40 PM MT",
-      "reasoning": "6-book consensus at 15.5. Los Angeles Lakers getting 15.5 points."
+      "time": "6:15 PM MT",
+      "reasoning": "4-book consensus at 10. Minnesota Timberwolves getting 10 points."
     }
   ]
 }
