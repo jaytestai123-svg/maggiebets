@@ -1,47 +1,47 @@
 {
-  "date": "May 14, 2026",
-  "lastUpdated": "2026-05-14T19:29:53.295Z",
+  "date": "May 15, 2026",
+  "lastUpdated": "2026-05-15T16:00:05.560Z",
   "record": "56-30 (+26.0 units)",
   "betOfDay": {
     "sport": "NBA",
     "game": "Detroit Pistons @ Cleveland Cavaliers",
-    "pick": "Cleveland Cavaliers -3.5",
-    "odds": "-115",
+    "pick": "Cleveland Cavaliers -4.5",
+    "odds": "-105",
     "units": 2,
     "tag": "⭐ TOP PICK",
     "time": "5:10 PM MT",
-    "reasoning": "3-book consensus at -3.5. Cleveland Cavaliers laying 3.5 points."
+    "reasoning": "3-book consensus at -4.5. Cleveland Cavaliers laying 4.5 points."
   },
   "picks": [
     {
       "sport": "NBA",
       "game": "Detroit Pistons @ Cleveland Cavaliers",
-      "pick": "Cleveland Cavaliers -3.5",
-      "odds": "-115",
+      "pick": "Cleveland Cavaliers -4.5",
+      "odds": "-105",
       "units": 2,
       "tag": "⭐ TOP PICK",
       "time": "5:10 PM MT",
-      "reasoning": "3-book consensus at -3.5. Cleveland Cavaliers laying 3.5 points."
+      "reasoning": "3-book consensus at -4.5. Cleveland Cavaliers laying 4.5 points."
     },
     {
       "sport": "NBA",
       "game": "Detroit Pistons @ Cleveland Cavaliers",
-      "pick": "Detroit Pistons +3.5",
-      "odds": "-105",
+      "pick": "Detroit Pistons +4.5",
+      "odds": "-116",
       "units": 1,
       "tag": "PLAY",
       "time": "5:10 PM MT",
-      "reasoning": "3-book consensus at 3.5. Detroit Pistons getting 3.5 points."
+      "reasoning": "3-book consensus at 4.5. Detroit Pistons getting 4.5 points."
     },
     {
       "sport": "NBA",
       "game": "Detroit Pistons @ Cleveland Cavaliers",
       "pick": "Cleveland Cavaliers -4",
-      "odds": "-107",
+      "odds": "-109",
       "units": 1,
       "tag": "PLAY",
       "time": "5:10 PM MT",
-      "reasoning": "5-book consensus at -4. Cleveland Cavaliers laying 4 points."
+      "reasoning": "6-book consensus at -4. Cleveland Cavaliers laying 4 points."
     }
   ]
 }
