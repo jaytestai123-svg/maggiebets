@@ -1,6 +1,6 @@
 # MaggieBets Record Tracker
 
-## Season Record: 56-30 (+26.0 Units)
+## Season Record: 57-32 (+24.0 Units)
 
 *Honest tracking - no fake results*
 

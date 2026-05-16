@@ -1,47 +1,47 @@
 {
-  "date": "May 15, 2026",
-  "lastUpdated": "2026-05-15T16:00:05.560Z",
-  "record": "56-30 (+26.0 units)",
+  "date": "May 16, 2026",
+  "lastUpdated": "2026-05-16T16:00:06.342Z",
+  "record": "57-32 (+24.0 units)",
   "betOfDay": {
     "sport": "NBA",
-    "game": "Detroit Pistons @ Cleveland Cavaliers",
-    "pick": "Cleveland Cavaliers -4.5",
-    "odds": "-105",
+    "game": "Cleveland Cavaliers @ Detroit Pistons",
+    "pick": "Cleveland Cavaliers +4.5",
+    "odds": "-111",
     "units": 2,
     "tag": "⭐ TOP PICK",
-    "time": "5:10 PM MT",
-    "reasoning": "3-book consensus at -4.5. Cleveland Cavaliers laying 4.5 points."
+    "time": "6:10 PM MT",
+    "reasoning": "8-book consensus at 4.5. Cleveland Cavaliers getting 4.5 points."
   },
   "picks": [
     {
       "sport": "NBA",
-      "game": "Detroit Pistons @ Cleveland Cavaliers",
-      "pick": "Cleveland Cavaliers -4.5",
-      "odds": "-105",
+      "game": "Cleveland Cavaliers @ Detroit Pistons",
+      "pick": "Cleveland Cavaliers +4.5",
+      "odds": "-111",
       "units": 2,
       "tag": "⭐ TOP PICK",
-      "time": "5:10 PM MT",
-      "reasoning": "3-book consensus at -4.5. Cleveland Cavaliers laying 4.5 points."
+      "time": "6:10 PM MT",
+      "reasoning": "8-book consensus at 4.5. Cleveland Cavaliers getting 4.5 points."
     },
     {
       "sport": "NBA",
-      "game": "Detroit Pistons @ Cleveland Cavaliers",
-      "pick": "Detroit Pistons +4.5",
-      "odds": "-116",
+      "game": "Cleveland Cavaliers @ Detroit Pistons",
+      "pick": "Detroit Pistons -4.5",
+      "odds": "-108",
       "units": 1,
       "tag": "PLAY",
-      "time": "5:10 PM MT",
-      "reasoning": "3-book consensus at 4.5. Detroit Pistons getting 4.5 points."
+      "time": "6:10 PM MT",
+      "reasoning": "8-book consensus at -4.5. Detroit Pistons laying 4.5 points."
     },
     {
       "sport": "NBA",
-      "game": "Detroit Pistons @ Cleveland Cavaliers",
-      "pick": "Cleveland Cavaliers -4",
-      "odds": "-109",
+      "game": "San Antonio Spurs @ Oklahoma City Thunder",
+      "pick": "Oklahoma City Thunder -6.5",
+      "odds": "-111",
       "units": 1,
       "tag": "PLAY",
-      "time": "5:10 PM MT",
-      "reasoning": "6-book consensus at -4. Cleveland Cavaliers laying 4 points."
+      "time": "6:40 PM MT",
+      "reasoning": "7-book consensus at -6.5. Oklahoma City Thunder laying 6.5 points."
     }
   ]
 }
