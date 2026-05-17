@@ -1,12 +1,12 @@
 {
-  "date": "May 16, 2026",
-  "lastUpdated": "2026-05-16T16:00:06.342Z",
+  "date": "May 17, 2026",
+  "lastUpdated": "2026-05-17T16:00:05.925Z",
   "record": "57-32 (+24.0 units)",
   "betOfDay": {
     "sport": "NBA",
     "game": "Cleveland Cavaliers @ Detroit Pistons",
     "pick": "Cleveland Cavaliers +4.5",
-    "odds": "-111",
+    "odds": "-110",
     "units": 2,
     "tag": "⭐ TOP PICK",
     "time": "6:10 PM MT",
@@ -17,7 +17,7 @@
       "sport": "NBA",
       "game": "Cleveland Cavaliers @ Detroit Pistons",
       "pick": "Cleveland Cavaliers +4.5",
-      "odds": "-111",
+      "odds": "-110",
       "units": 2,
       "tag": "⭐ TOP PICK",
       "time": "6:10 PM MT",
@@ -27,7 +27,7 @@
       "sport": "NBA",
       "game": "Cleveland Cavaliers @ Detroit Pistons",
       "pick": "Detroit Pistons -4.5",
-      "odds": "-108",
+      "odds": "-109",
       "units": 1,
       "tag": "PLAY",
       "time": "6:10 PM MT",
@@ -37,11 +37,11 @@
       "sport": "NBA",
       "game": "San Antonio Spurs @ Oklahoma City Thunder",
       "pick": "Oklahoma City Thunder -6.5",
-      "odds": "-111",
+      "odds": "-110",
       "units": 1,
       "tag": "PLAY",
       "time": "6:40 PM MT",
-      "reasoning": "7-book consensus at -6.5. Oklahoma City Thunder laying 6.5 points."
+      "reasoning": "8-book consensus at -6.5. Oklahoma City Thunder laying 6.5 points."
     }
   ]
 }
