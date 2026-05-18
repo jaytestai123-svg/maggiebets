@@ -1,47 +1,47 @@
 {
-  "date": "May 17, 2026",
-  "lastUpdated": "2026-05-17T16:00:05.925Z",
-  "record": "57-32 (+24.0 units)",
+  "date": "May 18, 2026",
+  "lastUpdated": "2026-05-18T16:00:05.763Z",
+  "record": "58-33 (+25.0 units)",
   "betOfDay": {
     "sport": "NBA",
-    "game": "Cleveland Cavaliers @ Detroit Pistons",
-    "pick": "Cleveland Cavaliers +4.5",
+    "game": "San Antonio Spurs @ Oklahoma City Thunder",
+    "pick": "Oklahoma City Thunder -6.5",
     "odds": "-110",
     "units": 2,
     "tag": "⭐ TOP PICK",
-    "time": "6:10 PM MT",
-    "reasoning": "8-book consensus at 4.5. Cleveland Cavaliers getting 4.5 points."
+    "time": "6:40 PM MT",
+    "reasoning": "9-book consensus at -6.5. Oklahoma City Thunder laying 6.5 points."
   },
   "picks": [
-    {
-      "sport": "NBA",
-      "game": "Cleveland Cavaliers @ Detroit Pistons",
-      "pick": "Cleveland Cavaliers +4.5",
-      "odds": "-110",
-      "units": 2,
-      "tag": "⭐ TOP PICK",
-      "time": "6:10 PM MT",
-      "reasoning": "8-book consensus at 4.5. Cleveland Cavaliers getting 4.5 points."
-    },
-    {
-      "sport": "NBA",
-      "game": "Cleveland Cavaliers @ Detroit Pistons",
-      "pick": "Detroit Pistons -4.5",
-      "odds": "-109",
-      "units": 1,
-      "tag": "PLAY",
-      "time": "6:10 PM MT",
-      "reasoning": "8-book consensus at -4.5. Detroit Pistons laying 4.5 points."
-    },
     {
       "sport": "NBA",
       "game": "San Antonio Spurs @ Oklahoma City Thunder",
       "pick": "Oklahoma City Thunder -6.5",
       "odds": "-110",
+      "units": 2,
+      "tag": "⭐ TOP PICK",
+      "time": "6:40 PM MT",
+      "reasoning": "9-book consensus at -6.5. Oklahoma City Thunder laying 6.5 points."
+    },
+    {
+      "sport": "NBA",
+      "game": "San Antonio Spurs @ Oklahoma City Thunder",
+      "pick": "San Antonio Spurs +6.5",
+      "odds": "-109",
       "units": 1,
       "tag": "PLAY",
       "time": "6:40 PM MT",
-      "reasoning": "8-book consensus at -6.5. Oklahoma City Thunder laying 6.5 points."
+      "reasoning": "9-book consensus at 6.5. San Antonio Spurs getting 6.5 points."
+    },
+    {
+      "sport": "NBA",
+      "game": "Cleveland Cavaliers @ New York Knicks",
+      "pick": "Cleveland Cavaliers +7.5",
+      "odds": "-115",
+      "units": 1,
+      "tag": "PLAY",
+      "time": "6:10 PM MT",
+      "reasoning": "2-book consensus at 7.5. Cleveland Cavaliers getting 7.5 points."
     }
   ]
 }
