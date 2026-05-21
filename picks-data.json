@@ -1,37 +1,47 @@
 {
-  "date": "May 20, 2026",
-  "lastUpdated": "2026-05-21T03:45:04.825Z",
+  "date": "May 21, 2026",
+  "lastUpdated": "2026-05-21T16:00:04.860Z",
   "record": "59-34 (+26.0 units)",
   "betOfDay": {
     "sport": "NBA",
     "game": "Cleveland Cavaliers @ New York Knicks",
     "pick": "Cleveland Cavaliers +6.5",
-    "odds": "-113",
+    "odds": "-115",
     "units": 2,
     "tag": "⭐ TOP PICK",
     "time": "6:10 PM MT",
-    "reasoning": "9-book consensus at 6.5. Cleveland Cavaliers getting 6.5 points."
+    "reasoning": "3-book consensus at 6.5. Cleveland Cavaliers getting 6.5 points."
   },
   "picks": [
     {
       "sport": "NBA",
       "game": "Cleveland Cavaliers @ New York Knicks",
       "pick": "Cleveland Cavaliers +6.5",
-      "odds": "-113",
+      "odds": "-115",
       "units": 2,
       "tag": "⭐ TOP PICK",
       "time": "6:10 PM MT",
-      "reasoning": "9-book consensus at 6.5. Cleveland Cavaliers getting 6.5 points."
+      "reasoning": "3-book consensus at 6.5. Cleveland Cavaliers getting 6.5 points."
     },
     {
       "sport": "NBA",
       "game": "Cleveland Cavaliers @ New York Knicks",
       "pick": "New York Knicks -6.5",
-      "odds": "-107",
+      "odds": "-105",
       "units": 1,
       "tag": "PLAY",
       "time": "6:10 PM MT",
-      "reasoning": "9-book consensus at -6.5. New York Knicks laying 6.5 points."
+      "reasoning": "3-book consensus at -6.5. New York Knicks laying 6.5 points."
+    },
+    {
+      "sport": "NBA",
+      "game": "Cleveland Cavaliers @ New York Knicks",
+      "pick": "Cleveland Cavaliers +6",
+      "odds": "-108",
+      "units": 1,
+      "tag": "PLAY",
+      "time": "6:10 PM MT",
+      "reasoning": "6-book consensus at 6. Cleveland Cavaliers getting 6 points."
     }
   ]
 }
