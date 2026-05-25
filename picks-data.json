@@ -1,47 +1,37 @@
 {
-  "date": "May 21, 2026",
-  "lastUpdated": "2026-05-21T16:00:04.860Z",
-  "record": "59-34 (+26.0 units)",
+  "date": "May 25, 2026",
+  "lastUpdated": "2026-05-25T16:00:07.114Z",
+  "record": "61-38 (+22.0 units)",
   "betOfDay": {
     "sport": "NBA",
-    "game": "Cleveland Cavaliers @ New York Knicks",
-    "pick": "Cleveland Cavaliers +6.5",
-    "odds": "-115",
+    "game": "San Antonio Spurs @ Oklahoma City Thunder",
+    "pick": "Oklahoma City Thunder -5.5",
+    "odds": "-109",
     "units": 2,
     "tag": "⭐ TOP PICK",
-    "time": "6:10 PM MT",
-    "reasoning": "3-book consensus at 6.5. Cleveland Cavaliers getting 6.5 points."
+    "time": "6:40 PM MT",
+    "reasoning": "7-book consensus at -5.5. Oklahoma City Thunder laying 5.5 points."
   },
   "picks": [
     {
       "sport": "NBA",
-      "game": "Cleveland Cavaliers @ New York Knicks",
-      "pick": "Cleveland Cavaliers +6.5",
-      "odds": "-115",
+      "game": "San Antonio Spurs @ Oklahoma City Thunder",
+      "pick": "Oklahoma City Thunder -5.5",
+      "odds": "-109",
       "units": 2,
       "tag": "⭐ TOP PICK",
-      "time": "6:10 PM MT",
-      "reasoning": "3-book consensus at 6.5. Cleveland Cavaliers getting 6.5 points."
+      "time": "6:40 PM MT",
+      "reasoning": "7-book consensus at -5.5. Oklahoma City Thunder laying 5.5 points."
     },
     {
       "sport": "NBA",
-      "game": "Cleveland Cavaliers @ New York Knicks",
-      "pick": "New York Knicks -6.5",
-      "odds": "-105",
+      "game": "San Antonio Spurs @ Oklahoma City Thunder",
+      "pick": "San Antonio Spurs +5.5",
+      "odds": "-110",
       "units": 1,
       "tag": "PLAY",
-      "time": "6:10 PM MT",
-      "reasoning": "3-book consensus at -6.5. New York Knicks laying 6.5 points."
-    },
-    {
-      "sport": "NBA",
-      "game": "Cleveland Cavaliers @ New York Knicks",
-      "pick": "Cleveland Cavaliers +6",
-      "odds": "-108",
-      "units": 1,
-      "tag": "PLAY",
-      "time": "6:10 PM MT",
-      "reasoning": "6-book consensus at 6. Cleveland Cavaliers getting 6 points."
+      "time": "6:40 PM MT",
+      "reasoning": "7-book consensus at 5.5. San Antonio Spurs getting 5.5 points."
     }
   ]
 }
