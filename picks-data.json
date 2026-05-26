@@ -1,37 +1,47 @@
 {
-  "date": "May 25, 2026",
-  "lastUpdated": "2026-05-25T16:00:07.114Z",
+  "date": "May 26, 2026",
+  "lastUpdated": "2026-05-26T16:00:05.036Z",
   "record": "61-38 (+22.0 units)",
   "betOfDay": {
     "sport": "NBA",
     "game": "San Antonio Spurs @ Oklahoma City Thunder",
-    "pick": "Oklahoma City Thunder -5.5",
-    "odds": "-109",
+    "pick": "Oklahoma City Thunder -4.5",
+    "odds": "-107",
     "units": 2,
     "tag": "⭐ TOP PICK",
     "time": "6:40 PM MT",
-    "reasoning": "7-book consensus at -5.5. Oklahoma City Thunder laying 5.5 points."
+    "reasoning": "8-book consensus at -4.5. Oklahoma City Thunder laying 4.5 points."
   },
   "picks": [
     {
       "sport": "NBA",
       "game": "San Antonio Spurs @ Oklahoma City Thunder",
-      "pick": "Oklahoma City Thunder -5.5",
-      "odds": "-109",
+      "pick": "Oklahoma City Thunder -4.5",
+      "odds": "-107",
       "units": 2,
       "tag": "⭐ TOP PICK",
       "time": "6:40 PM MT",
-      "reasoning": "7-book consensus at -5.5. Oklahoma City Thunder laying 5.5 points."
+      "reasoning": "8-book consensus at -4.5. Oklahoma City Thunder laying 4.5 points."
     },
     {
       "sport": "NBA",
       "game": "San Antonio Spurs @ Oklahoma City Thunder",
-      "pick": "San Antonio Spurs +5.5",
-      "odds": "-110",
+      "pick": "San Antonio Spurs +4.5",
+      "odds": "-111",
       "units": 1,
       "tag": "PLAY",
       "time": "6:40 PM MT",
-      "reasoning": "7-book consensus at 5.5. San Antonio Spurs getting 5.5 points."
+      "reasoning": "8-book consensus at 4.5. San Antonio Spurs getting 4.5 points."
+    },
+    {
+      "sport": "NBA",
+      "game": "New York Knicks @ Oklahoma City Thunder",
+      "pick": "New York Knicks +6.5",
+      "odds": "-107",
+      "units": 1,
+      "tag": "PLAY",
+      "time": "6:40 PM MT",
+      "reasoning": "2-book consensus at 6.5. New York Knicks getting 6.5 points."
     }
   ]
 }
