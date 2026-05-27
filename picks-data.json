@@ -1,43 +1,43 @@
 {
-  "date": "May 26, 2026",
-  "lastUpdated": "2026-05-26T16:00:05.036Z",
-  "record": "61-38 (+22.0 units)",
+  "date": "May 27, 2026",
+  "lastUpdated": "2026-05-27T16:00:05.283Z",
+  "record": "62-39 (+23.0 units)",
   "betOfDay": {
     "sport": "NBA",
-    "game": "San Antonio Spurs @ Oklahoma City Thunder",
-    "pick": "Oklahoma City Thunder -4.5",
-    "odds": "-107",
+    "game": "Oklahoma City Thunder @ San Antonio Spurs",
+    "pick": "Oklahoma City Thunder +3.5",
+    "odds": "-111",
     "units": 2,
     "tag": "⭐ TOP PICK",
     "time": "6:40 PM MT",
-    "reasoning": "8-book consensus at -4.5. Oklahoma City Thunder laying 4.5 points."
+    "reasoning": "8-book consensus at 3.5. Oklahoma City Thunder getting 3.5 points."
   },
   "picks": [
     {
       "sport": "NBA",
-      "game": "San Antonio Spurs @ Oklahoma City Thunder",
-      "pick": "Oklahoma City Thunder -4.5",
-      "odds": "-107",
+      "game": "Oklahoma City Thunder @ San Antonio Spurs",
+      "pick": "Oklahoma City Thunder +3.5",
+      "odds": "-111",
       "units": 2,
       "tag": "⭐ TOP PICK",
       "time": "6:40 PM MT",
-      "reasoning": "8-book consensus at -4.5. Oklahoma City Thunder laying 4.5 points."
+      "reasoning": "8-book consensus at 3.5. Oklahoma City Thunder getting 3.5 points."
     },
     {
       "sport": "NBA",
-      "game": "San Antonio Spurs @ Oklahoma City Thunder",
-      "pick": "San Antonio Spurs +4.5",
-      "odds": "-111",
+      "game": "Oklahoma City Thunder @ San Antonio Spurs",
+      "pick": "San Antonio Spurs -3.5",
+      "odds": "-109",
       "units": 1,
       "tag": "PLAY",
       "time": "6:40 PM MT",
-      "reasoning": "8-book consensus at 4.5. San Antonio Spurs getting 4.5 points."
+      "reasoning": "8-book consensus at -3.5. San Antonio Spurs laying 3.5 points."
     },
     {
       "sport": "NBA",
       "game": "New York Knicks @ Oklahoma City Thunder",
       "pick": "New York Knicks +6.5",
-      "odds": "-107",
+      "odds": "-104",
       "units": 1,
       "tag": "PLAY",
       "time": "6:40 PM MT",
