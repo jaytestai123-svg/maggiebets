@@ -1,47 +1,37 @@
 {
-  "date": "May 28, 2026",
-  "lastUpdated": "2026-05-28T16:00:05.986Z",
-  "record": "62-39 (+23.0 units)",
+  "date": "May 29, 2026",
+  "lastUpdated": "2026-05-29T16:00:06.919Z",
+  "record": "63-40 (+22.0 units)",
   "betOfDay": {
     "sport": "NBA",
-    "game": "Oklahoma City Thunder @ San Antonio Spurs",
-    "pick": "Oklahoma City Thunder +3.5",
-    "odds": "-110",
+    "game": "San Antonio Spurs @ Oklahoma City Thunder",
+    "pick": "Oklahoma City Thunder -3.5",
+    "odds": "-111",
     "units": 2,
     "tag": "⭐ TOP PICK",
-    "time": "6:40 PM MT",
-    "reasoning": "9-book consensus at 3.5. Oklahoma City Thunder getting 3.5 points."
+    "time": "6:10 PM MT",
+    "reasoning": "8-book consensus at -3.5. Oklahoma City Thunder laying 3.5 points."
   },
   "picks": [
     {
       "sport": "NBA",
-      "game": "Oklahoma City Thunder @ San Antonio Spurs",
-      "pick": "Oklahoma City Thunder +3.5",
-      "odds": "-110",
+      "game": "San Antonio Spurs @ Oklahoma City Thunder",
+      "pick": "Oklahoma City Thunder -3.5",
+      "odds": "-111",
       "units": 2,
       "tag": "⭐ TOP PICK",
-      "time": "6:40 PM MT",
-      "reasoning": "9-book consensus at 3.5. Oklahoma City Thunder getting 3.5 points."
+      "time": "6:10 PM MT",
+      "reasoning": "8-book consensus at -3.5. Oklahoma City Thunder laying 3.5 points."
     },
     {
       "sport": "NBA",
-      "game": "Oklahoma City Thunder @ San Antonio Spurs",
-      "pick": "San Antonio Spurs -3.5",
-      "odds": "-110",
+      "game": "San Antonio Spurs @ Oklahoma City Thunder",
+      "pick": "San Antonio Spurs +3.5",
+      "odds": "-108",
       "units": 1,
       "tag": "PLAY",
-      "time": "6:40 PM MT",
-      "reasoning": "9-book consensus at -3.5. San Antonio Spurs laying 3.5 points."
-    },
-    {
-      "sport": "NBA",
-      "game": "New York Knicks @ Oklahoma City Thunder",
-      "pick": "New York Knicks +6.5",
-      "odds": "-104",
-      "units": 1,
-      "tag": "PLAY",
-      "time": "6:40 PM MT",
-      "reasoning": "2-book consensus at 6.5. New York Knicks getting 6.5 points."
+      "time": "6:10 PM MT",
+      "reasoning": "8-book consensus at 3.5. San Antonio Spurs getting 3.5 points."
     }
   ]
 }
