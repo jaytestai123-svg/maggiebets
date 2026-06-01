@@ -1,43 +1,43 @@
 {
-  "date": "May 31, 2026",
-  "lastUpdated": "2026-05-31T16:00:08.503Z",
+  "date": "June 1, 2026",
+  "lastUpdated": "2026-06-01T16:00:07.667Z",
   "record": "63-40 (+22.0 units)",
   "betOfDay": {
     "sport": "NBA",
     "game": "New York Knicks @ San Antonio Spurs",
-    "pick": "New York Knicks +5.5",
-    "odds": "-119",
+    "pick": "New York Knicks +4.5",
+    "odds": "-103",
     "units": 2,
     "tag": "⭐ TOP PICK",
     "time": "6:40 PM MT",
-    "reasoning": "2-book consensus at 5.5. New York Knicks getting 5.5 points."
+    "reasoning": "3-book consensus at 4.5. New York Knicks getting 4.5 points."
   },
   "picks": [
     {
       "sport": "NBA",
       "game": "New York Knicks @ San Antonio Spurs",
-      "pick": "New York Knicks +5.5",
-      "odds": "-119",
+      "pick": "New York Knicks +4.5",
+      "odds": "-103",
       "units": 2,
       "tag": "⭐ TOP PICK",
       "time": "6:40 PM MT",
-      "reasoning": "2-book consensus at 5.5. New York Knicks getting 5.5 points."
+      "reasoning": "3-book consensus at 4.5. New York Knicks getting 4.5 points."
     },
     {
       "sport": "NBA",
       "game": "New York Knicks @ San Antonio Spurs",
-      "pick": "San Antonio Spurs -5.5",
-      "odds": "-2",
+      "pick": "San Antonio Spurs -4.5",
+      "odds": "-118",
       "units": 1,
       "tag": "PLAY",
       "time": "6:40 PM MT",
-      "reasoning": "2-book consensus at -5.5. San Antonio Spurs laying 5.5 points."
+      "reasoning": "3-book consensus at -4.5. San Antonio Spurs laying 4.5 points."
     },
     {
       "sport": "NBA",
       "game": "New York Knicks @ San Antonio Spurs",
       "pick": "New York Knicks +5",
-      "odds": "-109",
+      "odds": "-111",
       "units": 1,
       "tag": "PLAY",
       "time": "6:40 PM MT",
