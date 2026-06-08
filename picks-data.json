@@ -1,47 +1,54 @@
 {
-  "date": "June 5, 2026",
-  "lastUpdated": "2026-06-05T16:00:06.205Z",
-  "record": "65-41 (+24.0 units)",
+  "date": "June 8, 2026",
+  "lastUpdated": "2026-06-08T16:03:23.289Z",
+  "record": "67-42 (+26.0 units)",
   "betOfDay": {
-    "sport": "NBA",
-    "game": "New York Knicks @ San Antonio Spurs",
-    "pick": "New York Knicks +6.5",
-    "odds": "-115",
-    "units": 2,
-    "tag": "⭐ TOP PICK",
-    "time": "6:40 PM MT",
-    "reasoning": "4-book consensus at 6.5. New York Knicks getting 6.5 points."
+    "sport": "MLB",
+    "game": "Seattle Mariners @ Baltimore Orioles",
+    "pick": "Baltimore Orioles +1.5",
+    "odds": "-151",
+    "units": 1.5,
+    "time": "4:36 PM MT",
+    "reasoning": "9-book consensus at +1.5. Baltimore Orioles getting 1.5 runs. ⚾",
+    "isTop": true
   },
   "picks": [
     {
-      "sport": "NBA",
-      "game": "New York Knicks @ San Antonio Spurs",
-      "pick": "New York Knicks +6.5",
-      "odds": "-115",
-      "units": 2,
-      "tag": "⭐ TOP PICK",
-      "time": "6:40 PM MT",
-      "reasoning": "4-book consensus at 6.5. New York Knicks getting 6.5 points."
+      "sport": "MLB",
+      "game": "Seattle Mariners @ Baltimore Orioles",
+      "pick": "Baltimore Orioles +1.5",
+      "odds": "-151",
+      "units": 1.5,
+      "time": "4:36 PM MT",
+      "reasoning": "9-book consensus at +1.5. Baltimore Orioles getting 1.5 runs. ⚾",
+      "isTop": true
     },
     {
-      "sport": "NBA",
-      "game": "New York Knicks @ San Antonio Spurs",
-      "pick": "San Antonio Spurs -6.5",
-      "odds": "-105",
+      "sport": "MLB",
+      "game": "Seattle Mariners @ Baltimore Orioles",
+      "pick": "Seattle Mariners -1.5",
+      "odds": "+127",
       "units": 1,
-      "tag": "PLAY",
-      "time": "6:40 PM MT",
-      "reasoning": "4-book consensus at -6.5. San Antonio Spurs laying 6.5 points."
+      "time": "4:36 PM MT",
+      "reasoning": "9-book consensus at -1.5. Seattle Mariners laying 1.5 runs. ⚾"
     },
     {
-      "sport": "NBA",
-      "game": "New York Knicks @ San Antonio Spurs",
-      "pick": "New York Knicks +6",
-      "odds": "-109",
-      "units": 1,
-      "tag": "PLAY",
-      "time": "6:40 PM MT",
-      "reasoning": "5-book consensus at 6. New York Knicks getting 6 points."
+      "sport": "NHL",
+      "game": "Carolina Hurricanes @ Vegas Golden Knights",
+      "pick": "Carolina Hurricanes -1.5",
+      "odds": "+216",
+      "units": 1.5,
+      "time": "6:20 PM MT",
+      "reasoning": "8-book consensus at -1.5. Carolina Hurricanes laying 1.5 goals. 🏒"
+    },
+    {
+      "sport": "NFL",
+      "game": "New England Patriots @ Seattle Seahawks",
+      "pick": "New England Patriots +4",
+      "odds": "-110",
+      "units": 1.5,
+      "time": "6:15 PM MT",
+      "reasoning": "4-book consensus at +4. New England Patriots getting 4 points. 🏈"
     }
   ]
 }
