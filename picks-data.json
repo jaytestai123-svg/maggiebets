@@ -1,12 +1,12 @@
 {
-  "date": "June 8, 2026",
-  "lastUpdated": "2026-06-08T16:03:23.289Z",
-  "record": "67-42 (+26.0 units)",
+  "date": "June 9, 2026",
+  "lastUpdated": "2026-06-09T16:00:07.431Z",
+  "record": "68-43 (+25.5 units)",
   "betOfDay": {
     "sport": "MLB",
     "game": "Seattle Mariners @ Baltimore Orioles",
     "pick": "Baltimore Orioles +1.5",
-    "odds": "-151",
+    "odds": "-159",
     "units": 1.5,
     "time": "4:36 PM MT",
     "reasoning": "9-book consensus at +1.5. Baltimore Orioles getting 1.5 runs. ⚾",
@@ -17,7 +17,7 @@
       "sport": "MLB",
       "game": "Seattle Mariners @ Baltimore Orioles",
       "pick": "Baltimore Orioles +1.5",
-      "odds": "-151",
+      "odds": "-159",
       "units": 1.5,
       "time": "4:36 PM MT",
       "reasoning": "9-book consensus at +1.5. Baltimore Orioles getting 1.5 runs. ⚾",
@@ -27,7 +27,7 @@
       "sport": "MLB",
       "game": "Seattle Mariners @ Baltimore Orioles",
       "pick": "Seattle Mariners -1.5",
-      "odds": "+127",
+      "odds": "+134",
       "units": 1,
       "time": "4:36 PM MT",
       "reasoning": "9-book consensus at -1.5. Seattle Mariners laying 1.5 runs. ⚾"
@@ -39,16 +39,16 @@
       "odds": "+216",
       "units": 1.5,
       "time": "6:20 PM MT",
-      "reasoning": "8-book consensus at -1.5. Carolina Hurricanes laying 1.5 goals. 🏒"
+      "reasoning": "9-book consensus at -1.5. Carolina Hurricanes laying 1.5 goals. 🏒"
     },
     {
       "sport": "NFL",
       "game": "New England Patriots @ Seattle Seahawks",
-      "pick": "New England Patriots +4",
-      "odds": "-110",
+      "pick": "New England Patriots +3.5",
+      "odds": "-105",
       "units": 1.5,
       "time": "6:15 PM MT",
-      "reasoning": "4-book consensus at +4. New England Patriots getting 4 points. 🏈"
+      "reasoning": "2-book consensus at +3.5. New England Patriots getting 3.5 points. 🏈"
     }
   ]
 }
