@@ -19,6 +19,8 @@ const ODDS_API_KEY   = process.env.ODDS_API_KEY  || '12d709f9b4d84245e7d8b1bc93d
 const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN || '8594045165:AAFrMyWjnnosa6B3jk0ibdhIeAcVp-yx3Wk';
 const TELEGRAM_CHAT  = process.env.TELEGRAM_CHAT  || '6945880534';
 
+const { rankGamesForPicks, get: apiGet } = require('./analysis');
+
 const RECORD_FILE = path.join(__dirname, 'RECORD.md');
 const INDEX_FILE  = path.join(__dirname, 'public', 'index.html');
 const PICKS_FILE  = path.join(__dirname, 'picks-data.json');
@@ -459,29 +461,56 @@ async function run() {
     }
   }
 
-  // ── 2. Fetch today's odds across all sports ──
+  // ── 2. Fetch today's odds + ESPN data, run analysis engine ──
   const allPicks = [];
 
   for (const sport of SPORTS) {
     try {
-      const oddsData = await fetchOdds(sport.key, sport.betType);
-      // For MLB also try moneyline if spread didn't yield enough
-      const picks = generateSportPicks(sport, oddsData);
+      console.log(`  Analyzing ${sport.label}...`);
 
-      if (picks.length === 0 && sport.key === 'baseball_mlb') {
-        // Try alternate market (runline)
-        const altData = await fetchOdds(sport.key, sport.altBet || 'spreads');
-        const altPicks = generateSportPicks({ ...sport, betType: 'spreads' }, altData);
-        allPicks.push(...altPicks);
-        console.log(`  MLB (runline): ${altPicks.length} picks`);
-      } else {
-        allPicks.push(...picks);
-        console.log(`  ${sport.label}: ${picks.length} picks`);
+      // Fetch odds (try both ML and spread for MLB)
+      const markets = sport.label === 'MLB' ? ['h2h', 'spreads'] : [sport.betType];
+      const oddsPromises = markets.map(m =>
+        fetchOdds(sport.key, m).then(d => d.map(g => ({ ...g, _market: m })))
+      );
+      const oddsArrays = await Promise.all(oddsPromises);
+      // Merge: deduplicate by game id
+      const oddsMap = {};
+      for (const arr of oddsArrays) {
+        for (const g of arr) {
+          if (!oddsMap[g.id]) oddsMap[g.id] = g;
+          else {
+            // Merge bookmakers
+            const existing = oddsMap[g.id];
+            for (const bk of (g.bookmakers || [])) {
+              const existBk = existing.bookmakers.find(b => b.key === bk.key);
+              if (existBk) existBk.markets.push(...(bk.markets || []));
+              else existing.bookmakers.push(bk);
+            }
+          }
+        }
       }
+      const oddsData = Object.values(oddsMap);
+
+      // Fetch ESPN scoreboard for team data
+      const espnScoreboard = await apiGet(
+        `https://site.api.espn.com/apis/site/v2/sports/${sport.espnPath}/scoreboard`
+      ).catch(() => null);
+
+      const picks = await rankGamesForPicks(sport, oddsData, espnScoreboard);
+      allPicks.push(...picks);
+      console.log(`  ${sport.label}: ${picks.length} picks (scores: ${picks.map(p=>p.score).join(', ')})`);
     } catch(e) {
       console.error(`  ${sport.label} error:`, e.message);
     }
   }
+
+  // Global sort: top pick across all sports = highest confidence score
+  allPicks.sort((a,b) => b.score - a.score);
+  // Re-assign units: #1 overall = 2u, #2-3 = 1.5u, rest = 1u
+  allPicks.forEach((p, i) => {
+    p.units = i === 0 ? 2 : i <= 2 ? 1.5 : 1;
+  });
 
   console.log(`Total picks today: ${allPicks.length}`);
 
