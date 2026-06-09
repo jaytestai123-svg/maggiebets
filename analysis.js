@@ -406,9 +406,10 @@ async function rankGamesForPicks(sportCfg, oddsData, espnScoreboard) {
     }
   }
 
-  // Sort by confidence score, return top N
-  ranked.sort((a,b) => b.score - a.score);
-  const top = ranked.slice(0, sportCfg.maxPicks);
+  // Sort by confidence score, filter NaN, return top N
+  const valid = ranked.filter(r => !isNaN(r.score));
+  valid.sort((a,b) => b.score - a.score);
+  const top = valid.slice(0, sportCfg.maxPicks);
 
   // Mark units: top pick per sport gets 1.5u
   if (top.length > 0) top[0].units = 1.5;
