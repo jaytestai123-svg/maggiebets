@@ -87,14 +87,6 @@
 | NBA | Spurs +22.5 @ Nets | -110 | ✅ WIN (+0.5) | 126-110 |
 | NBA | Rockets +2.5 @ Magic | -110 | ✅ WIN (+0.5) | 113-108 |
 
-### Feb 26 Games (Completed)
-
-| Sport | Pick | Odds | Result | Units | Score |
-|-------|------|------|--------|-------|-------|
-| NBA | Hawks -18.5 vs Wizards | -110 | ✅ WIN (+0.5) | 126-96 |
-| NBA | Spurs +22.5 @ Nets | -110 | ✅ WIN (+0.5) | 126-110 |
-| NBA | Rockets +2.5 @ Magic | -110 | ✅ WIN (+0.5) | 113-108 |
-
 ### Feb 28 Games (Completed)
 
 | Sport | Pick | Odds | Result | Units | Score |
@@ -146,12 +138,6 @@
 | NBA | ⭐ Pelicans -8.5 vs Mavericks | -110 | ✅ WIN (+2.0) | 129-111 |
 | NBA | Bulls -7 vs Grizzlies | -110 | ✅ WIN (+1.0) | 132-107 |
 | NHL | Stars ML vs Mammoth | -162 | ❌ LOSS (-1.0) | 3-4 |
-
----
-
-## Season Record: 29-15 (+6.0 Units)
-
-*Last updated: Mar 26, 2026 9:00 AM MT*
 
 ---
 
