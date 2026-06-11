@@ -1,16 +1,16 @@
 {
   "date": "June 11, 2026",
-  "lastUpdated": "2026-06-11T14:18:18.078Z",
-  "record": "70-45 (+25.6 units)",
+  "lastUpdated": "2026-06-11T16:00:25.774Z",
+  "record": "73-46 (+28.0 units)",
   "betOfDay": {
     "sport": "NBA",
     "game": "New York Knicks @ San Antonio Spurs",
-    "pick": "San Antonio Spurs -5.5",
-    "odds": "-106",
+    "pick": "New York Knicks +5.5",
+    "odds": "-113",
     "units": 2,
     "time": "6:40 PM MT",
-    "reasoning": "San Antonio Spurs 62-20 overall (29-12 away) | 4-6 last 10 | streak L1 | +1.1 run diff L10 | Opp 53-29 overall (30-10 home) | Scoring: 106.0 PPG | Implied win prob: 51%",
-    "score": 100,
+    "reasoning": "New York Knicks 53-29 overall (22-19 away) | 9-1 last 10 | streak W1 | +12.9 run diff L10 | Opp 62-20 overall (32-8 home) | Scoring: 116.5 PPG | Implied win prob: 53%",
+    "score": 95,
     "marketKey": "spreads",
     "isTop": true
   },
@@ -18,12 +18,12 @@
     {
       "sport": "NBA",
       "game": "New York Knicks @ San Antonio Spurs",
-      "pick": "San Antonio Spurs -5.5",
-      "odds": "-106",
+      "pick": "New York Knicks +5.5",
+      "odds": "-113",
       "units": 2,
       "time": "6:40 PM MT",
-      "reasoning": "San Antonio Spurs 62-20 overall (29-12 away) | 4-6 last 10 | streak L1 | +1.1 run diff L10 | Opp 53-29 overall (30-10 home) | Scoring: 106.0 PPG | Implied win prob: 51%",
-      "score": 100,
+      "reasoning": "New York Knicks 53-29 overall (22-19 away) | 9-1 last 10 | streak W1 | +12.9 run diff L10 | Opp 62-20 overall (32-8 home) | Scoring: 116.5 PPG | Implied win prob: 53%",
+      "score": 95,
       "marketKey": "spreads",
       "isTop": true
     },
@@ -34,7 +34,7 @@
       "odds": "+129",
       "units": 1.5,
       "time": "1:11 PM MT",
-      "reasoning": "Colorado Rockies 26-42 overall (14-19 home) | 5-5 last 10 | streak W2 | Opp 34-34 overall (14-19 away) | Team BA: .273 | Bullpen ERA: 2.00 | Opp ERA: 3.38 | Line spread 254 across 18 books — possible sharp action | Implied win prob: 44%",
+      "reasoning": "Colorado Rockies 26-42 overall (14-19 home) | 5-5 last 10 | streak W2 | Opp 34-34 overall (14-19 away) | Team BA: .247 | Bullpen ERA: 5.51 | Opp ERA: 4.33 | Line spread 255 across 18 books — possible sharp action | Implied win prob: 44%",
       "score": 66,
       "marketKey": "h2h"
     },
@@ -42,10 +42,10 @@
       "sport": "MLB",
       "game": "Chicago Cubs @ Colorado Rockies",
       "pick": "Colorado Rockies +1.5",
-      "odds": "-120",
+      "odds": "-119",
       "units": 1.5,
       "time": "1:11 PM MT",
-      "reasoning": "Colorado Rockies 26-42 overall (14-19 home) | 5-5 last 10 | streak W2 | Opp 34-34 overall (14-19 away) | Team BA: .273 | Bullpen ERA: 2.00 | Opp ERA: 3.38 | Line spread 254 across 18 books — possible sharp action | Implied win prob: 55%",
+      "reasoning": "Colorado Rockies 26-42 overall (14-19 home) | 5-5 last 10 | streak W2 | Opp 34-34 overall (14-19 away) | Team BA: .247 | Bullpen ERA: 5.51 | Opp ERA: 4.33 | Line spread 255 across 18 books — possible sharp action | Implied win prob: 54%",
       "score": 66,
       "marketKey": "spreads"
     },
@@ -53,11 +53,22 @@
       "sport": "NHL",
       "game": "Vegas Golden Knights @ Carolina Hurricanes",
       "pick": "Vegas Golden Knights +1.5",
-      "odds": "-195",
+      "odds": "-196",
       "units": 1,
       "time": "6:20 PM MT",
       "reasoning": "Vegas Golden Knights 39-26-17 overall (19-14-8 away) | 8-2 last 10 | streak L1 | +1.1 run diff L10 | Opp 53-22-7 overall (29-10-2 home) | Line spread 10 across 9 books — possible sharp action | Implied win prob: 66%",
       "score": 63,
+      "marketKey": "spreads"
+    },
+    {
+      "sport": "NBA",
+      "game": "New York Knicks @ San Antonio Spurs",
+      "pick": "San Antonio Spurs -5.5",
+      "odds": "-106",
+      "units": 1,
+      "time": "6:40 PM MT",
+      "reasoning": "San Antonio Spurs 62-20 overall (32-8 home) | 4-6 last 10 | streak L1 | +1.1 run diff L10 | Opp 53-29 overall (22-19 away) | Scoring: 119.8 PPG | Implied win prob: 51%",
+      "score": 56,
       "marketKey": "spreads"
     },
     {
@@ -69,17 +80,6 @@
       "time": "6:15 PM MT",
       "reasoning": "Seattle Seahawks 0-0 overall (0-0 home) | 0-0 last 0 | streak N/A | Opp 0-0 overall (0-0 away) | Line spread 13 across 9 books — possible sharp action | Implied win prob: 52%",
       "score": 56,
-      "marketKey": "spreads"
-    },
-    {
-      "sport": "NBA",
-      "game": "New York Knicks @ San Antonio Spurs",
-      "pick": "New York Knicks +5.5",
-      "odds": "-113",
-      "units": 1,
-      "time": "6:40 PM MT",
-      "reasoning": "New York Knicks 53-29 overall (30-10 home) | 9-1 last 10 | streak W1 | +12.9 run diff L10 | Opp 62-20 overall (29-12 away) | Scoring: 107.0 PPG | Implied win prob: 53%",
-      "score": 53,
       "marketKey": "spreads"
     }
   ]
